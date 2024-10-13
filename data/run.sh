@@ -15,7 +15,7 @@ curl -LO "https://github.com/Qerleng/01/raw/main/tools/sing-box"
 #./sing-box geosite list private -f geosite.db | awk '{print $1}' | sort > geosite_categories
 
 geoipAddresses=("fastly" "doh" "malicious" "cloudfront" "id" "facebook" "google" "netflix" "telegram" "twitter")
-geositeDomains=("category-porn" "oisd-nsfw" "rule-doh" "rule-gaming" "rule-indo" "rule-playstore" "rule-sosmed" "rule-streaming" "rule-umum" "rule-ipcheck" "rule-speedtest" "videoconference" "urltest" "openai" "ecommerce-id" "bank-id")
+geositeDomains=("oisd-full" "oisd-nsfw" "rule-ads" "oisd-small" "d3ward" "rule-doh" "rule-gaming" "rule-indo" "rule-playstore" "rule-sosmed" "rule-streaming" "rule-umum" "rule-ipcheck" "rule-speedtest" "videoconference" "rule-malicious" "urltest" "openai" "ecommerce-id" "bank-id")
 
 for file in tools/*; do
     filename=$(basename "$file")
