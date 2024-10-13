@@ -13,7 +13,7 @@ jobs:
 
       - name: 💩 Build 💩
         run: |
-          bash data/build.sh
+          bash data/update.sh
 
       - uses: MyAlbum/purge-cache@v2
         with:
