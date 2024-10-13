@@ -66,5 +66,7 @@ done
 
 for file in test/*; do
     filename=$(basename "$file")
-    (cd test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs) &
+    (cd test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" Ads/) &
 done
+
+rm rf test/*
