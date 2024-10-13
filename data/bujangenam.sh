@@ -61,7 +61,7 @@ for file in ./Ads/*.txt; do
     category=$(echo "$filename")
     output_file="test/${category%.*}.yaml"
     echo "payload:" > $output_file
-    mv "$category" $output_file
+    mv "$file" $output_file
 done
 
 for file in test/*; do
