@@ -97,7 +97,7 @@ done
 
 for file in rule/geoip/*.yaml; do
     filename=$(basename "$file")
-    (cd rule-set/geoip && mihomo convert-ruleset ipcidr yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../../rule_provider/) &
+    (cd rule/geoip && mihomo convert-ruleset ipcidr yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../../rule_provider/) &
 done
 
 # json ==>> srs
