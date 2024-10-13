@@ -138,15 +138,6 @@ for file in ./Ads/*.txt; do
     echo "payload:" > $output_file
     while IFS= read -r line; do
         case $line in
-            regexp:*)
-                echo "- '${line#regexp:}'" >> "$output_file"
-                ;;
-            keyward:*)
-                echo "- '+.${line#keyward:}'" >> "$output_file"
-                ;;
-            full:*)
-                echo "- '${line#full:}'" >> "$output_file"
-                ;;
             *)
                 echo "- '+.$line'" >> "$output_file"
                 ;;
