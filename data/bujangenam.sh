@@ -27,7 +27,7 @@ for file in *.abp; do
     # abp ==>> yaml ~ Domain
     echo "payload:" > $txt_file && cat $file >> $txt_file
     sed -i 's/||\(.*\)\^/- "+.\1["]/' $txt_file
-    sed -i 's/0.0.0.0 \(.*\)/-"\1["]/' $txt_file
+    sed -i 's/0.0.0.0 \(.*\)/- "\1["]/' $txt_file
     sed -i 's/\[\(.*\)\]/\1/' $txt_file
     sed -i 's/^! /# /' $txt_file
     sed -i -e '/^#/d' -e '/^$/d' $txt_file
@@ -66,6 +66,6 @@ done
 
 for file in test/*; do
     filename=$(basename "$file")
-    (cd test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" Ads/) &
+    (cd test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../Ads/) &
 done
 
