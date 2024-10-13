@@ -28,7 +28,7 @@ for file in *.abp; do
     srs_file="${filename%.*}.srs"
     json_file="${filename%.*}.json"
 
-    # abp ==>> txt
+    echo "abp ==>> txt"
     cp $filename  $txt_file
     sed -i 's/||\(.*\)\^/\1/' $txt_file
     sed -i 's/0.0.0.0 \(.*\)/\1/' $txt_file
@@ -37,7 +37,7 @@ for file in *.abp; do
     sed -i -e '/^#/d' -e '/^$/d' $txt_file
     sed -i -e '/^!/d' -e '/^$/d' $txt_file
     
-    # abp ==>> yaml ~ Classical
+    echo " abp ==>> yaml ~ Classical "
     echo "payload:" > $yaml_file && cat $file >> $yaml_file
     sed -i 's/||\(.*\)\^/  - DOMAIN-SUFFIX,\1/' $yaml_file
     sed -i 's/0.0.0.0 \(.*\)/  - DOMAIN-SUFFIX,\1/' $yaml_file
@@ -46,15 +46,15 @@ for file in *.abp; do
     sed -i -e '/^#/d' -e '/^$/d' $yaml_file
     sed -i -e '/^!/d' -e '/^$/d' $yaml_file
 
-    # yaml ==>> json srs
+    echo " yaml ==>> json srs "
     jq -R 'select(test("^  - DOMAIN-SUFFIX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_suffix": . }] }' > $json_file
     sing-box rule-set compile $json_file
 
     mkdir -p ./Ads
-    mv -f $txt_file Ads
-    mv -f $yaml_file Ads
-    mv -f $json_file Ads
-    mv -f $srs_file Ads
-    mv -f $abp_file Ads
+    mv "${file%.abp}.txt" Ads/
+    mv "${file%.abp}.yaml" Ads/
+    mv "${file%.abp}.json" Ads/
+    mv "${file%.abp}.srs" Ads/
+    mv "$file" Ads/
 done
 
