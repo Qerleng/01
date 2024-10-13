@@ -55,3 +55,32 @@ for file in *.abp; do
     
 done
 
+for file in ./Ads/*.txt; do
+    filename=$(basename "$file")
+    mkdir -p ./test/
+    category=$(echo "$filename")
+    output_file="test/${category%.*}.yaml"
+    echo "payload:" > $output_file
+    while IFS= read -r line; do
+        case $line in
+            regexp:*)
+                echo "- '${line#regexp:}'" >> "$output_file"
+                ;;
+            keyward:*)
+                echo "- '+.${line#keyward:}'" >> "$output_file"
+                ;;
+            full:*)
+                echo "- '${line#full:}'" >> "$output_file"
+                ;;
+            *)
+                echo "- '+.${line#Bujang:}'" >> "$output_file"
+                ;;
+        esac
+    done < "$file" &
+done
+
+for file in test/*; do
+    filename=$(basename "$file")
+    (cd test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && rm "${filename%.*}.yaml" && mv "${filename%.*}.mrs" ../Ads/) &
+done
+
