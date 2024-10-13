@@ -13,9 +13,8 @@ jobs:
 
       - name: 💩 Build 💩
         run: |
-          bash data/bujangenam.sh |
-#          bash data/run.sh          
-
+          bash data/bujangenam.sh    
+          
       - uses: MyAlbum/purge-cache@v2
         with:
           token: ${{ github.token }}
