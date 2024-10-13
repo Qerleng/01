@@ -5,7 +5,7 @@ curl -s -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt -
 curl -s -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt -o oisd_big.abp
 curl -s -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_34.txt -o HaGeZi.abp
 curl -s -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_22.txt -o ABPindo.abp
-curl -s -L https://adguardteam.github.io/HostlistsRegistry/assets/filter.txt -o AdGuard.abp
+curl -s -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt -o AdGuard.abp
 curl -s -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt -o AWAvenue.abp
 curl -s -L https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt -o D3ward.abp
 curl -s -L https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames_ABP.txt -o Malicious.abp
