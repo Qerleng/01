@@ -138,7 +138,7 @@ for file in ./Ads/*.txt; do
     echo "payload:" > $output_file
     while IFS= read -r line; do
         case $line in
-            *)
+            !=//)
                 echo "- '$line' " >> "$output_file"
                 ;;
         esac
