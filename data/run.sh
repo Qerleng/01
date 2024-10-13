@@ -89,12 +89,12 @@ done
 # yaml ==>> mrs
 # rm rule-set/geosite/*.mrs rule-set/geoip/*.mrs
 
-for file in rule/geosit/*.yaml; do
+for file in rule/geosit/*; do
     filename=$(basename "$file")
     (cd rule/geosit && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../../rule_provider/) &
 done
 
-for file in rule/geoip/*.yaml; do
+for file in rule/geoip/*; do
     filename=$(basename "$file")
     (cd rule/geoip && mihomo convert-ruleset ipcidr yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../../rule_provider/) &
 done
@@ -162,5 +162,4 @@ rm -rf rule/ip/
 rm -rf rule/geo/
 rm -rf rule/geoip/
 rm -rf rule/geosit/
-rm -rf test/
 rm -rf sing-box v2dat mihomo geoip.db geosite.db geoip.dat geosite.dat geosite_categories.list
