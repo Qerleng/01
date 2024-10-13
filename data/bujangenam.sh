@@ -52,9 +52,8 @@ for file in *.abp; do
 done
 
 
-mv $txt_file ./Ads/
-mv $yaml_file ./Ads/
-mv $mrs_file ./Ads/
-mv $json_file ./Ads/
-mv $mrs_file ./Ads/
-mv $abp_file ./Ads/
+mv $txt_file Ads/
+mv $yaml_file Ads/
+mv $json_file Ads/
+mv $srs_file Ads/
+mv $abp_file Ads/
