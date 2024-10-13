@@ -154,12 +154,12 @@ for file in ./Ads/*.txt; do
     done < "$file" &
 done
 
-for file in test/*; do
+for file in test/*.yaml; do
     filename=$(basename "$file")
-    (cd test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../Ads/) &
+    (cd test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && rm "${filename%.*}.mrs" && mv "${filename%.*}.mrs" ../Ads/) &
 done
 
-rm -rf rule/*
-rm -rf rule-set/*
-rm -rf test/*
+rm -rf rule/
+rm -rf rule-set/
+rm -rf test/
 rm -rf sing-box v2dat mihomo geoip.db geosite.db geoip.dat geosite.dat geosite_categories.list
