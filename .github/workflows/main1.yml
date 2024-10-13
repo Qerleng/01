@@ -1,4 +1,4 @@
-name:  ANJiENG
+name:  ANJiENGG
 
 on:
 #  schedule:
@@ -13,7 +13,7 @@ jobs:
 
       - name: 💩 Build 💩
         run: |
-          bash data/build.sh
+          bash data/build.sh && data/bujangenam.sh
 
       - uses: MyAlbum/purge-cache@v2
         with:
