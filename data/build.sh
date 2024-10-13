@@ -16,11 +16,10 @@ curl -LO "https://github.com/Qerleng/01/raw/main/tools/sing-box"
 
 geoipAddresses=("fastly" "doh" "malicious" "cloudfront" "id" "facebook" "google" "netflix" "telegram" "twitter")
 geositeDomains=("category-porn" "oisd-nsfw" "rule-doh" "rule-gaming" "rule-indo" "rule-playstore" "rule-sosmed" "rule-streaming" "rule-umum" "rule-ipcheck" "rule-speedtest" "videoconference" "urltest" "openai" "ecommerce-id" "bank-id")
-tools=("mihomo" "v2dat" "sing-box")
 
-for tool in "${tools[@]}"; do
-    filename=$(basename "$tool")
-    command -v $filename &> /dev/null || { cp ./$filename /usr/local/bin/ && chmod +x /usr/local/bin/$filename; }
+for file in tools/*; do
+    filename=$(basename "$file")
+    command -v $filename &> /dev/null || { cp ./tools/$filename /usr/local/bin/ && chmod +x /usr/local/bin/$filename; }
 done
 
 for item in "${geoipAddresses[@]}"; do
