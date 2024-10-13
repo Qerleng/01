@@ -24,15 +24,15 @@ for file in *.abp; do
     srs_file="${filename%.*}.srs"
     json_file="${filename%.*}.json"
 
-    # abp ==>> txt
-    cp $filename  $txt_file
-    sed -i 's/||\(.*\)\^/\1/' $txt_file
-    sed -i 's/0.0.0.0 \(.*\)/\1/' $txt_file
-    sed -i 's/\[\(.*\)\]/# \1/' $txt_file
+    # abp ==>> yaml ~ Domain
+    echo "payload:" > $txt_file && cat $file >> $txt_file
+    sed -i 's/||\(.*\)\^/-"+.\1["]/' $txt_file
+    sed -i 's/0.0.0.0 \(.*\)/-"\1["]/' $txt_file
+    sed -i 's/\[\(.*\)\]/\1/' $txt_file
     sed -i 's/^! /# /' $txt_file
     sed -i -e '/^#/d' -e '/^$/d' $txt_file
     sed -i -e '/^!/d' -e '/^$/d' $txt_file
-    
+
     # abp ==>> yaml ~ Classical 
     echo "payload:" > $yaml_file && cat $file >> $yaml_file
     sed -i 's/||\(.*\)\^/  - DOMAIN-SUFFIX,\1/' $yaml_file
@@ -61,26 +61,11 @@ for file in ./Ads/*.txt; do
     category=$(echo "$filename")
     output_file="test/${category%.*}.yaml"
     echo "payload:" > $output_file
-    while IFS= read -r line; do
-        case $line in
-            regexp:*)
-                echo "- '${line#regexp:}'" >> "$output_file"
-                ;;
-            keyward:*)
-                echo "- '+.${line#keyward:}'" >> "$output_file"
-                ;;
-            full:*)
-                echo "- '${line#full:}'" >> "$output_file"
-                ;;
-            *)
-                echo "- '+.${line#Bujang:}'" >> "$output_file"
-                ;;
-        esac
-    done < "$file" &
+    mv "$category" $output_file
 done
 
 for file in test/*; do
     filename=$(basename "$file")
-    (cd test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && rm "${filename%.*}.yaml" && mv "${filename%.*}.mrs" ../Ads/) &
+    (cd test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../Ads/) &
 done
 
