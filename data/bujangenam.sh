@@ -51,9 +51,9 @@ for file in *.abp; do
     sing-box rule-set compile $json_file
 done
 
-
-mv $txt_file Ads/
-mv $yaml_file Ads/
-mv $json_file Ads/
-mv $srs_file Ads/
-mv $abp_file Ads/
+mkdir -p ./Ads
+mv -f $txt_file Ads
+mv -f $yaml_file Ads
+mv -f $json_file Ads
+mv -f $srs_file Ads
+mv -f $abp_file Ads
