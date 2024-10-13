@@ -148,7 +148,7 @@ for file in ./Ads/*.txt; do
                 echo "- '${line#full:}'" >> "$output_file"
                 ;;
             *)
-                echo "- '$line'" >> "$output_file"
+                echo "- '+.$line'" >> "$output_file"
                 ;;
         esac
     done < "$file" &
