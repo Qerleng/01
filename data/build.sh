@@ -139,7 +139,7 @@ for file in ./Ads/*.txt; do
     while IFS= read -r line; do
         case $line in
             *)
-                echo "- '+.$line'" >> "$output_file"
+                echo "- '$line' " >> "$output_file"
                 ;;
         esac
     done < "$file" &
