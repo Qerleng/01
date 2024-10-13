@@ -153,7 +153,7 @@ for file in ./Ads/*.txt; do
     done < "$file" &
 done
 
-for file in test/*.yaml; do
+for file in test/*; do
     filename=$(basename "$file")
     (cd test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && rm "${filename%.*}.yaml" && mv "${filename%.*}.mrs" ../Ads/) &
 done
@@ -161,6 +161,6 @@ done
 rm -rf rule/ip/
 rm -rf rule/geo/
 rm -rf rule/geoip/
-rm -rf rule-set/
+rm -rf rule/geosit/
 rm -rf test/
 rm -rf sing-box v2dat mihomo geoip.db geosite.db geoip.dat geosite.dat geosite_categories.list
