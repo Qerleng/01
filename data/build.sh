@@ -92,7 +92,7 @@ done
 
 for file in rule/geosit/*.yaml; do
     filename=$(basename "$file")
-    (cd rule/geosit && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../../rule_provider/) &
+    (cd rule/geosit && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && rm "${filename%.*}.yaml" && mv "${filename%.*}.mrs" ../../rule_provider/) &
 done
 
 for file in rule/geoip/*.yaml; do
@@ -159,7 +159,9 @@ for file in test/*.yaml; do
     (cd test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && rm "${filename%.*}.mrs" && mv "${filename%.*}.mrs" ../Ads/) &
 done
 
-rm -rf rule/
+rm -rf rule/ip/
+rm -rf rule/geo/
+rm -rf tule/geoip/
 rm -rf rule-set/
 rm -rf test/
 rm -rf sing-box v2dat mihomo geoip.db geosite.db geoip.dat geosite.dat geosite_categories.list
