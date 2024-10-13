@@ -155,7 +155,7 @@ done
 
 for file in test/*.yaml; do
     filename=$(basename "$file")
-    (cd test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && rm "${filename%.*}.mrs" && mv "${filename%.*}.mrs" ../Ads/) &
+    (cd test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && rm "${filename%.*}.yaml" && mv "${filename%.*}.mrs" ../Ads/) &
 done
 
 rm -rf rule/ip/
