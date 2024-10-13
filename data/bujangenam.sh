@@ -11,14 +11,9 @@ curl -s -L https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt 
 curl -s -L https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames_ABP.txt -o Malicious.abp
 
 
-curl -LO "https://github.com/Qerleng/01/raw/main/tools/sing-box"
-
-tools=("sing-box")
-
-for tool in "${tools[@]}"; do
-    filename=$(basename "$tool")
-    command -v $filename &> /dev/null || { cp ./$filename /usr/local/bin/ && chmod +x /usr/local/bin/$filename; }
-rm sing-box
+for file in tools/*; do
+    filename=$(basename "$file")
+    command -v $filename &> /dev/null || { cp ./tools/$filename /usr/local/bin/ && chmod +x /usr/local/bin/$filename; }
 done
 
 for file in *.abp; do
