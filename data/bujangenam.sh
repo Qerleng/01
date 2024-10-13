@@ -49,11 +49,12 @@ for file in *.abp; do
     # yaml ==>> json srs
     jq -R 'select(test("^  - DOMAIN-SUFFIX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_suffix": . }] }' > $json_file
     sing-box rule-set compile $json_file
+
+    mkdir -p ./Ads
+    mv -f $txt_file Ads
+    mv -f $yaml_file Ads
+    mv -f $json_file Ads
+    mv -f $srs_file Ads
+    mv -f $abp_file Ads
 done
 
-mkdir -p ./Ads
-mv -f $txt_file Ads
-mv -f $yaml_file Ads
-mv -f $json_file Ads
-mv -f $srs_file Ads
-mv -f $abp_file Ads
