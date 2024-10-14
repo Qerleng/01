@@ -33,6 +33,7 @@ for file in *.abp; do
     sed -i 's/^! /# /' $txt_file
     sed -i -e '/^#/d' -e '/^$/d' $txt_file
     sed -i -e '/^!/d' -e '/^$/d' $txt_file
+    echo "$txt_file"
     teks=$(basename "$txt_file")
     category=$(echo "$teks")
     output_file="${category%.*}.txt"
