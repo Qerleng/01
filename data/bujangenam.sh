@@ -35,7 +35,7 @@ for file in *.abp; do
     sed -i -e '/^!/d' -e '/^$/d' $txt_file
     teks=$(basename "$txt_file")
     category=$(echo "$teks")
-    output_file="${category%.*}.yaml"
+    output_file="${category%.*}.txt"
     (cd Ads && mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs && mv -if "$filename" ${filename%.*}.txt) 
 
     # abp ==>> yaml ~ Classical 
