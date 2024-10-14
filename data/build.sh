@@ -54,7 +54,6 @@ done
 
 for file in ./rule/geo/*; do
     filename=$(basename "$file")
-    mkdir -p ./rule_provider/
     mkdir -p ./rule-set/geosit/
     category=$(echo "$filename" | sed 's/geosite_\(.*\)\.*/\1/')
     output_file="rule_provider/${category%.*}.yaml"
