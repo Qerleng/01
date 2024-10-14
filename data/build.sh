@@ -32,21 +32,22 @@ done
 # txt ==>> yaml
 for file in ./rule/ip/*; do
     filename=$(basename "$file")
-    category=$(echo "$filename" | sed 's/geoip_\(.*\)\.*/\1/')
     mkdir -p ./rule-set/geoip/
     mkdir -p ./rule_provider/
-    output_file="rule/ip/${category%.*}.yaml"
+    category=$(echo "$filename" | sed 's/geoip_\(.*\)\.*/\1/')
+    output_file="rule_provider/${category%.*}.yaml"
     echo "payload:" > $output_file
-    output_file2="rule_provider/${category%.*}.yaml"
+    output_file2="rule/ip/${category%.*}.yaml"
     echo "payload:" > $output_file2
     while IFS= read -r line; do
         case $line in
             *.*.*.*/*)
-                echo "- '${line#Anjengg:}'" >> "$output_file"
-                echo "  - IP-CIDR,${line#CIDR4:}" >> "$output_file2"
+                echo "  - IP-CIDR,${line#CIDR4:}" >> "$output_file"
+                echo "- '${line#Anjengg:}'" >> "$output_file2"
                 ;;
             *)
                 echo "  - IP-CIDR6,$line" >> "$output_file2"
+                echo "- '$line'" >> "$output_file2"
                 ;;
         esac
     done < "$file" &
