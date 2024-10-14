@@ -57,16 +57,16 @@ done
 
 for file in ./Ads/*.txt; do
     filename=$(basename "$file")
-    mkdir -p ./test/
+    mkdir -p ./rule-set/test/
     category=$(echo "$filename")
-    output_file="test/${category%.*}.yaml"
+    output_file="rule-set/test/${category%.*}.yaml"
     echo "payload:" > $output_file
     mv "$file" $output_file
 done
 
-for file in test/*; do
+for file in rule-set/test/*; do
     filename=$(basename "$file")
-    (cd test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../Ads/) &
+    (cd rule-set/test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../Ads/) &
 done
 
 rm -r test/ 
