@@ -65,6 +65,6 @@ wait
 
 for file in ./Ads/*yaml; do
     filename=$(basename "$file")
-    (cd Ads && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../../Ads/ && mv "$filename" ../../Ads/${filename%.*}.txt) &
+    (cd Ads && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../Ads/ && mv "$filename" ../Ads/${filename%.*}.txt) &
 done
 
