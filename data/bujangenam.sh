@@ -57,7 +57,7 @@ done
 
 for file in ./Ads/*.txt; do
     filename=$(basename "$file")
-#    mkdir -p ./rule-set/test/
+    mkdir -p ./rule-set/test/
     category=$(echo "$filename")
     output_file="rule-set/test/${category%.*}.yaml"
     echo "payload:" > $output_file
