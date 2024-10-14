@@ -61,9 +61,4 @@ done
 
 
 
-# mv "${file%.abp}.yaml" Ads/
-for file in ./${file%.*}.yaml; do
-    filename=$(basename "$file")
-    mv -if "$file" ./Ads
-done
 
