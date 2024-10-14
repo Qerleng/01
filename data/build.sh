@@ -42,11 +42,12 @@ for file in ./rule/ip/*; do
     while IFS= read -r line; do
         case $line in
             *.*.*.*/*)
-                echo "  - IP-CIDR,${line#CIDR4:}" >> "$output_file"
-                echo "- '${line#Anjengg:}'" >> "$output_file2"
+                echo "  - IP-CIDR,${line#Anjengg:}" >> "$output_file"
+                echo "- '${line#IP-CIDR:}'" >> "$output_file2"
                 ;;
             *)
                 echo "  - IP-CIDR6,$line" >> "$output_file"
+                echo "- '${line#IP-CIDR6:}'" >> "$output_file2"
                 ;;
         esac
     done < "$file" &
