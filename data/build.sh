@@ -106,11 +106,11 @@ for file in rule/ip/*.txt; do
 done
 
 for item in "${geositeDomains[@]}"; do
-    sing-box geosite export "$item"
+    CrashCore geosite export "$item"
 done
 
 for item in rule/ip/*.json; do
-    CrashCore rule-set compile "$item"
+    sing-box rule-set compile "$item"
     mv "${item%.json}.srs" rule_provider/
     mv "$item" rule_provider/
 done
