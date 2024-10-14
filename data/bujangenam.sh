@@ -47,9 +47,9 @@ for file in *.abp; do
     sing-box rule-set compile $json_file
 
     mkdir -p ./Ads
-    mv "${file%.abp}.txt" Ads/
-    mv "${file%.abp}.json" Ads/
-    mv "${file%.abp}.srs" Ads/
+    mv "${file%.*}.txt" Ads/
+    mv "${file%.*}.json" Ads/
+    mv "${file%.*}.srs" Ads/
     mv "$file" Ads/
     
 done
