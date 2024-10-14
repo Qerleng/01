@@ -17,6 +17,7 @@ for file in tools/*; do
 done
 
 for file in *.abp; do
+    mkdir -p ./Ads
     filename=$(basename "$file")
     txt_file="${filename%.*}.txt"
     yaml_file="${filename%.*}.yaml"
@@ -32,6 +33,10 @@ for file in *.abp; do
     sed -i 's/^! /# /' $txt_file
     sed -i -e '/^#/d' -e '/^$/d' $txt_file
     sed -i -e '/^!/d' -e '/^$/d' $txt_file
+    mv "${file%.*}.txt" Ads/
+    category=$(echo "$filename")
+    output_file="./Ads/${category%.*}.yaml"
+    (cd Ads && mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs && mv -if "$filename" ${filename%.*}.txt) 
 
     # abp ==>> yaml ~ Classical 
     echo "payload:" > $yaml_file && cat $file >> $yaml_file
@@ -46,23 +51,12 @@ for file in *.abp; do
     jq -R 'select(test("^  - DOMAIN-SUFFIX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_suffix": . }] }' > $json_file
     sing-box rule-set compile $json_file
 
-    mkdir -p ./Ads
-    mv "${file%.*}.txt" Ads/
     mv "${file%.*}.json" Ads/
     mv "${file%.*}.srs" Ads/
     mv "$file" Ads/
     
 done
 
-for file in ./Ads/*.txt; do
-    filename=$(basename "$file")
-    category=$(echo "$filename")
-    output_file="./Ads/${category%.*}.yaml"
-    echo "payload:" > $output_file
-    mv "$file" $output_file
-while IFS= read -r categ; do
-    mihomo convert-ruleset domain yaml $categ ${categ%.*}.mrs &
-done < $file
 
 
 # mv "${file%.abp}.yaml" Ads/
