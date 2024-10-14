@@ -31,9 +31,9 @@ jobs:
               sed 's/\"//g;s/\,//g;s/\ //g;s/v//')
 
           curl -Lo sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v$SINGBOX_VER/sing-box-$SINGBOX_VER-linux-amd64.tar.gz"
-          tar -zxvf sing-box.tar.gz -C sing-box
-          rm sing-box.tar.gz
+          tar -zxvf sing-box.tar.gz
           mv -f ./sing-box-$SINGBOX_VER-linux-amd64/sing-box tools/sing-box
+          rm -rf sing-box.tar.gz
           rm -rf ./sing-box-$SINGBOX_VER-linux-amd64/
 
           SING_VER=$(curl -s https://api.github.com/repos/SagerNet/sing-box/releases |
@@ -43,9 +43,9 @@ jobs:
               sed 's/\"//g;s/\,//g;s/\ //g;s/v//')
 
           curl -Lo sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v$SING_VER/sing-box-$SING_VER-linux-amd64.tar.gz"
-          tar -zxvf sing-box.tar.gz -C sing-box
-          rm sing-box.tar.gz
+          tar -zxvf sing-box.tar.gz
           cp -f ./sing-box-$SING_VER-linux-amd64/sing-box tools/CrashCore
+          rm sing-box.tar.gz
           rm -rf ./sing-box-$SING_VER-linux-amd64/*
 
           MIHOMO_VER=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases |
