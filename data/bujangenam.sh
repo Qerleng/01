@@ -48,12 +48,11 @@ for file in *.abp; do
 
     mkdir -p ./Ads
     mv "${file%.abp}.txt" Ads/
-    mv "${file%.abp}.yaml" Ads/
     mv "${file%.abp}.json" Ads/
     mv "${file%.abp}.srs" Ads/
     mv "$file" Ads/
     
-wait
+done
 
 for file in ./Ads/*.txt; do
     filename=$(basename "$file")
@@ -68,3 +67,4 @@ for file in ./Ads/*yaml; do
     (cd Ads && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../Ads/ && mv "$filename" ../Ads/${filename%.*}.txt) &
 done
 
+    mv "${file%.abp}.yaml" Ads/
