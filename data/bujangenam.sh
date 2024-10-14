@@ -68,3 +68,8 @@ for file in ./Ads/*yaml; do
 done
 
 # mv "${file%.abp}.yaml" Ads/
+for file in ${file%.abp}.yaml; do
+    filename=$(basename "$file")
+    mv "$file" ./Ads
+done
+
