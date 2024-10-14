@@ -33,10 +33,10 @@ for file in *.abp; do
     sed -i 's/^! /# /' $txt_file
     sed -i -e '/^#/d' -e '/^$/d' $txt_file
     sed -i -e '/^!/d' -e '/^$/d' $txt_file
-#    mv "${file%.*}.txt" Ads/
-    category=$(echo "$txt_file")
+    teks=$(basename "$txt_file")
+    category=$(echo "$teks")
     output_file="./Ads/${category%.*}.yaml"
-    mv "$category" $output_file
+    mv -i "$category" $output_file
     (mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs && mv -if "$filename" ${filename%.*}.txt) 
 
     # abp ==>> yaml ~ Classical 
