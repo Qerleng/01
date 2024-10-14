@@ -97,7 +97,7 @@ done
 
 # json ==>> srs
 
-for file in rule/ip/*; do
+for file in rule/ip/*.txt; do
     filename=$(basename "$file")
     category=$(echo "$filename" | sed 's/geoip_\(.*\)\.txt/\1/')
     output_file="rule/ip/${category}.json"
