@@ -69,4 +69,3 @@ for file in rule-set/test/*; do
     (cd rule-set/test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../../Ads/) &
 done
 
-rm -r test/ 
