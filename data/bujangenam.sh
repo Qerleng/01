@@ -61,7 +61,7 @@ for file in ./Ads/*.txt; do
     output_file="./Ads/${category%.*}.yaml"
     echo "payload:" > $output_file
     mv "$file" $output_file
-wait
+done
 
 for file in ./Ads/*yaml; do
     filename=$(basename "$file")
