@@ -36,7 +36,6 @@ for file in *.abp; do
     teks=$(basename "$txt_file")
     category=$(echo "$teks")
     output_file="${category%.*}.yaml"
-    mv -f "$category" $output_file
     (cd Ads && mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs && mv -if "$filename" ${filename%.*}.txt) 
 
     # abp ==>> yaml ~ Classical 
@@ -55,6 +54,7 @@ for file in *.abp; do
     mv "${file%.*}.txt" Ads/
     mv "${file%.*}.json" Ads/
     mv "${file%.*}.srs" Ads/
+    mv "${file%.*}.yaml" Ads/
     mv "$file" Ads/
     
 done
