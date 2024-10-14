@@ -55,10 +55,10 @@ done
 for file in ./rule/geo/*; do
     filename=$(basename "$file")
     mkdir -p ./rule_provider/
+    mkdir -p ./rule-set/geosit/
     category=$(echo "$filename" | sed 's/geosite_\(.*\)\.*/\1/')
     output_file="rule_provider/${category%.*}.yaml"
     echo "payload:" > $output_file
-    mkdir -p ./rule-set/geosit/
     output_file2="rule-set/geosit/${category%.*}.yaml"
     echo "payload:" > $output_file2
     while IFS= read -r line; do
