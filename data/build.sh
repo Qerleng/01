@@ -128,7 +128,7 @@ done
 
 
 rm -rf rule/*
-rm -f rule-set/*
+rm -r rule-set/*
 rm -rf test/*
 rm -rf sing-box v2dat mihomo geoip.db geosite.db geoip.dat geosite.dat geosite_categories.list
 
