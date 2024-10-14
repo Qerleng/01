@@ -33,7 +33,7 @@ jobs:
           curl -Lo sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v$SINGBOX_VER/sing-box-$SINGBOX_VER-linux-amd64.tar.gz"
           tar -zxvf sing-box.tar.gz -C sing-box
           rm sing-box.tar.gz
-          mv -f ./sing-box-$SINGBOX_VER-linux-amd64/sing-box tools/
+          mv -f ./sing-box-$SINGBOX_VER-linux-amd64/sing-box tools/sing-box
           rm -rf ./sing-box-$SINGBOX_VER-linux-amd64/
 
           SING_VER=$(curl -s https://api.github.com/repos/SagerNet/sing-box/releases |
@@ -46,7 +46,7 @@ jobs:
           tar -zxvf sing-box.tar.gz -C sing-box
           rm sing-box.tar.gz
           cp -f ./sing-box-$SING_VER-linux-amd64/sing-box tools/CrashCore
-          rm -rf tools/sing-box-$SING_VER-linux-amd64/*
+          rm -rf ./sing-box-$SING_VER-linux-amd64/*
 
           MIHOMO_VER=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases |
               grep '"prerelease": false,' -B 10 -m 1 |
