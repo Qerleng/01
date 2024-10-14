@@ -25,7 +25,7 @@ data = {
 
 yaml_output = yaml.dump(data, sort_keys=False, default_flow_style=False)
 
-formatted_yaml = re.sub(r"(\s+  -) '(.+)'", r"\1 \2", yaml_output)
+formatted_yaml = re.sub(r"(\s+-) '(.+)'", r"\1 \2", yaml_output)
 
 with open("rule_basicads.yaml", "w") as file:
   file.write(formatted_yaml)
