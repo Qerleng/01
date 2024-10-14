@@ -26,7 +26,6 @@ for file in *.abp; do
     json_file="${filename%.*}.json"
 
     echo "abp ==>> yaml ~ Domain ==>> mrs"
-    echo "$txt_file"
     echo "payload:" > $txt_file && cat $file >> $txt_file
     sed -i 's/||\(.*\)\^/- "+.\1["]/' $txt_file
     sed -i 's/0.0.0.0 \(.*\)/- "\1["]/' $txt_file
@@ -34,13 +33,13 @@ for file in *.abp; do
     sed -i 's/^! /# /' $txt_file
     sed -i -e '/^#/d' -e '/^$/d' $txt_file
     sed -i -e '/^!/d' -e '/^$/d' $txt_file
+    echo "$txt_file\n"
     teks=$(basename "$txt_file")
     category=$(echo "$teks")
     output_file="${category%.*}.txt"
     (cd Ads && mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs && mv -if "$filename" ${filename%.*}.txt) 
 
     echo "abp ==>> yaml ~ Classical"
-    echo "$yaml_file"
     echo "payload:" > $yaml_file && cat $file >> $yaml_file
     sed -i 's/||\(.*\)\^/  - DOMAIN-SUFFIX,\1/' $yaml_file
     sed -i 's/0.0.0.0 \(.*\)/  - DOMAIN-SUFFIX,\1/' $yaml_file
@@ -48,12 +47,13 @@ for file in *.abp; do
     sed -i 's/^! /# /' $yaml_file
     sed -i -e '/^#/d' -e '/^$/d' $yaml_file
     sed -i -e '/^!/d' -e '/^$/d' $yaml_file
+    echo "$yaml_file"
 
     echo "yaml ==>> json srs"
-    echo "$json_file"
-    echo "$srs_file"
     jq -R 'select(test("^  - DOMAIN-SUFFIX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_suffix": . }] }' > $json_file
     sing-box rule-set compile $json_file
+    echo "$json_file"
+    echo "$srs_file"
 
     mv "${file%.*}.txt" Ads/
     mv "${file%.*}.json" Ads/
