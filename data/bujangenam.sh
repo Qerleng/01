@@ -53,19 +53,18 @@ for file in *.abp; do
     mv "${file%.abp}.srs" Ads/
     mv "$file" Ads/
     
-done
+wait
 
 for file in ./Ads/*.txt; do
     filename=$(basename "$file")
-    mkdir -p ./rule-set/test/
     category=$(echo "$filename")
-    output_file="rule-set/test/${category%.*}.yaml"
+    output_file="./Ads/${category%.*}.yaml"
     echo "payload:" > $output_file
     mv "$file" $output_file
-done
+wait
 
-for file in rule-set/test/*; do
+for file in ./Ads/*yaml; do
     filename=$(basename "$file")
-    (cd rule-set/test && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../../Ads/) &
+    (cd Ads && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../../Ads/ && mv "$filename" ../../Ads/${filename%.*}.txt) &
 done
 
