@@ -35,7 +35,7 @@ for file in ./rule/ip/*; do
     category=$(echo "$filename" | sed 's/geoip_\(.*\)\.*/\1/')
     mkdir -p ./rule-set/geoip/
     mkdir -p ./rule_provider/
-    output_file="rule-set/geoip/${category%.*}.yaml"
+    output_file="rule/ip/${category%.*}.txt"
     echo "payload:" > $output_file
     output_file2="rule_provider/${category%.*}.yaml"
     echo "payload:" > $output_file2
@@ -54,11 +54,10 @@ done
 
 for file in ./rule/geo/*; do
     filename=$(basename "$file")
-    mkdir -p ./rule-set/geosit/
     category=$(echo "$filename" | sed 's/geosite_\(.*\)\.*/\1/')
     output_file="rule_provider/${category%.*}.yaml"
     echo "payload:" > $output_file
-    output_file2="rule-set/geosit/${category%.*}.yaml"
+    output_file2="rule/geo/${category%.*}.txt"
     echo "payload:" > $output_file2
     while IFS= read -r line; do
         case $line in
@@ -85,14 +84,14 @@ done
 # yaml ==>> mrs
 # rm rule-set/geosite/*.mrs rule-set/geoip/*.mrs
 
-for file in rule-set/geosit/*; do
+for file in rule/geo/*; do
     filename=$(basename "$file")
-    (cd rule-set/geosit && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../../rule_provider/) &
+    (cd rule/geo && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv -i "${filename%.*}.mrs" ../../rule_provider/) &
 done
 
-for file in rule-set/geoip/*; do
+for file in rule/ip/*; do
     filename=$(basename "$file")
-    (cd rule-set/geoip && mihomo convert-ruleset ipcidr yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../../rule_provider/) &
+    (cd rule-set/geoip && mihomo convert-ruleset ipcidr yaml $filename ${filename%.*}.mrs && mv -i "${filename%.*}.mrs" ../../rule_provider/) &
 done
 
 # json ==>> srs
