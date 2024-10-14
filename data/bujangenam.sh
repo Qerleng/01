@@ -36,8 +36,8 @@ for file in *.abp; do
     teks=$(basename "$txt_file")
     category=$(echo "$teks")
     output_file="./Ads/${category%.*}.yaml"
-    mv -i "$category" $output_file
-    (mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs && mv -if "$filename" ${filename%.*}.txt) 
+    mv -f "$category" $output_file
+    (cd Ads && mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs && mv -if "$filename" ${filename%.*}.txt) 
 
     # abp ==>> yaml ~ Classical 
     echo "payload:" > $yaml_file && cat $file >> $yaml_file
@@ -52,6 +52,7 @@ for file in *.abp; do
     jq -R 'select(test("^  - DOMAIN-SUFFIX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_suffix": . }] }' > $json_file
     sing-box rule-set compile $json_file
 
+    mv "${file%.*}.txt" Ads/
     mv "${file%.*}.json" Ads/
     mv "${file%.*}.srs" Ads/
     mv "$file" Ads/
