@@ -67,4 +67,4 @@ for file in ./Ads/*yaml; do
     (cd Ads && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv -if "$filename" ${filename%.*}.txt) &
 done
 
-mv "${file%.abp}.yaml" Ads/
+# mv "${file%.abp}.yaml" Ads/
