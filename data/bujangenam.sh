@@ -36,7 +36,7 @@ for file in *.abp; do
     mv "${file%.*}.txt" Ads/
     category=$(echo "$txt_file")
     output_file="./Ads/${category%.*}.yaml"
-    (cd Ads && mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs && mv -if "$filename" ${filename%.*}.txt) 
+    (mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs && mv -if "$filename" ${filename%.*}.txt) 
 
     # abp ==>> yaml ~ Classical 
     echo "payload:" > $yaml_file && cat $file >> $yaml_file
