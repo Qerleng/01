@@ -86,12 +86,12 @@ done
 
 for file in rule/geo/*.yaml; do
     filename=$(basename "$file")
-    (cd rule/geo && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv -i "${filename%.*}.mrs" ../../rule_provider/ && rm -if  $filename) &
+    (cd rule/geo && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv -if "${filename%.*}.mrs" ../../rule_provider/ && rm -if  $filename) &
 done
 
 for file in rule/ip/*.yaml; do
     filename=$(basename "$file")
-    (cd rule/ip && mihomo convert-ruleset ipcidr yaml $filename ${filename%.*}.mrs && mv -i "${filename%.*}.mrs" ../../rule_provider/ && rm -if  $filename) &
+    (cd rule/ip && mihomo convert-ruleset ipcidr yaml $filename ${filename%.*}.mrs && mv -if "${filename%.*}.mrs" ../../rule_provider/ && rm -if  $filename) &
 done
 
 # json ==>> srs
