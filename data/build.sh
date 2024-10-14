@@ -88,7 +88,7 @@ done
 
 for file in rule-set/geosit/*; do
     filename=$(basename "$file")
-    (cd rule-set/geosit && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../../rule_provider/) &
+    (cd rule-set/geosit && mihomo convert-ruleset domain yaml $filename ${filename%.*}.mrs && mv "${filename%.*}.mrs" ../../rule_provider/ && rm -f ..//..//rule-set/geosit/) &
 done
 
 for file in rule-set/geoip/*; do
