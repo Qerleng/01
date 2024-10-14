@@ -60,9 +60,9 @@ for file in ./Ads/*.txt; do
     output_file="./Ads/${category%.*}.yaml"
     echo "payload:" > $output_file
     mv "$file" $output_file
-while IFS= read -r category; do
-    mihomo convert-ruleset domain yaml $category ${category%.*}.mrs &
-done < $output_file
+while IFS= read -r categ; do
+    mihomo convert-ruleset domain yaml $categ ${categ%.*}.mrs &
+done < $file
 
 
 # mv "${file%.abp}.yaml" Ads/
