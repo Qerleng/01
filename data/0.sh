@@ -8,6 +8,15 @@ with open("oisd-full.txt", "r") as file:
   input_text = file.read()
 
 payload_lines = re.findall(r"\|\|(.+)\^", input_text)
+domains = []
+for line in payload_lines:
+  if line:
+    domain = line.split("$")[0].strip()
+  if any(prefix in domain for prefix in ("autodesk", "github", "tiktok", "pinterest", "pinimg", "twitter", "linkedin", "telegram", "facebook", "line", "instagram", "whatsapp")):
+    continue
+  else:
+    domains.append("DOMAIN-SUFFIX," + domain)
+    
 payload = [f'"+.{line}"' for line in payload_lines]
 
 data = {
