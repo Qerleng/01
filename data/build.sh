@@ -46,7 +46,7 @@ for file in ./rule/ip/*; do
                 echo "- '${line#Anjengg:}'" >> "$output_file2"
                 ;;
             *)
-                echo "  - IP-CIDR6,$line" >> "$output_file2"
+                echo "  - IP-CIDR6,$line" >> "$output_file"
                 echo "- '$line'" >> "$output_file2"
                 ;;
         esac
