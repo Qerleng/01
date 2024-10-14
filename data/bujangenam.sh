@@ -70,6 +70,6 @@ done
 # mv "${file%.abp}.yaml" Ads/
 for file in ./$yaml_file; do
     filename=$(basename "$file")
-    mv "$file" ./Ads
+    mv -if "$file" ./Ads
 done
 
