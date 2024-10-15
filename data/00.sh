@@ -1,6 +1,5 @@
 curl -s -LO https://github.com/Qerleng/00/raw/main/rule_provider/FCM.yaml
 curl -s -LO https://github.com/Qerleng/00/raw/main/rule_provider/NTP.yaml
-curl -s -LO https://github.com/Qerleng/00/raw/main/rule_provider/wa.yaml
 
 
 for file in tools/*; do
