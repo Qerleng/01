@@ -12,7 +12,7 @@ mkdir -p help
 
 ./sing-box convert --help > help/categories
 ./mihomo  --help > help/categories1
-./v2dat  --help > help/categories2
+./v2dat unpack --help > help/categories2
 
 
 rm -f sing-box mihomo v2dat
