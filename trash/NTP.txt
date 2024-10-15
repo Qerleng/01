@@ -6,8 +6,8 @@ payload:
 - "ntp.*.com"
 - "time"
 - "ntp"
-"- +.ntp.org"
-- " time.windows.com"
+- "+.ntp.org"
+- "time.windows.com"
 - 123
 - 136
 - 137
