@@ -1,6 +1,5 @@
-for tool in ./tools/*; do
-    filename=$(basename "$tool")
-    command -v $filename &> /dev/null || { cp ./$filename /usr/local/bin/ && chmod +x /usr/local/bin/$filename; }
-done
+curl -LO https://github.com/Qerleng/01/raw/main/tools/sing-box
 
-sing-box geoip [command] --help | awk '{print}' | sort > categories
+./sing-box geoip [command] --help | awk '{print}' | sort > categories
+
+rm -f sing-box
