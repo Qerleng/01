@@ -1,25 +1,21 @@
+Experimental tools
+
 Usage:
-  sing-box [command]
+  sing-box tools [command]
 
 Available Commands:
-  check       Check configuration
-  completion  Generate the autocompletion script for the specified shell
-  format      Format configuration
-  generate    Generate things
-  geoip       GeoIP tools
-  geosite     Geosite tools
-  help        Help about any command
-  merge       Merge configurations
-  rule-set    Manage rule-sets
-  run         Run service
-  tools       Experimental tools
-  version     Print current version of sing-box
+  connect     Connect to an address
+  fetch       Fetch an URL
+  synctime    Sync time using the NTP protocol
 
 Flags:
+  -h, --help              help for tools
+  -o, --outbound string   Use specified tag instead of default outbound
+
+Global Flags:
   -c, --config stringArray             set configuration file path
   -C, --config-directory stringArray   set configuration directory path
   -D, --directory string               set working directory
       --disable-color                  disable color output
-  -h, --help                           help for sing-box
 
-Use "sing-box [command] --help" for more information about a command.
+Use "sing-box tools [command] --help" for more information about a command.
