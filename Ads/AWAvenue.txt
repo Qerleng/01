@@ -629,17 +629,17 @@ payload:
 - "+.ykad-gateway.youku.com"
 - "+.youku-acs.m.taobao.com"
 - "+.youxi.kugou.com"
-/.*\.*\.shouji\.sogou\.com/
-/.*\.[a-zA-Z0-9.-]skwai\.com/
-/.*\.a\.market\.xiaomi\.com/
-/.*\.data\.hicloud\.com/
-/.*\.log\.aliyuncs\.com/
-/[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*\.byteimg\.com/
-/[a-zA-Z0-9.-]*-ad\.sm\.cn/
-/[a-zA-Z0-9.-]*-ad\.video\.yximgs\.com/
-/[a-zA-Z0-9.-]*-ad\.wtzw\.com/
-/[a-zA-Z0-9.-]*-be-pack-sign\.pglstatp-toutiao\.com/
-/[a-zA-Z0-9.-]*-lm\.adkwai\.com/
-/[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*\.zijieapi\.com/
-/[a-zA-Z0-9.-]*-normal\.zijieapi\.com/
-/cloudinject[a-zA-Z0-9.-]*-dev\.*\.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*\.amazonaws\.com/
+/.tai\.*\.shouji\.sogou\.com/
+/.tai\.[a-zA-Z0-9.-]skwai\.com/
+/.tai\.a\.market\.xiaomi\.com/
+/.tai\.data\.hicloud\.com/
+/.tai\.log\.aliyuncs\.com/
+/[a-zA-Z0-9.-]tai-ad-[a-zA-Z0-9.-]*\.byteimg\.com/
+/[a-zA-Z0-9.-]tai-ad\.sm\.cn/
+/[a-zA-Z0-9.-]tai-ad\.video\.yximgs\.com/
+/[a-zA-Z0-9.-]tai-ad\.wtzw\.com/
+/[a-zA-Z0-9.-]tai-be-pack-sign\.pglstatp-toutiao\.com/
+/[a-zA-Z0-9.-]tai-lm\.adkwai\.com/
+/[a-zA-Z0-9.-]tai-normal-[a-zA-Z0-9.-]*\.zijieapi\.com/
+/[a-zA-Z0-9.-]tai-normal\.zijieapi\.com/
+/cloudinject[a-zA-Z0-9.-]tai-dev\.*\.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*\.amazonaws\.com/
