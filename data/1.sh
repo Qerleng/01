@@ -3,4 +3,4 @@ for tool in tools/*; do
     command -v $filename &> /dev/null || { cp ./$filename /usr/local/bin/ && chmod +x /usr/local/bin/$filename; }
 done
 
-sing-box geoip -h --help > categories
+sing-box geoip [command] --help | awk '{print}' | sort > categories
