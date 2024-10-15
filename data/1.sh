@@ -5,6 +5,6 @@ chmod +x ./sing-box
 chmod +x ./geoip.db
 
 ./sing-box geosite --help > categories
-./sing-box geoip list > geoip_categories
+./sing-box geoip list private -f geoip.db > geoip_categories
 
 rm -f sing-box geoip.db
