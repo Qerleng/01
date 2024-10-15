@@ -1,18 +1,16 @@
-Manage rule-sets
+GeoIP tools
 
 Usage:
-  sing-box rule-set [command]
+  sing-box geoip [command]
 
 Available Commands:
-  compile     Compile rule-set json to binary
-  convert     Convert adguard DNS filter to rule-set
-  decompile   Decompile rule-set binary to json
-  format      Format rule-set json
-  match       Check if an IP address or a domain matches the rule-set
-  upgrade     Upgrade rule-set json
+  export      Export geoip country as rule-set
+  list        List geoip country codes
+  lookup      Lookup if an IP address is contained in the GeoIP database
 
 Flags:
-  -h, --help   help for rule-set
+  -f, --file string   geoip file (default "geoip.db")
+  -h, --help          help for geoip
 
 Global Flags:
   -c, --config stringArray             set configuration file path
@@ -20,4 +18,4 @@ Global Flags:
   -D, --directory string               set working directory
       --disable-color                  disable color output
 
-Use "sing-box rule-set [command] --help" for more information about a command.
+Use "sing-box geoip [command] --help" for more information about a command.
