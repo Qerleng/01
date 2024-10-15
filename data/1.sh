@@ -3,7 +3,7 @@ curl -Lo geoip.db "https://github.com/rfxcll/v2ray-rules-dat/releases/latest/dow
 
 chmod +x ./sing-box
 
-./sing-box tools --help > categories
+./sing-box rule-set --help > categories
 ./sing-box geoip list -f geoip.db > geoip_categories
 
 rm -f sing-box geoip.db
