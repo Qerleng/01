@@ -10,7 +10,7 @@ chmod +x ./v2dat
 
 mkdir -p help
 
-./sing-box adguard --help > help/categories
+./sing-box convert --help > help/categories
 ./mihomo  --help > help/categories1
 ./v2dat  --help > help/categories2
 
