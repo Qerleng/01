@@ -1,12 +1,13 @@
+unpack geosite and geoip to text files.
+
 Usage:
-  v2dat [command]
+  v2dat unpack [command]
 
 Available Commands:
-  completion  Generate the autocompletion script for the specified shell
-  help        Help about any command
-  unpack      unpack geosite and geoip to text files.
+  geoip       Unpack geoip file to text files.
+  geosite     Unpack geosite file to text files.
 
 Flags:
-  -h, --help   help for v2dat
+  -h, --help   help for unpack
 
-Use "v2dat [command] --help" for more information about a command.
+Use "v2dat unpack [command] --help" for more information about a command.
