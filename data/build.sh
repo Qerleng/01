@@ -14,6 +14,7 @@ for tool in tools/*; do
 done
 
 sing-box geoip list -f geoip.db | awk '{print $1}' | sort > geoip_categories
+sing-box geoip private list -f geoip.db | awk '{print $1}' | sort > categories
 sing-box geosite list private -f geosite.db | awk '{print $1}' | sort > geosite_categories
 
 geoipAddresses=("fastly" "doh" "malicious" "cloudfront" "id" "facebook" "google" "netflix" "telegram" "twitter")
