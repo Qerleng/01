@@ -1,5 +1,5 @@
 echo "Downloading oisd full source list..."
-curl -sSf -o oisd-full.txt https://big.oisd.nl/
+curl -sSf -o oisd-full.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt
 python3 - <<EOF
 import re
 import yaml
@@ -30,8 +30,8 @@ formatted_yaml = re.sub(r"(\s+-) '(.+)'", r"\1 \2", yaml_output)
 with open("rule_basicads.yaml", "w") as file:
   file.write(formatted_yaml)
 EOF
-mv -if oisd-full.txt ./Ads/oisd_big.abp
-mv -if rule_basicads.yaml ./Ads/oisd_big.txt
+mv -if oisd-full.txt ./Ads/oisd.abp
+mv -if rule_basicads.yaml ./Ads/oisd.txt
 
 echo "Downloading oisd nsfw source list..."
 curl -sSf -o oisd-nsfw.txt https://nsfw.oisd.nl
