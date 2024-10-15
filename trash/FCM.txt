@@ -1,5 +1,6 @@
 payload:
   # FCM
+- "+.mtalk.google.com"
 - ".*.mtalk.google.com"
 - "(^|\\.)(alt[1-8]-mtalk|mtalk|mtalk4)\\.google\\.com$"
 - 5228
