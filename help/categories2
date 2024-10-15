@@ -1,0 +1,12 @@
+Usage:
+  v2dat [command]
+
+Available Commands:
+  completion  Generate the autocompletion script for the specified shell
+  help        Help about any command
+  unpack      unpack geosite and geoip to text files.
+
+Flags:
+  -h, --help   help for v2dat
+
+Use "v2dat [command] --help" for more information about a command.
