@@ -1,10 +1,18 @@
 curl -LO https://github.com/Qerleng/01/raw/main/tools/sing-box
-curl -Lo geoip.db "https://github.com/rfxcll/v2ray-rules-dat/releases/latest/download/GeoIP.db"
+curl -LO https://github.com/Qerleng/01/raw/main/tools/mihomo
+curl -LO https://github.com/Qerleng/01/raw/main/tools/v2dat
+
+
 
 chmod +x ./sing-box
-chmod +x ./geoip.db
+chmod +x ./mihomo
+chmod +x ./v2dat
 
-./sing-box geosite --help > categories
-./sing-box geoip list private -f geoip.db > geoip_categories
+mkdir -p help
 
-rm -f sing-box geoip.db
+./sing-box adguard --help > help/categories
+./mihomo  --help > help/categories1
+./v2dat  --help > help/categories2
+
+
+rm -f sing-box mihomo v2dat
