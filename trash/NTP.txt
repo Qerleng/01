@@ -8,8 +8,8 @@ payload:
 - "ntp"
 - "+.ntp.org"
 - "time.windows.com"
-  - DST-PORT,123
-  - DST-PORT,136
-  - DST-PORT,137
-  - DST-PORT,138
-  - DST-PORT,139
+d
+d
+d
+d
+d
