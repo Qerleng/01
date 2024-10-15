@@ -27,13 +27,13 @@ for file in *.abp; do
 
     # abp ==>> yaml ~ Domain ==>> mrs
     echo "payload:" > $txt_file && cat $file >> $txt_file
+    sed -i 's/^! /# /' $txt_file
+    sed -i -e '/^#/d' -e '/^$/d' $txt_file
+    sed -i -e '/^!/d' -e '/^$/d' $txt_file
     sed -i 's/||\(.*\)\^/- "+.\1"/' $txt_file
     sed -i 's/0.0.0.0 \(.*\)/- "\1"/' $txt_file
     sed -i 's/\(.*\)/\1/' $txt_file
     sed -i 's/\(.*\)/\- "\1"/' $txt_file
-    sed -i 's/^! /# /' $txt_file
-    sed -i -e '/^#/d' -e '/^$/d' $txt_file
-    sed -i -e '/^!/d' -e '/^$/d' $txt_file
     teks=$(basename "$txt_file")
     category=$(echo "$teks")
     output_file="${category%.*}.txt"
