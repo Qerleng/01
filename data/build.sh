@@ -8,8 +8,8 @@ curl -Lo geosite.db "https://github.com/rfxcll/v2ray-rules-dat/releases/latest/d
 curl -Lo geoip.dat "https://github.com/rfxcll/v2ray-rules-dat/releases/latest/download/GeoIP.dat"
 curl -Lo geosite.dat "https://github.com/rfxcll/v2ray-rules-dat/releases/latest/download/GeoSite.dat"
 
-
-#./sing-box geosite list private -f geosite.db | awk '{print $1}' | sort > geosite_categories
+sing-box geoip list -f geoip.db | awk '{print $1}' | sort > geoip_categories
+sing-box geosite list private -f geosite.db | awk '{print $1}' | sort > geosite_categories
 
 geoipAddresses=("fastly" "doh" "malicious" "cloudfront" "id" "facebook" "google" "netflix" "telegram" "twitter")
 geositeDomains=("category-porn" "oisd-nsfw" "rule-doh" "rule-gaming" "rule-indo" "rule-playstore" "rule-sosmed" "rule-streaming" "rule-umum" "rule-ipcheck" "rule-speedtest" "videoconference" "rule-malicious" "urltest" "openai" "ecommerce-id" "bank-id")
