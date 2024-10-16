@@ -15,7 +15,7 @@ done
 
 
 geoipAddresses=("fastly" "doh" "malicious" "cloudfront" "id" "facebook" "google" "netflix" "telegram" "twitter")
-geositeDomains=("category-porn" "oisd-nsfw" "rule-doh" "rule-gaming" "rule-indo" "rule-playstore" "rule-sosmed" "rule-streaming" "rule-umum" "rule-ipcheck" "rule-speedtest" "videoconference" "rule-malicious" "urltest" "openai" "ecommerce-id" "bank-id")
+geositeDomains=("category-ads-all" "category-porn" "oisd-nsfw" "rule-doh" "rule-gaming" "rule-indo" "rule-playstore" "rule-sosmed" "rule-streaming" "rule-umum" "rule-ipcheck" "rule-speedtest" "videoconference" "rule-malicious" "urltest" "openai" "ecommerce-id" "bank-id")
 
 
 for item in "${geoipAddresses[@]}"; do
@@ -65,7 +65,7 @@ for file in ./rule/geo/*; do
                 echo "  - DOMAIN-REGEX,${line#regexp:}" >> "$output_file"
                 echo "- '${line#regexp:}'" >> "$output_file2"
                 ;;
-            keyward:*)
+            keyword:*)
                 echo "  - DOMAIN-KEYWORD,${line#keyward:}" >> "$output_file"
                 echo "- '+.${line#keyward:}'" >> "$output_file2"
                 ;;
