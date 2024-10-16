@@ -51,11 +51,7 @@ for file in *.abp; do
     output_file="${category%.*}.txt"
     (mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs) 
 
-    echo "$txt_file"
-    echo "$yaml_file"
-    echo "$json_file"
-    echo "$srs_file"
-    echo "$mrs_file"
+    echo "$file"
 
     mv "${file%.*}.txt" Ads/
     mv "${file%.*}.json" Ads/
