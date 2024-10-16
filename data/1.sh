@@ -11,7 +11,7 @@ chmod +x ./v2dat
 mkdir -p help
 
 ./sing-box rule-set --help > help/categories
-./mihomo format --help > help/categories1
+./mihomo convert --help > help/categories1
 ./v2dat unpack --help > help/categories2
 
 
