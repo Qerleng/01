@@ -39,8 +39,8 @@ jobs:
           SING_VER=$(curl -s https://api.github.com/repos/SagerNet/sing-box/releases |
               grep '"prerelease": false,' -B 10 -m 1 |
               grep tag_name |
-              grep -oE "v1[0-8.]*" |
-              head -1)
+              cut -d ":" 1.8.* |
+              sed 's/\"//g;s/\,//g;s/\ //g;s/v//')
 
           curl -Lo sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v$SING_VER/sing-box-$SING_VER-linux-amd64.tar.gz"
           tar -zxvf sing-box.tar.gz
