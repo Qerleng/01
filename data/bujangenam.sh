@@ -25,15 +25,14 @@ for file in *.abp; do
     json_file="${filename%.*}.json"
 
     # abp ==>> yaml ~ Classical
+    abp ==>> yaml
     echo "payload:" > $yaml_file && cat $file >> $yaml_file
     sed -i 's/||\(.*\)\^/  - DOMAIN-SUFFIX,\1/' $yaml_file
-    sed -i 's/0.0.0.0 \(.*\)/  - DOMAIN-SUFFIX,\1/' $yaml_file
-    sed -i 's/\(.*\)//' $yaml_file
-    sed -i 's/\[\(.*\)\]//' $yaml_file
+    sed -i 's/0.0.0.0\(.*\)\^/  - DOMAIN-SUFFIX,\1/' $yaml_file
+    sed -i 's/\[\(.*\)\]/# \1/' $yaml_file
     sed -i 's/^! /# /' $yaml_file
     sed -i -e '/^#/d' -e '/^$/d' $yaml_file
-    sed -i -e '/^!/d' -e '/^$/d' $yaml_file
-
+    
     # yaml ==>> json srs
     jq -R 'select(test("^  - DOMAIN-SUFFIX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_suffix": . }] }' > $json_file
     sing-box rule-set compile $json_file
