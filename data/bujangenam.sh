@@ -35,7 +35,7 @@ for file in *.abp; do
     teks=$(basename "$txt_file")
     category=$(echo "$teks")
     output_file="${category%.*}.txt"
-    (cd Ads && mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs && mv -if "$filename" ${filename%.*}.txt) 
+    (mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs) 
 
     # abp ==>> yaml ~ Classical
     echo "payload:" > $yaml_file && cat $file >> $yaml_file
