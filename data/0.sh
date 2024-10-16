@@ -17,7 +17,7 @@ for line in payload_lines:
   else:
     domains.append("DOMAIN-SUFFIX," + domain)
     
-payload = [f'"+.{line}"' for line in payload_lines]
+payload = [f'"{line}"' for line in domains]
 
 data = {
   "payload": payload
