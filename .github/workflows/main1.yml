@@ -13,7 +13,8 @@ jobs:
 
       - name: 💩 Build 💩
         run: |
-          bash data/bujangenam.sh && bash data/build.sh  
+          bash data/bujangenam.sh
+#           && bash data/build.sh  
 
       - name: 💩 Heanginam 💩
         run: |
