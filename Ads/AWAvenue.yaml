@@ -1,15 +1,4 @@
 payload:
-!
-!
-!
-!
-!
-!Title: AWAvenue Ads Rule
-!--------------------------------------
-!Total lines: 688
-!Version: 1.5.3-release
-!Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
-!License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
   - DOMAIN-SUFFIX,1010pic.com
   - DOMAIN-SUFFIX,16dd-advertise-1252317822.file.myqcloud.com
   - DOMAIN-SUFFIX,16dd-advertise-1252317822.image.myqcloud.com
@@ -641,16 +630,16 @@ payload:
   - DOMAIN-SUFFIX,youku-acs.m.taobao.com
   - DOMAIN-SUFFIX,youxi.kugou.com
 /.*\.*\.shouji\.sogou\.com/
-/.*\.[a-zA-Z0-9.-]skwai\.com/
+/.*\.# a-zA-Z0-9.-skwai\.com/
 /.*\.a\.market\.xiaomi\.com/
 /.*\.data\.hicloud\.com/
 /.*\.log\.aliyuncs\.com/
-/[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*\.byteimg\.com/
-/[a-zA-Z0-9.-]*-ad\.sm\.cn/
-/[a-zA-Z0-9.-]*-ad\.video\.yximgs\.com/
-/[a-zA-Z0-9.-]*-ad\.wtzw\.com/
-/[a-zA-Z0-9.-]*-be-pack-sign\.pglstatp-toutiao\.com/
-/[a-zA-Z0-9.-]*-lm\.adkwai\.com/
-/[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*\.zijieapi\.com/
-/[a-zA-Z0-9.-]*-normal\.zijieapi\.com/
-/cloudinject[a-zA-Z0-9.-]*-dev\.*\.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*\.amazonaws\.com/
+/# a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-*\.byteimg\.com/
+/# a-zA-Z0-9.-*-ad\.sm\.cn/
+/# a-zA-Z0-9.-*-ad\.video\.yximgs\.com/
+/# a-zA-Z0-9.-*-ad\.wtzw\.com/
+/# a-zA-Z0-9.-*-be-pack-sign\.pglstatp-toutiao\.com/
+/# a-zA-Z0-9.-*-lm\.adkwai\.com/
+/# a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-*\.zijieapi\.com/
+/# a-zA-Z0-9.-*-normal\.zijieapi\.com/
+/cloudinject# a-zA-Z0-9.-]*-dev\.*\.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-*\.amazonaws\.com/

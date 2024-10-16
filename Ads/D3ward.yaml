@@ -1,5 +1,4 @@
 payload:
-!============ Ads =============
   - DOMAIN-SUFFIX,adtago.s3.amazonaws.com
   - DOMAIN-SUFFIX,analyticsengine.s3.amazonaws.com
   - DOMAIN-SUFFIX,analytics.s3.amazonaws.com
@@ -20,7 +19,6 @@ payload:
   - DOMAIN-SUFFIX,static.media.net
   - DOMAIN-SUFFIX,media.net
   - DOMAIN-SUFFIX,adservetx.media.net
-!========= Analytics ==========
   - DOMAIN-SUFFIX,analytics.google.com
   - DOMAIN-SUFFIX,click.googleanalytics.com
   - DOMAIN-SUFFIX,google-analytics.com
@@ -51,14 +49,12 @@ payload:
   - DOMAIN-SUFFIX,cs.luckyorange.net
   - DOMAIN-SUFFIX,settings.luckyorange.net
   - DOMAIN-SUFFIX,stats.wp.com
-!======= Error Trackers =======
   - DOMAIN-SUFFIX,notify.bugsnag.com
   - DOMAIN-SUFFIX,sessions.bugsnag.com
   - DOMAIN-SUFFIX,api.bugsnag.com
   - DOMAIN-SUFFIX,app.bugsnag.com
   - DOMAIN-SUFFIX,browser.sentry-cdn.com
   - DOMAIN-SUFFIX,app.getsentry.com
-!====== Social Trackers =======
   - DOMAIN-SUFFIX,pixel.facebook.com
   - DOMAIN-SUFFIX,an.facebook.com
   - DOMAIN-SUFFIX,static.ads-twitter.com
@@ -79,7 +75,6 @@ payload:
   - DOMAIN-SUFFIX,business-api.tiktok.com
   - DOMAIN-SUFFIX,ads.tiktok.com
   - DOMAIN-SUFFIX,log.byteoversea.com
-!============ Mix =============
   - DOMAIN-SUFFIX,ads.yahoo.com
   - DOMAIN-SUFFIX,analytics.yahoo.com
   - DOMAIN-SUFFIX,geo.yahoo.com
@@ -100,7 +95,6 @@ payload:
   - DOMAIN-SUFFIX,webview.unityads.unity3d.com
   - DOMAIN-SUFFIX,config.unityads.unity3d.com
   - DOMAIN-SUFFIX,adserver.unityads.unity3d.com
-!============ OEMs ============
   - DOMAIN-SUFFIX,iot-eu-logser.realme.com
   - DOMAIN-SUFFIX,iot-logser.realme.com
   - DOMAIN-SUFFIX,bdapi-ads.realmemobile.com
