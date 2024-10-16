@@ -29,7 +29,7 @@ for file in *.abp; do
     sed -i 's/||\(.*\)\^/- "+.\1"/' $txt_file
     sed -i 's/0.0.0.0 \(.*\)/- "\1"/' $txt_file
     sed -i 's/\(.*\)/\1/' $txt_file
-    sed -i 's/\*\[\(.*\)/tai\1/' $txt_file
+    sed -i 's/\/(.*\)/tai\1/' $txt_file
     sed -i 's/^! /# /' $txt_file
     sed -i -e '/^#/d' -e '/^$/d' $txt_file
     sed -i -e '/^!/d' -e '/^$/d' $txt_file
