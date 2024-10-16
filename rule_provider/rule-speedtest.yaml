@@ -24,9 +24,9 @@ payload:
   - DOMAIN-SUFFIX,speed.dler.io
   - DOMAIN-SUFFIX,proof.ovh.net
   - DOMAIN-SUFFIX,broadbandspeedchecker.co.uk
-  - DOMAIN-KEYWORD,keyword:speedtest
-  - DOMAIN-KEYWORD,keyword:speedtestcustom
-  - DOMAIN-KEYWORD,keyword:openspeedtest
-  - DOMAIN-KEYWORD,keyword:speedchecker
-  - DOMAIN-KEYWORD,keyword:iperf
+  - DOMAIN-KEYWORD,speedtest
+  - DOMAIN-KEYWORD,speedtestcustom
+  - DOMAIN-KEYWORD,openspeedtest
+  - DOMAIN-KEYWORD,speedchecker
+  - DOMAIN-KEYWORD,iperf
   - DOMAIN-REGEX,^speed\.(coe|open)\.ad\.[a-z]{2,6}\.prod\.hosts\.ooklaserver\.net$

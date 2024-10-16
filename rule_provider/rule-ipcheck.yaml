@@ -112,18 +112,18 @@ payload:
   - DOMAIN-SUFFIX,test-ipv6.cs.umd.edu
   - DOMAIN-SUFFIX,test-ipv6.csclub.uwaterloo.ca
   - DOMAIN-SUFFIX,ds.metric.gstatic.com
-  - DOMAIN-KEYWORD,keyword:whatismyip
-  - DOMAIN-KEYWORD,keyword:whatismyisp
-  - DOMAIN-KEYWORD,keyword:iplocation
-  - DOMAIN-KEYWORD,keyword:myip
-  - DOMAIN-KEYWORD,keyword:ipapi
-  - DOMAIN-KEYWORD,keyword:ipify
-  - DOMAIN-KEYWORD,keyword:ipstack
-  - DOMAIN-KEYWORD,keyword:ipinfo
-  - DOMAIN-KEYWORD,keyword:db-ip
-  - DOMAIN-KEYWORD,keyword:geoapi
-  - DOMAIN-KEYWORD,keyword:dnsleak
-  - DOMAIN-KEYWORD,keyword:dnschecker
-  - DOMAIN-KEYWORD,keyword:dns-leak
+  - DOMAIN-KEYWORD,whatismyip
+  - DOMAIN-KEYWORD,whatismyisp
+  - DOMAIN-KEYWORD,iplocation
+  - DOMAIN-KEYWORD,myip
+  - DOMAIN-KEYWORD,ipapi
+  - DOMAIN-KEYWORD,ipify
+  - DOMAIN-KEYWORD,ipstack
+  - DOMAIN-KEYWORD,ipinfo
+  - DOMAIN-KEYWORD,db-ip
+  - DOMAIN-KEYWORD,geoapi
+  - DOMAIN-KEYWORD,dnsleak
+  - DOMAIN-KEYWORD,dnschecker
+  - DOMAIN-KEYWORD,dns-leak
   - DOMAIN-SUFFIX,testipv6.cn
   - DOMAIN-SUFFIX,myip.la

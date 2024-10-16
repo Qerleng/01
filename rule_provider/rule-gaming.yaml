@@ -745,36 +745,36 @@ payload:
   - DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz
   - DOMAIN-SUFFIX,steam.cdn.orcon.net.nz
   - DOMAIN-REGEX,^epicgames-download\d\.akamaized\.net$
-  - DOMAIN-KEYWORD,keyword:freefire
-  - DOMAIN-KEYWORD,keyword:ffmax
-  - DOMAIN-KEYWORD,keyword:igamecj
-  - DOMAIN-KEYWORD,keyword:-prod-gen4-app-
-  - DOMAIN-KEYWORD,keyword:-prd-mp-blaze-
-  - DOMAIN-KEYWORD,keyword:fifa23
-  - DOMAIN-KEYWORD,keyword:gcloudcs
-  - DOMAIN-KEYWORD,keyword:gcloudsdk
-  - DOMAIN-KEYWORD,keyword:nagcloudcs
-  - DOMAIN-KEYWORD,keyword:anticheatexpert
-  - DOMAIN-KEYWORD,keyword:gcloud
-  - DOMAIN-KEYWORD,keyword:myqcloud
-  - DOMAIN-KEYWORD,keyword:easebar
-  - DOMAIN-KEYWORD,keyword:netease
-  - DOMAIN-KEYWORD,keyword:yostar
-  - DOMAIN-KEYWORD,keyword:mgapex
-  - DOMAIN-KEYWORD,keyword:devmgapex
-  - DOMAIN-KEYWORD,keyword:konami
-  - DOMAIN-KEYWORD,keyword:growtopia
-  - DOMAIN-KEYWORD,keyword:codm
-  - DOMAIN-KEYWORD,keyword:kgid
-  - DOMAIN-KEYWORD,keyword:aovtv
-  - DOMAIN-KEYWORD,keyword:hok
-  - DOMAIN-KEYWORD,keyword:globalconnetct
-  - DOMAIN-KEYWORD,keyword:sgameglobal
-  - DOMAIN-KEYWORD,keyword:asb
-  - DOMAIN-KEYWORD,keyword:asbpush
-  - DOMAIN-KEYWORD,keyword:asobimo
-  - DOMAIN-KEYWORD,keyword:iruna
-  - DOMAIN-KEYWORD,keyword:toram
+  - DOMAIN-KEYWORD,freefire
+  - DOMAIN-KEYWORD,ffmax
+  - DOMAIN-KEYWORD,igamecj
+  - DOMAIN-KEYWORD,-prod-gen4-app-
+  - DOMAIN-KEYWORD,-prd-mp-blaze-
+  - DOMAIN-KEYWORD,fifa23
+  - DOMAIN-KEYWORD,gcloudcs
+  - DOMAIN-KEYWORD,gcloudsdk
+  - DOMAIN-KEYWORD,nagcloudcs
+  - DOMAIN-KEYWORD,anticheatexpert
+  - DOMAIN-KEYWORD,gcloud
+  - DOMAIN-KEYWORD,myqcloud
+  - DOMAIN-KEYWORD,easebar
+  - DOMAIN-KEYWORD,netease
+  - DOMAIN-KEYWORD,yostar
+  - DOMAIN-KEYWORD,mgapex
+  - DOMAIN-KEYWORD,devmgapex
+  - DOMAIN-KEYWORD,konami
+  - DOMAIN-KEYWORD,growtopia
+  - DOMAIN-KEYWORD,codm
+  - DOMAIN-KEYWORD,kgid
+  - DOMAIN-KEYWORD,aovtv
+  - DOMAIN-KEYWORD,hok
+  - DOMAIN-KEYWORD,globalconnetct
+  - DOMAIN-KEYWORD,sgameglobal
+  - DOMAIN-KEYWORD,asb
+  - DOMAIN-KEYWORD,asbpush
+  - DOMAIN-KEYWORD,asobimo
+  - DOMAIN-KEYWORD,iruna
+  - DOMAIN-KEYWORD,toram
   - DOMAIN-SUFFIX,csgo.wmsj.cn
   - DOMAIN-SUFFIX,dota2.wmsj.cn
   - DOMAIN-SUFFIX,wmsjsteam.com

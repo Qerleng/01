@@ -184,7 +184,7 @@ payload:
   - DOMAIN-SUFFIX,zoom.com.cn
   - DOMAIN-SUFFIX,webex.co.in
   - DOMAIN-SUFFIX,webex.co.it
-  - DOMAIN-KEYWORD,keyword:skype
+  - DOMAIN-KEYWORD,skype
   - DOMAIN-SUFFIX,cisco.cn
   - DOMAIN-SUFFIX,cisco.com.cn
   - DOMAIN-SUFFIX,network-auth.cn

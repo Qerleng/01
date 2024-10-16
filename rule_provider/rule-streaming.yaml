@@ -654,17 +654,17 @@ payload:
   - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net
   - DOMAIN-SUFFIX,youtube-ui.l.google.com
   - DOMAIN-REGEX,^[0-9]+vod-adaptive\.akamaized\.net$
-  - DOMAIN-KEYWORD,keyword:bbcfmt
-  - DOMAIN-KEYWORD,keyword:japonx
-  - DOMAIN-KEYWORD,keyword:japronx
-  - DOMAIN-KEYWORD,keyword:joox
-  - DOMAIN-KEYWORD,keyword:jooxweb-api
-  - DOMAIN-KEYWORD,keyword:animepahe
-  - DOMAIN-KEYWORD,keyword:gogoplay
-  - DOMAIN-KEYWORD,keyword:gogoanime
-  - DOMAIN-KEYWORD,keyword:9anime
-  - DOMAIN-KEYWORD,keyword:anoboy
-  - DOMAIN-KEYWORD,keyword:likee
+  - DOMAIN-KEYWORD,bbcfmt
+  - DOMAIN-KEYWORD,japonx
+  - DOMAIN-KEYWORD,japronx
+  - DOMAIN-KEYWORD,joox
+  - DOMAIN-KEYWORD,jooxweb-api
+  - DOMAIN-KEYWORD,animepahe
+  - DOMAIN-KEYWORD,gogoplay
+  - DOMAIN-KEYWORD,gogoanime
+  - DOMAIN-KEYWORD,9anime
+  - DOMAIN-KEYWORD,anoboy
+  - DOMAIN-KEYWORD,likee
   - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-SUFFIX,amazonprimevideo.cn
   - DOMAIN-SUFFIX,amazonprimevideo.com.cn
