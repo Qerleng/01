@@ -1,15 +1,14 @@
 #!/bin/bash
 
-# curl -s -L https://nsfw.oisd.nl -o oisd_nsfw.abp
-curl -s -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt -o oisd_small.abp
-curl -s -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt -o oisd_big.abp
-curl -s -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_34.txt -o HaGeZi.abp
-curl -s -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_22.txt -o ABPindo.abp
-curl -s -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt -o AdGuard.abp
-curl -s -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt -o AWAvenue.abp
-curl -s -L https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock -o D3ward.abp
-curl -s -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt -o Malicious.abp
-
+curl -sS -L https://nsfw.oisd.nl -o oisd_nsfw.abp
+curl -sS -L https://small.oisd.nl -o oisd_small.abp
+curl -sS -L https://big.oisd.nl -o oisd_big.abp
+curl -sS -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_34.txt -o HaGeZi.abp
+curl -sS -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_22.txt -o ABPindo.abp
+curl -sS -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt -o AdGuard.abp
+curl -sS -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt -o AWAvenue.abp
+curl -sS -L https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock -o D3ward.abp
+curl -sS -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt -o Malicious.abp
 
 for file in tools/*; do
     filename=$(basename "$file")
