@@ -66,8 +66,8 @@ for file in ./rule/geo/*; do
                 echo "- '${line#regexp:}'" >> "$output_file2"
                 ;;
             keyword:*)
-                echo "  - DOMAIN-KEYWORD,${line#keyward:}" >> "$output_file"
-                echo "- '+.${line#keyward:}'" >> "$output_file2"
+                echo "  - DOMAIN-KEYWORD,${line#keyword:}" >> "$output_file"
+                echo "- '+.${line#keyword:}'" >> "$output_file2"
                 ;;
             full:*)
                 echo "  - DOMAIN,${line#full:}" >> "$output_file"
