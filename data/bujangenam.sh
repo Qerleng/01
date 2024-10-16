@@ -55,11 +55,13 @@ for file in *.abp; do
     echo "$yaml_file"
     echo "$json_file"
     echo "$srs_file"
+    echo "$mrs_file"
 
     mv "${file%.*}.txt" Ads/
     mv "${file%.*}.json" Ads/
     mv "${file%.*}.srs" Ads/
     mv "${file%.*}.yaml" Ads/
+    mv "${file%.*}.mrs" Ads/
     mv "$file" Ads/
     
 done
