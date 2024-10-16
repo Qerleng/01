@@ -50,7 +50,7 @@ for file in *.abp; do
 
     # yaml ==>> json srs
   #  jq -R 'select(test("^  - DOMAIN-SUFFIX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_suffix": . }] }' > $json_file
-    (cd Ads && sing-box rule-set convert $file $json_file )
+    sing-box rule-set convert $file
     sing-box rule-set compile $json_file
 
     echo "$txt_file"
