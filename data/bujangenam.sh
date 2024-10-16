@@ -41,7 +41,7 @@ for file in *.abp; do
     echo "payload:" > $yaml_file && cat $file >> $yaml_file
     sed -i 's/||\(.*\)\^/  - DOMAIN-SUFFIX,\1/' $yaml_file
     sed -i 's/0.0.0.0 \(.*\)/  - DOMAIN-SUFFIX,\1/' $yaml_file
-    sed -i 's/\[\(.*\)\]/\#1/' $yaml_file
+    sed -i 's/\[\(.*\)\]/\1/' $yaml_file
     sed -i 's/^! /# /' $yaml_file
     sed -i -e '/^#/d' -e '/^$/d' $yaml_file
     sed -i -e '/^!/d' -e '/^$/d' $yaml_file
@@ -59,6 +59,7 @@ for file in *.abp; do
     mv -if "${file%.*}.json" Ads/
     mv -if "${file%.*}.srs" Ads/
     mv -if "${file%.*}.yaml" Ads/
+    mv -if "${file%.*}.mrs" Ads/
     mv "$file" Ads/
     
 done
