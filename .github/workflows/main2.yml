@@ -18,7 +18,7 @@ jobs:
 
       - name: 💩 Build 💩
         run: |
-          bash data/0.sh && bash data/01.sh && bash data/convert.sh
+          bash data/0.sh && bash data/01.sh && bash data/02.sh
           mkdir -p trash
           mv "${file%.*}.txt" trash/
           mv "${file%.*}.mrs" trash/
