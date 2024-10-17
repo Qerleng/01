@@ -10,22 +10,17 @@ for file in *.yaml; do
     yaml_file="${filename%.*}.yaml"
     mrs_file="${filename%.*}.mrs"
     category=$(echo "$txt_file")
-    output_file="${category%.*}.txt"
     echo $txt_file && cat $file >> $txt_file
     sed -i 's/- DOMAIN-SUFFIX,\(.*\)/- "+.\1"/' $txt_file
     sed -i 's/- DOMAIN,\(.*\)/- "\1"/' $txt_file
     sed -i 's/- DOMAIN-KEYWORD,\(.*\)/- "\1"/' $txt_file
     sed -i 's/- DST-PORT,\(.*\)//' $txt_file
     sed -i 's/- DOMAIN-REGEX,\(.*\)/- "\1"/' $txt_file
-    sed -i -e '/^#/d' -e '/^$/d' $txt_file
-    sed -i -e '/^!/d' -e '/^$/d' $txt_file
-    (mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs) 
+    (mihomo convert-ruleset domain yaml $category ${category%.*}.mrs) 
 
     # abp ==>> yaml ~ Classical
     echo $yaml_file && cat $file >> $yaml_file
     sed -i 's/-\(.*\)/  -\1/' $yaml_file
-    sed -i -e '/^#/d' -e '/^$/d' $yaml_file
-    sed -i -e '/^!/d' -e '/^$/d' $yaml_file
 
     # yaml ==>> json srs
     jq -R 'select(test("^  - DOMAIN-SUFFIX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_suffix": . }] }' > $json_file
