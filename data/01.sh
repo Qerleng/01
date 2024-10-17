@@ -21,9 +21,15 @@ for file in *.yaml; do
     sed -i -e '/^!/d' -e '/^$/d' $txt_file
     (mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs) 
 
+    # abp ==>> yaml ~ Classical
+    echo $yaml_file && cat $file >> $yaml_file
+    sed -i 's/-\(.*\)/  -\1/' $yaml_file
+    sed -i -e '/^#/d' -e '/^$/d' $yaml_file
+    sed -i -e '/^!/d' -e '/^$/d' $yaml_file
+
     # yaml ==>> json srs
-    jq -R 'select(test("^- DOMAIN-SUFFIX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_suffix": . }] }' > $json_file
-    jq -R 'select(test("^- DOMAIN-REGEX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_regex": . }] }' > $json_file
+    jq -R 'select(test("^  - DOMAIN-SUFFIX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_suffix": . }] }' > $json_file
+    jq -R 'select(test("^  - DOMAIN-REGEX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_regex": . }] }' > $json_file
     sing-box rule-set compile $json_file
 
     mkdir -p trash
