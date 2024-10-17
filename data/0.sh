@@ -1,5 +1,5 @@
 echo "Downloading oisd full source list..."
-curl -sSf -o oisd-full.txt https://small.oisd.nl
+curl -sSf -o oisd-full.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
 python3 - <<EOF
 import re
 import yaml
