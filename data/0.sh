@@ -9,14 +9,14 @@ with open("oisd-full.txt", "r") as file:
 
 domains = []
 payload_lines2 = re.findall(r"\|\|(.+)\^", input_text)
-payload_lines = re.findall(r"/(.+)/", input_text)
+payload_lines = re.findall(r"(.+)", input_text)
 mains = payload_lines + payload_lines2
 for line in mains:
   if line:
     domain = line.split("$")[0].strip()
-  if any(prefix in domain for prefix in ("/", "autodesk", "github", "tiktok", "pinterest", "pinimg", "twitter", "linkedin", "telegram", "facebook", "line", "instagram", "whatsapp")):
+  if any(prefix in domain for prefix in ("/", "#", "!", "autodesk", "github", "tiktok", "pinterest", "pinimg", "twitter", "linkedin", "telegram", "facebook", "line", "instagram", "whatsapp")):
     continue
-  elif any(prefix in domain for prefix in ("[", "*")):
+  elif any(prefix in domain for prefix in ("[", "*", "(", "^")):
     domains.append("DOMAIN-REGEX," + domain)
   else:
     domains.append("DOMAIN," + domain)
