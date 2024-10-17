@@ -31,7 +31,7 @@ yaml_output = yaml.dump(data, sort_keys=False, default_flow_style=False)
 
 formatted_yaml = re.sub(r"(\s+-) '(.+)'", r"\1 \2", yaml_output)
 
-with open("AWAvenue.txt", "w") as file:
+with open("AWAvenue.yaml", "w") as file:
   file.write(formatted_yaml)
 EOF
 # mv -if oisd-full.txt 
