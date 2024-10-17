@@ -19,6 +19,11 @@ jobs:
       - name: 💩 Build 💩
         run: |
           bash data/0.sh && bash data/01.sh && bash data/convert.sh
+          mkdir -p trash
+          mv "${file%.*}.txt" trash/
+          mv "${file%.*}.mrs" trash/
+          mv "${file%.*}.yaml" trash/
+          mv "${file%.*}.abp" trash/
 
       - uses: MyAlbum/purge-cache@v2
         with:
