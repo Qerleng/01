@@ -1,3 +1,8 @@
+for file in tools/*; do
+    filename=$(basename "$file")
+    command -v $filename &> /dev/null || { cp ./tools/$filename /usr/local/bin/ && chmod +x /usr/local/bin/$filename; }
+done
+
 # 处理文件
 list=($(ls ./))
 for ((i = 0; i < ${#list[@]}; i++)); do
@@ -103,5 +108,5 @@ for ((i = 0; i < ${#list[@]}; i++)); do
 	rm -rf ${list[i]}
 
  	# 编译成 .srs 格式
-	./sing-box rule-set compile --output ${list[i]}.srs ${list[i]}.json
+	sing-box rule-set compile --output ${list[i]}.srs ${list[i]}.json
 done
