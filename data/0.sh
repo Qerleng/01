@@ -19,7 +19,7 @@ for line in mains:
   elif any(prefix in domain for prefix in ("[", "/", "*", "^")):
     domains.append("DOMAIN-REGEX," + domain)
   else:
-    domains.append("DOMAIN," + domain)
+    domains.append("DOMAIN-SUFFIX," + domain)
 
 payload = [f'{line}' for line in domains]
 
