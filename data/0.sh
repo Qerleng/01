@@ -1,10 +1,10 @@
 echo "Downloading oisd full source list..."
-curl -sSf -o AWAvenue.abp https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt
+curl -sSf -o AWAvenue.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt
 python3 - <<EOF
 import re
 import yaml
 
-with open("AWAvenue.abp", "r") as file:
+with open("AWAvenue.txt", "r") as file:
   input_text = file.read()
 
 domains = []
@@ -31,7 +31,7 @@ yaml_output = yaml.dump(data, sort_keys=False, default_flow_style=False)
 
 formatted_yaml = re.sub(r"(\s+-) '(.+)'", r"\1 \2", yaml_output)
 
-with open("AWAvenue.txt", "w") as file:
+with open("AWAvenue.yaml", "w") as file:
   file.write(formatted_yaml)
 EOF
 # mv -if oisd-full.txt 
