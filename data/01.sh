@@ -23,8 +23,8 @@ for file in *.yaml; do
     sed -i 's/-\(.*\)/  -\1/' $yaml_file
 
     # yaml ==>> json srs
-    jq -R 'select(test("^  - DOMAIN-SUFFIX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_suffix": . }] }' > $json_file
-    jq -R 'select(test("^  - DOMAIN-REGEX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_regex": . }] }' > $json_file
+    echo jq -R 'select(test("^  - DOMAIN-SUFFIX")) | split(",")[1]' $yaml_file | 0.yaml
+    echo jq -R 'select(test("^  - DOMAIN-REGEX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_regex": . }] }' > $json_file
     sing-box rule-set compile $json_file
 
     mkdir -p trash
