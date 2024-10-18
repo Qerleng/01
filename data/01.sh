@@ -42,7 +42,8 @@ for file in *.yaml; do
             )
         ]
     }' < $yaml_file > $json_file && \
-    sing-box rule-set format $json_file -w &
+    sing-box rule-set format $json_file -w && \
+    sing-box rule-set compile $json_file &
 
 
 done
