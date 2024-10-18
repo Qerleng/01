@@ -26,7 +26,7 @@ if [ $# -lt 1 ]; then
     exit 1
 fi
 
-for input_file in "$@"; do
+for input_file in "./*.yaml"; do
     [ ! -f "$input_file" ] && { echo "File not found: $input_file"; return 1; }
 
     output_file="${input_file%.yaml}.json"
