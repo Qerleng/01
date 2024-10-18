@@ -35,13 +35,13 @@ fbwat.ch
 m-freeway.com
 parse.com
 wit.ai
-keywordm.me
+keyword:m.me
 messenger.com
 msngr.com
   
   
   # Instagram
-keywordinstagram
+keyword:instagram
   
   
   # LINE
@@ -53,8 +53,8 @@ line.me
 linecorp.com
 naver.jp
 nhncorp.jp
-keywordline.me
-keywordnaver
+keyword:line.me
+keyword:naver
 line.naver.jp
   
   
@@ -78,8 +78,8 @@ telesco.pe
 tg.dev
 tx.me
 usercontent.dev
-keywordnicegram
-keywordtelegram
+keyword:nicegram
+keyword:telegram
   - IP-CIDR,91.108.56.0/22
   - IP-CIDR,91.108.4.0/22
   - IP-CIDR,91.108.8.0/22
@@ -92,32 +92,32 @@ keywordtelegram
   
   
   # TikTok
-keyword-tiktok.byteoversea.com
+keyword:-tiktok.byteoversea.com
 byteoversea.net
 ibytedtos.com
 tiktok.com
 tik-tokapi.com
-keywordtiktokcdn.com
-keywordtiktokv.com
-keyword-tiktokcdn-com
-keyword-tiktok.
-keyword-tiktok-
-keywordtiktok-
-keywordtiktokcdn-
-keywordtiktokcdn
-keyword-tt.byteimg.com
-keyword-tt-ipv6.byteimg.com
-keyword-hs.pstatp.com
-keyword-tos.pstatp.com
-keyword-mus.pstatp.com
+keyword:tiktokcdn.com
+keyword:tiktokv.com
+keyword:-tiktokcdn-com
+keyword:-tiktok.
+keyword:-tiktok-
+keyword:tiktok-
+keyword:tiktokcdn-
+keyword:tiktokcdn
+keyword:-tt.byteimg.com
+keyword:-tt-ipv6.byteimg.com
+keyword:-hs.pstatp.com
+keyword:-tos.pstatp.com
+keyword:-mus.pstatp.com
 flive.pstatp.com
 byteimg.com
 ibyteimg.com
 ipstatp.com
 sgpstatp.com
 snssdk.com
-keywordtlivecdn.com
-keywordttlivecdn.com
+keyword:tlivecdn.com
+keyword:ttlivecdn.com
 tiktokd.org
 ttoversea.net
 ttoverseaus.net
@@ -137,14 +137,14 @@ tiktokcdn-us.com
 tiktokcdn.com
 tiktokd.net
 tiktokv.com
-keywordmusical.ly
-keywordtiktok
+keyword:musical.ly
+keyword:tiktok
   
   
   # Twitter
-keywordtwitter
-keywordtwimg
-keywordtwitpic
+keyword:twitter
+keyword:twimg
+keyword:twitpic
 pscp.tv
 periscope.tv
 t.co

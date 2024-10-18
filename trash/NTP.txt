@@ -4,7 +4,7 @@ regexp:time[1-7].*.com
 regexp:ntp[1-7].*.com
 regexp:time.*.com
 regexp:ntp.*.com
-keywordtime
-keywordntp
+keyword:time
+keyword:ntp
 ntp.org
 full:time.windows.com

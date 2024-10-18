@@ -1,7 +1,7 @@
 payload:
   # Mulai baris ini kebawah bisa di edit/hapus
   #MLBB
-keywordmobilelegends
+keyword:mobilelegends
 mobilelegends.com
 mobilelegends.ca
 mobilelegends.cn
@@ -11,7 +11,7 @@ mobilelegends.kr
 mobilelegends.net
 mobilelegends.org
 mobilelegends.com.cn
-keywordyoungjoygame
+keyword:youngjoygame
 ml.youngjoygame.com
 youngjoygame.com
 yuanzhanapp.com
@@ -20,7 +20,7 @@ byteoversea.com
 log-va.bytegsdk.com
 full:tnc16-alisg.isnssdk.com
   # FreeFire
-keywordfreefire
+keyword:freefire
   # PUBG
 pubgmobile.com
 igamecj.com
@@ -386,15 +386,15 @@ mgapex.com
 devmgapex.com
 listdl.com
 awsglobalaccelerator.com
-keywordmgapex
-keyworddevmgapex
+keyword:mgapex
+keyword:devmgapex
 konami.net
-keywordkonami
+keyword:konami
 applilink.jp
 growtopia1.com
 growtopia2.com
 growtopiagame.com
-keywordgrowtopia
+keyword:growtopia
 genshinimpact.com
 honkaiimpact3.com
 honkaistarrail.com
@@ -403,6 +403,6 @@ hoyolab.com
 hoyoverse.com
 n0vadesktop.com
 mihoyo.com
-keywordgenshinimpact
-keywordhonkaiimpact3
-keywordmihoyo
+keyword:genshinimpact
+keyword:honkaiimpact3
+keyword:mihoyo

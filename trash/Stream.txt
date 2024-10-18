@@ -1,7 +1,7 @@
 payload:
   # FB_Video
-keywordxx.fbcdn.net
-keywordfna.fbcdn.net
+keyword:xx.fbcdn.net
+keyword:fna.fbcdn.net
   
   
   # Iflix & WeTV & RCTI+
@@ -16,9 +16,9 @@ wetv.vip
 wetvinfo.com
 dens.tv
 slivcdn.com
-keywordmncplus
-keywordmncnow
-keywordrctiplus
+keyword:mncplus
+keyword:mncnow
+keyword:rctiplus
   
   
   #  spotify
@@ -38,24 +38,24 @@ spotifycharts.com
 spotifycodes.com
 spotifyforbrands.com
 spotifyjobs.com
-keyword-spotify-com
-keywordspotify.com
+keyword:-spotify-com
+keyword:spotify.com
   
   
   # VIDIO
 vidio.com
 vidiocdn.com
 vid.id
-keyword-vidio-com.akamaized.net
+keyword:-vidio-com.akamaized.net
 live-production.secureswiftcontent.com
 secureswiftcontent.com
-keyword-vidio.akamaized.net
+keyword:-vidio.akamaized.net
 vidio.com.edgekey.net
 vidio.com.edgesuite.net
   
   
   # Premiere Video
-keywordadcs-
+keyword:adcs-
   #- DOMAIN,adcs-ap.myappsget.com
   #- DOMAIN,adcs-ue.myappsget.com
   #- DOMAIN,api.youngle.tech
@@ -86,7 +86,7 @@ wspic.vod.nimo.tv
 follow.nimo.tv
 follow-cf-dynamic.nimo.tv
 statwup.nimo.tv
-keywordnimo.tv
+keyword:nimo.tv
   
   
   # Discovery Plus
@@ -106,7 +106,7 @@ abema.io
 abema.tv
 ameba.jp
 hayabusa.io
-keywordabematv.akamaized.net
+keyword:abematv.akamaized.net
   
   
   # APPLE API
@@ -129,7 +129,7 @@ tv.apple.com
   
   
   # BBC I-PLAYER
-keywordbbcfmt
+keyword:bbcfmt
 full:aod-dash-uk-live.akamaized.net
 full:aod-hls-uk-live.akamaized.net
 full:vod-dash-uk-live.akamaized.net
@@ -174,8 +174,8 @@ yb.uncn.jp
   
   
   # Japonx
-keywordjaponx
-keywordjapronx
+keyword:japonx
+keyword:japronx
 japonx.com
 japonx.tv
 japonx.net
@@ -188,8 +188,8 @@ japronx.vip
   
   # JOOX
 joox.com
-keywordjooxweb-api
-keywordjoox
+keyword:jooxweb-api
+keyword:joox
   
   
   # KK-BOX
@@ -237,47 +237,47 @@ savagebeast.com
   # Soundcloud
 sndcdn.com
 soundcloud.com
-keywordsoundcloud
-keywordresso
+keyword:soundcloud
+keyword:resso
   
   
   # Anime
-keywordanoboy
-keywordneonime
-keywordgomunime
-keyword9anime.cz
-keyword9anime.id
-keyword9anime
-keyword9anime
-keywordanimedao-tv
-keywordcrunchyroll
-keywordfunimation
-keywordgogo-load
-keywordgogoanime
-keywordgogoanime
-keywordgogocdn
-keywordhidive
-keywordvrv
-keywordanimekayo
-keywordkayoanime
-keyword9anime-tv
-keywordkissanime
-keywordanimedao
-keywordanimelab
-keywordanime-planet
-keywordviz
-keywordanimeheaven
-keywordanimefreak
-keywordcontv
-keywordasiancrush
-keywordanimetake
-keywordaniplus-asia
-keywordtubi
-keywordmidnightpulpmidnightpul
-keywordanimebee
-keywordgogoplay
-keywordgogoanime
-keyword9anime
+keyword:anoboy
+keyword:neonime
+keyword:gomunime
+keyword:9anime.cz
+keyword:9anime.id
+keyword:9anime
+keyword:9anime
+keyword:animedao-tv
+keyword:crunchyroll
+keyword:funimation
+keyword:gogo-load
+keyword:gogoanime
+keyword:gogoanime
+keyword:gogocdn
+keyword:hidive
+keyword:vrv
+keyword:animekayo
+keyword:kayoanime
+keyword:9anime-tv
+keyword:kissanime
+keyword:animedao
+keyword:animelab
+keyword:anime-planet
+keyword:viz
+keyword:animeheaven
+keyword:animefreak
+keyword:contv
+keyword:asiancrush
+keyword:animetake
+keyword:aniplus-asia
+keyword:tubi
+keyword:midnightpulpmidnightpul
+keyword:animebee
+keyword:gogoplay
+keyword:gogoanime
+keyword:9anime
   
   
   #  NICONICONIC
@@ -429,15 +429,15 @@ cube.tv
 bigo.sg
 bigo.tv
 hzmk.site
-keywordbigo
+keyword:bigo
   
   
   # YOUTUBE
-keywordyoutube
-keywordgooglevideo
-keywordgvt2
-keywordyoutu
-keywordytimg
+keyword:youtube
+keyword:googlevideo
+keyword:gvt2
+keyword:youtu
+keyword:ytimg
 ggpht.cn
 ggpht.com
 googlevideo.com
@@ -637,9 +637,9 @@ live.streamtheworld.com
 zeno.fm
 radiojar.com
 cloudmu.id
-keywordradio
-keywordstream
-keywordstreeemer
+keyword:radio
+keyword:stream
+keyword:streeemer
   
   
   

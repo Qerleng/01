@@ -118,21 +118,21 @@ doku.com
 shopeepay.co.id
 grab.com
 grabtaxi.com
-keywordgojek
-keywordgobiz
-keywordovo
-keyworddana
-keywordlinkaja
-keywordoctoclicks
-keywordi-saku
-keyworddoku
-keywordshopeepay
-keywordgrab
-keywordgrabtaxi
+keyword:gojek
+keyword:gobiz
+keyword:ovo
+keyword:dana
+keyword:linkaja
+keyword:octoclicks
+keyword:i-saku
+keyword:doku
+keyword:shopeepay
+keyword:grab
+keyword:grabtaxi
   
   # Go-Pay [Go-Jek]
-keywordgopay-topup
-keywordgopayapi
+keyword:gopay-topup
+keyword:gopayapi
   
   # LinkAja
 linkaja.com
@@ -145,10 +145,10 @@ full:auth.split.io
 full:cdn.branch.io
 full:api2.branch.io
 aliapp.org
-keyword-ac.alipay.com
-keyword-sea.alipay.com
-keywordgw-dana.ebuckler
-keyworddana.threatcast
+keyword:-ac.alipay.com
+keyword:-sea.alipay.com
+keyword:gw-dana.ebuckler
+keyword:dana.threatcast
 innov8.id
   
   # Doku
@@ -170,15 +170,15 @@ bankmuamalat.co.id
   
   # Maxim
 taxsee.org
-keywordtaxsee
+keyword:taxsee
 taximaxim.com
-keywordtaximaxim
+keyword:taximaxim
   
   # Indriver
 indrive.tech
-keywordindrive
+keyword:indrive
 indriverapp.com
-keywordindriverapp
+keyword:indriverapp
   
   # PLN-Mobile
 pln.co.id
@@ -195,32 +195,32 @@ ralali.com
 bhinneka.com
 jd.id
 zalora.co.id
-keywordtokopedia
-keywordlazada
-keywordblibli
-keywordorami
-keywordralali
-keywordbhinneka
-keywordzalora
-keywordbukalapak
-keywordshopee
+keyword:tokopedia
+keyword:lazada
+keyword:blibli
+keyword:orami
+keyword:ralali
+keyword:bhinneka
+keyword:zalora
+keyword:bukalapak
+keyword:shopee
   
   # Shopee mall, rincian pesanan
-keywordmall.shopee
+keyword:mall.shopee
   
   # ShopeePay
-keywordwallet.airpay
-keywordgw.airpay
+keyword:wallet.airpay
+keyword:gw.airpay
   
   # Shopee SPinjam dan SPayLater
-keywordshopeekredit
-keywordcdn.scredit
+keyword:shopeekredit
+keyword:cdn.scredit
   
   # Shopee login, logout and checkout
-keywordapi.shopee
-keywordc-api-bit.shopeemobile
-keywordcf.shopee
-keywordfrd.shopee
+keyword:api.shopee
+keyword:c-api-bit.shopeemobile
+keyword:cf.shopee
+keyword:frd.shopee
 shp.ee
   # Others Online Shop
 jualan.me
@@ -230,4 +230,4 @@ bukaolshop.net
   # Xl
 full:xlaxiata-resources.digital-cloud-sin1.medallia.com
 medallia.com
-keywordmedallia
+keyword:medallia
