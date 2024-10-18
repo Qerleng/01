@@ -1,5 +1,9 @@
-curl -s -LO https://github.com/Qerleng/00/raw/main/rule_provider/FCM.yaml
-curl -s -LO https://github.com/Qerleng/00/raw/main/rule_provider/NTP.yaml
+curl -LO https://github.com/Qerleng/00/raw/main/rule_provider/FCM.yaml
+curl -LO https://github.com/Qerleng/00/raw/main/rule_provider/NTP.yaml
+curl -LO https://github.com/Qerleng/00/raw/main/rule_provider/Sosmed.yaml
+curl -LO https://github.com/Qerleng/00/raw/main/rule_provider/Stream.yaml
+curl -LO https://github.com/Qerleng/00/raw/main/rule_provider/E-Banking.yaml
+curl -LO https://github.com/Qerleng/00/raw/main/rule_provider/gaming.yaml
 
 
 for file in tools/*; do
