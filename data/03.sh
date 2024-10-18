@@ -21,14 +21,7 @@ transform_rules() {
     }' "$input_file" > "$output_file"
 }
 
-if [ $# -lt 1 ]; then
-    echo "Usage: $0 <input_yaml_file1> <input_yaml_file2> ..."
-    exit 1
-fi
-
 for input_file in "./*.yaml"; do
-    [ ! -f "$input_file" ] && { echo "File not found: $input_file"; return 1; }
-
     output_file="${input_file%.yaml}.json"
     transform_rules && \
     sing-box rule-set format "$output_file" -w && \
