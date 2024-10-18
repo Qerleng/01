@@ -1,4 +1,18 @@
 payload:
+  - DOMAIN-REGEX,/.*\.*\.shouji\.sogou\.com/
+  - DOMAIN-REGEX,/.*\.[a-zA-Z0-9.-]skwai\.com/
+  - DOMAIN-REGEX,/.*\.a\.market\.xiaomi\.com/
+  - DOMAIN-REGEX,/.*\.data\.hicloud\.com/
+  - DOMAIN-REGEX,/.*\.log\.aliyuncs\.com/
+  - DOMAIN-REGEX,/[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*\.byteimg\.com/
+  - DOMAIN-REGEX,/[a-zA-Z0-9.-]*-ad\.sm\.cn/
+  - DOMAIN-REGEX,/[a-zA-Z0-9.-]*-ad\.video\.yximgs\.com/
+  - DOMAIN-REGEX,/[a-zA-Z0-9.-]*-ad\.wtzw\.com/
+  - DOMAIN-REGEX,/[a-zA-Z0-9.-]*-be-pack-sign\.pglstatp-toutiao\.com/
+  - DOMAIN-REGEX,/[a-zA-Z0-9.-]*-lm\.adkwai\.com/
+  - DOMAIN-REGEX,/[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*\.zijieapi\.com/
+  - DOMAIN-REGEX,/[a-zA-Z0-9.-]*-normal\.zijieapi\.com/
+  - DOMAIN-REGEX,/cloudinject[a-zA-Z0-9.-]*-dev\.*\.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*\.amazonaws\.com/
   - DOMAIN-SUFFIX,1010pic.com
   - DOMAIN-SUFFIX,16dd-advertise-1252317822.file.myqcloud.com
   - DOMAIN-SUFFIX,16dd-advertise-1252317822.image.myqcloud.com
@@ -44,12 +58,7 @@ payload:
   - DOMAIN-SUFFIX,adlink-api.huan.tv
   - DOMAIN-SUFFIX,adm.funshion.com
   - DOMAIN-SUFFIX,ads-api-o.api.leiniao.com
-  - DOMAIN-SUFFIX,ads-api.tiktok.com
-  - DOMAIN-SUFFIX,ads-api.twitter.com
   - DOMAIN-SUFFIX,ads-img-qc.xhscdn.com
-  - DOMAIN-SUFFIX,ads-jp.tiktok.com
-  - DOMAIN-SUFFIX,ads-sg.tiktok.com
-  - DOMAIN-SUFFIX,ads-us.tiktok.com
   - DOMAIN-SUFFIX,ads-video-al.xhscdn.com
   - DOMAIN-SUFFIX,ads-video-qc.xhscdn.com
   - DOMAIN-SUFFIX,ads.95516.com
@@ -58,13 +67,10 @@ payload:
   - DOMAIN-SUFFIX,ads.huan.tv
   - DOMAIN-SUFFIX,ads.huantest.com
   - DOMAIN-SUFFIX,ads.icloseli.cn
-  - DOMAIN-SUFFIX,ads.linkedin.com
   - DOMAIN-SUFFIX,ads.music.126.net
   - DOMAIN-SUFFIX,ads.oppomobile.com
-  - DOMAIN-SUFFIX,ads.pinterest.com
   - DOMAIN-SUFFIX,ads.servebom.com
   - DOMAIN-SUFFIX,ads.service.kugou.com
-  - DOMAIN-SUFFIX,ads.tiktok.com
   - DOMAIN-SUFFIX,ads.v3mh.com
   - DOMAIN-SUFFIX,ads.youtube.com
   - DOMAIN-SUFFIX,ads3-normal-hl.zijieapi.com
@@ -123,18 +129,14 @@ payload:
   - DOMAIN-SUFFIX,alog.umeng.com
   - DOMAIN-SUFFIX,als.baidu.com
   - DOMAIN-SUFFIX,amdcopen.m.taobao.com
-  - DOMAIN-SUFFIX,an.facebook.com
   - DOMAIN-SUFFIX,analysis.yozocloud.cn
   - DOMAIN-SUFFIX,analytics-api.samsunghealthcn.com
   - DOMAIN-SUFFIX,analytics.126.net
   - DOMAIN-SUFFIX,analytics.95516.com
   - DOMAIN-SUFFIX,analytics.google.com
-  - DOMAIN-SUFFIX,analytics.pinterest.com
-  - DOMAIN-SUFFIX,analytics.pointdrive.linkedin.com
   - DOMAIN-SUFFIX,analytics.query.yahoo.com
   - DOMAIN-SUFFIX,analytics.rayjump.com
   - DOMAIN-SUFFIX,analytics.s3.amazonaws.com
-  - DOMAIN-SUFFIX,analytics.tiktok.com
   - DOMAIN-SUFFIX,analytics.woozooo.com
   - DOMAIN-SUFFIX,analyticsengine.s3.amazonaws.com
   - DOMAIN-SUFFIX,analyze.lemurbrowser.com
@@ -187,7 +189,6 @@ payload:
   - DOMAIN-SUFFIX,books-analytics-events.apple.com
   - DOMAIN-SUFFIX,bsrv.qq.com
   - DOMAIN-SUFFIX,bugly.qq.com
-  - DOMAIN-SUFFIX,business-api.tiktok.com
   - DOMAIN-SUFFIX,c.bidtoolads.com
   - DOMAIN-SUFFIX,c.evidon.com
   - DOMAIN-SUFFIX,c.gj.qq.com
@@ -344,7 +345,6 @@ payload:
   - DOMAIN-SUFFIX,log.byteoversea.com
   - DOMAIN-SUFFIX,log.fc.yahoo.com
   - DOMAIN-SUFFIX,log.kuwo.cn
-  - DOMAIN-SUFFIX,log.pinterest.com
   - DOMAIN-SUFFIX,log.snssdk.com
   - DOMAIN-SUFFIX,log.stat.kugou.com
   - DOMAIN-SUFFIX,log.tagtic.cn
@@ -367,7 +367,6 @@ payload:
   - DOMAIN-SUFFIX,masdkv6.3g.qq.com
   - DOMAIN-SUFFIX,mazu.m.qq.com
   - DOMAIN-SUFFIX,mbdlog.iqiyi.com
-  - DOMAIN-SUFFIX,metok.sys.miui.com
   - DOMAIN-SUFFIX,metrics.apple.com
   - DOMAIN-SUFFIX,metrics.data.hicloud.com
   - DOMAIN-SUFFIX,metrics.icloud.com
@@ -491,7 +490,6 @@ payload:
   - DOMAIN-SUFFIX,snowflake.qq.com
   - DOMAIN-SUFFIX,stat.dongqiudi.com
   - DOMAIN-SUFFIX,stat.y.qq.com
-  - DOMAIN-SUFFIX,static.ads-twitter.com
   - DOMAIN-SUFFIX,statics.woozooo.com
   - DOMAIN-SUFFIX,stats.qiumibao.com
   - DOMAIN-SUFFIX,stats.wp.com
@@ -605,7 +603,6 @@ payload:
   - DOMAIN-SUFFIX,webstat.qiumibao.com
   - DOMAIN-SUFFIX,webview.unityads.unity3d.com
   - DOMAIN-SUFFIX,widgets.outbrain.com
-  - DOMAIN-SUFFIX,widgets.pinterest.com
   - DOMAIN-SUFFIX,win.gdt.qq.com
   - DOMAIN-SUFFIX,wn.x.jd.com
   - DOMAIN-SUFFIX,ws.sj.qq.com
@@ -629,17 +626,3 @@ payload:
   - DOMAIN-SUFFIX,ykad-gateway.youku.com
   - DOMAIN-SUFFIX,youku-acs.m.taobao.com
   - DOMAIN-SUFFIX,youxi.kugou.com
-/.*\.*\.shouji\.sogou\.com/
-/.*\.[a-zA-Z0-9.-]skwai\.com/
-/.*\.a\.market\.xiaomi\.com/
-/.*\.data\.hicloud\.com/
-/.*\.log\.aliyuncs\.com/
-/[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*\.byteimg\.com/
-/[a-zA-Z0-9.-]*-ad\.sm\.cn/
-/[a-zA-Z0-9.-]*-ad\.video\.yximgs\.com/
-/[a-zA-Z0-9.-]*-ad\.wtzw\.com/
-/[a-zA-Z0-9.-]*-be-pack-sign\.pglstatp-toutiao\.com/
-/[a-zA-Z0-9.-]*-lm\.adkwai\.com/
-/[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*\.zijieapi\.com/
-/[a-zA-Z0-9.-]*-normal\.zijieapi\.com/
-/cloudinject[a-zA-Z0-9.-]*-dev\.*\.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*\.amazonaws\.com/
