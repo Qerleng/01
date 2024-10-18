@@ -47,7 +47,7 @@ for file in *.abp; do
 
     # yaml ==>> json srs
     jq -R 'select(test("^  - DOMAIN-SUFFIX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_suffix": . }] }' > $json_file
-    sing-box rule-set convert "${file%.*}.abp" "${file%.*}.srs"
+    sing-box rule-set convert -t adguard -o "${file%.*}.abp" "${file%.*}.srs"
 
     echo "$txt_file"
     echo "$yaml_file"
