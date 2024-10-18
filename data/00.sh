@@ -22,7 +22,7 @@ for file in *.yaml; do
     echo $txt_file && cat $file >> $txt_file
     sed -i 's/  - DOMAIN-SUFFIX,\(.*\)/\1/' $txt_file
     sed -i 's/  - DOMAIN,\(.*\)/full:\1/' $txt_file
-    sed -i 's/  - DOMAIN-KEYWORD,\(.*\)/keyword\1/' $txt_file
+    sed -i 's/  - DOMAIN-KEYWORD,\(.*\)/keyword:\1/' $txt_file
     sed -i 's/  - DST-PORT,\(.*\)//' $txt_file
     sed -i 's/  - DOMAIN-REGEX,\(.*\)/regexp:\1/' $txt_file
     sed -i 's/\(.*\)/\1/' $txt_file
