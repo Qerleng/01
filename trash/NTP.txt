@@ -1,0 +1,10 @@
+payload:
+  # TIME 
+regexp:time[1-7].*.com
+regexp:ntp[1-7].*.com
+regexp:time.*.com
+regexp:ntp.*.com
+keywordtime
+keywordntp
+ntp.org
+full:time.windows.com
