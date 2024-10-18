@@ -24,7 +24,6 @@ for file in *.yaml; do
     sed -i 's/-\(.*\)/  -\1/' $yaml_file
 
     mv -if "${file%.*}.txt" Ads/
-    mv -if "${file%.*}.yaml" Ads/
     mv -if "${file%.*}.mrs" Ads/
     mv -if "${file%.*}.abp" Ads/
 
@@ -50,5 +49,6 @@ for file in *.yaml; do
     sing-box rule-set compile $json_file
     mv -if "${file%.*}.json" Ads/
     mv -if "${file%.*}.srs" Ads/
+    mv -if "${file%.*}.yaml" Ads/
     
 done
