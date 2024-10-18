@@ -44,7 +44,12 @@ for file in *.yaml; do
     }' < $yaml_file > $json_file 
     sing-box rule-set format $json_file -w
     sing-box rule-set compile $json_file 
-
     
-
+    mv -if "${file%.*}.txt" Ads/
+    mv -if "${file%.*}.json" Ads/
+    mv -if "${file%.*}.srs" Ads/
+    mv -if "${file%.*}.yaml" Ads/
+    mv -if "${file%.*}.mrs" Ads/
+    mv "$file" Ads/
+    
 done
