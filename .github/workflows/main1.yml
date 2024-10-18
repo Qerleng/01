@@ -13,7 +13,7 @@ jobs:
 
       - name: 💩 Build 💩
         run: |
-          chmod +x data/build.sh && data/bujangenam.sh && bash data/bujangenam.sh && data/build.sh  
+          chmod +x data/build.sh && chmod +x data/bujangenam.sh && bash data/bujangenam.sh && data/build.sh  
 
       - name: 💩 Heanginam 💩
         run: |
