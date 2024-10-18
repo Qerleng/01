@@ -26,7 +26,7 @@ for file in *.yaml; do
     mv -if "${file%.*}.txt" Ads/
     mv -if "${file%.*}.yaml" Ads/
     mv -if "${file%.*}.mrs" Ads/
-    mv -if "$file%.*}.abp" Ads/
+    mv -if "${file%.*}.abp" Ads/
 
     jq -nR '{
         version: 1,
