@@ -1,18 +1,19 @@
 payload:
-  - DOMAIN-REGEX,/.*\.*\.shouji\.sogou\.com/
-  - DOMAIN-REGEX,/.*\.[a-zA-Z0-9.-]skwai\.com/
-  - DOMAIN-REGEX,/.*\.a\.market\.xiaomi\.com/
-  - DOMAIN-REGEX,/.*\.data\.hicloud\.com/
-  - DOMAIN-REGEX,/.*\.log\.aliyuncs\.com/
-  - DOMAIN-REGEX,/[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*\.byteimg\.com/
-  - DOMAIN-REGEX,/[a-zA-Z0-9.-]*-ad\.sm\.cn/
-  - DOMAIN-REGEX,/[a-zA-Z0-9.-]*-ad\.video\.yximgs\.com/
-  - DOMAIN-REGEX,/[a-zA-Z0-9.-]*-ad\.wtzw\.com/
-  - DOMAIN-REGEX,/[a-zA-Z0-9.-]*-be-pack-sign\.pglstatp-toutiao\.com/
-  - DOMAIN-REGEX,/[a-zA-Z0-9.-]*-lm\.adkwai\.com/
-  - DOMAIN-REGEX,/[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*\.zijieapi\.com/
-  - DOMAIN-REGEX,/[a-zA-Z0-9.-]*-normal\.zijieapi\.com/
-  - DOMAIN-REGEX,/cloudinject[a-zA-Z0-9.-]*-dev\.*\.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*\.amazonaws\.com/
+  - DOMAIN-REGEX,/awavenue.top
+  - DOMAIN-REGEX,.*\.*\.shouji\.sogou\.com
+  - DOMAIN-REGEX,.*\.[a-zA-Z0-9.-]skwai\.com
+  - DOMAIN-REGEX,.*\.a\.market\.xiaomi\.com
+  - DOMAIN-REGEX,.*\.data\.hicloud\.com
+  - DOMAIN-REGEX,.*\.log\.aliyuncs\.com
+  - DOMAIN-REGEX,[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*\.byteimg\.com
+  - DOMAIN-REGEX,[a-zA-Z0-9.-]*-ad\.sm\.cn
+  - DOMAIN-REGEX,[a-zA-Z0-9.-]*-ad\.video\.yximgs\.com
+  - DOMAIN-REGEX,[a-zA-Z0-9.-]*-ad\.wtzw\.com
+  - DOMAIN-REGEX,[a-zA-Z0-9.-]*-be-pack-sign\.pglstatp-toutiao\.com
+  - DOMAIN-REGEX,[a-zA-Z0-9.-]*-lm\.adkwai\.com
+  - DOMAIN-REGEX,[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*\.zijieapi\.com
+  - DOMAIN-REGEX,[a-zA-Z0-9.-]*-normal\.zijieapi\.com
+  - DOMAIN-REGEX,cloudinject[a-zA-Z0-9.-]*-dev\.*\.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*\.amazonaws\.com
   - DOMAIN-SUFFIX,1010pic.com
   - DOMAIN-SUFFIX,16dd-advertise-1252317822.file.myqcloud.com
   - DOMAIN-SUFFIX,16dd-advertise-1252317822.image.myqcloud.com
