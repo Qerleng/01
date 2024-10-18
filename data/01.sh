@@ -23,6 +23,10 @@ for file in *.yaml; do
     echo $yaml_file && cat $file >> $yaml_file
     sed -i 's/-\(.*\)/  -\1/' $yaml_file
 
+    mv -if "${file%.*}.txt" Ads/
+    mv -if "${file%.*}.yaml" Ads/
+    mv -if "${file%.*}.mrs" Ads/
+    mv "$file" Ads/
 
     jq -nR '{
         version: 1,
@@ -43,6 +47,8 @@ for file in *.yaml; do
         ]
     }' < $yaml_file > $json_file 
     sing-box rule-set format $json_file -w
-    sing-box rule-set compile $json_file 
+    sing-box rule-set compile $json_file
+    mv -if "${file%.*}.json" Ads/
+    mv -if "${file%.*}.srs" Ads/
     
 done
