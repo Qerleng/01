@@ -1,8 +1,8 @@
 name:  ANJiENGG
 
 on:
-  schedule:
-    - cron: '0 0 */5 * *'
+#  schedule:
+#    - cron: '0 0 */5 * *'
   workflow_dispatch:
 
 jobs:
@@ -13,8 +13,7 @@ jobs:
 
       - name: 💩 Build 💩
         run: |
-          bash data/bujangenam.sh
-#           && bash data/build.sh  
+          bash data/bujangenam.sh && data/build.sh  
 
       - name: 💩 Heanginam 💩
         run: |
