@@ -17,12 +17,9 @@ for file in *.yaml; do
     sed -i 's/- DOMAIN-KEYWORD,\(.*\)/- "\1"/' $txt_file
     sed -i 's/- DST-PORT,\(.*\)//' $txt_file
     sed -i 's/- DOMAIN-REGEX,\(.*\)/- "\1"/' $txt_file
-    (mihomo convert-ruleset domain yaml $category ${category%.*}.mrs) 
-
-    # abp ==>> yaml ~ Classical
+    (mihomo convert-ruleset domain yaml $category ${category%.*}.mrs)
     echo $yaml_file && cat $file >> $yaml_file
     sed -i 's/-\(.*\)/  -\1/' $yaml_file
-
     mv -if "${file%.*}.txt" Ads/
     mv -if "${file%.*}.mrs" Ads/
     mv -if "${file%.*}.abp" Ads/
