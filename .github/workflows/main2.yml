@@ -20,6 +20,13 @@ jobs:
         run: |
           bash data/0.sh && bash data/01.sh
 
+          mv -if "${file%.*}.txt" Ads/
+          mv -if "${file%.*}.json" Ads/
+          mv -if "${file%.*}.srs" Ads/
+          mv -if "${file%.*}.yaml" Ads/
+          mv -if "${file%.*}.mrs" Ads/
+          mv "$file" Ads/
+
       - uses: MyAlbum/purge-cache@v2
         with:
           token: ${{ github.token }}
