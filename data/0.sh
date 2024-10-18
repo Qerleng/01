@@ -9,7 +9,7 @@ with open("AWAvenue.abp", "r") as file:
 
 domains = []
 payload_lines2 = re.findall(r"\|\|(.+)\^", input_text)
-payload_lines = re.findall(r"(.+)", input_text)
+payload_lines = re.findall(r"/(.+)/", input_text)
 mains = payload_lines + payload_lines2
 for line in mains:
   if line:
