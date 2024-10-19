@@ -14,8 +14,11 @@ for tool in tools/*; do
 done
 
 
+# geoipAddresses=("fastly" "doh" "malicious" "cloudfront" "id" "facebook" "google" "netflix" "telegram" "twitter")
+# geositeDomains=("category-ads-all" "category-porn" "oisd-nsfw" "rule-doh" "rule-gaming" "rule-indo" "rule-playstore" "rule-sosmed" "rule-streaming" "rule-umum" "rule-ipcheck" "rule-speedtest" "videoconference" "rule-malicious" "urltest" "openai" "ecommerce-id" "whatsapp" "bank-id")
+
 geoipAddresses=("fastly" "doh" "malicious" "cloudfront" "id" "facebook" "google" "netflix" "telegram" "twitter")
-geositeDomains=("category-ads-all" "category-porn" "oisd-nsfw" "rule-doh" "rule-gaming" "rule-indo" "rule-playstore" "rule-sosmed" "rule-streaming" "rule-umum" "rule-ipcheck" "rule-speedtest" "videoconference" "rule-malicious" "urltest" "openai" "ecommerce-id" "whatsapp" "bank-id")
+geositeDomains=("category-ads-all" "category-porn" "rule-doh" "rule-umum" "rule-ipcheck" "rule-speedtest" "rule-malicious" "openai" "whatsapp" "bank-id")
 
 
 for item in "${geoipAddresses[@]}"; do
@@ -28,8 +31,6 @@ for item in "${geositeDomains[@]}"; do
     v2dat unpack geosite -o ./rule/geo -f "$item" "geosite.dat"
 done 
 
-sing-box geoip list -f geoip.db | awk '{print $1}' | sort > geoip_categories.list
-sing-box geosite list private -f geosite.db | awk '{print $1}' | sort > geosite_categories.list
 
 # txt ==>> yaml
 for file in ./rule/ip/*; do
