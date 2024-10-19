@@ -13,7 +13,6 @@
         "api.v2fly.org",
         "id-auth.bypass.id",
         "hi.bonds.id",
-        "www.msftconnecttest.com",
         "edge.microsoft.com",
         "wifi.vivo.com.cn",
         "detectportal.firefox.com",
@@ -28,17 +27,17 @@
         "quasar.yandex.net",
         "captive.apple.com",
         "connectivity-check.ubuntu.com",
-        "stun.l.google.com",
+        "pagead2.googlesyndication.com",
+        "stun.l.google.com"
+      ],
+      "domain_suffix": [
+        "www3.doubleclick.net",
         "telephony.goog",
         "mtalk.google.com"
       ],
-      "domain_suffix": [
-        ".telephony.goog",
-        ".mtalk.google.com"
-      ],
       "domain_regex": [
         ".*.mtalk.google.com",
-        "(^|\\\\.)(alt[1-8]-mtalk|mtalk|mtalk4)\\\\.google\\\\.com$",
+        "(^|\\\\.)(alt[1-8]-mtalk|mtalk|mtalk4)\\\\.google\\\\.com",
         "stun[1-4].l.google.com"
       ]
     }
