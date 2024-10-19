@@ -1,1 +1,25 @@
 payload:
+  - DOMAIN,keep-alv.google.com
+  - DOMAIN,www.google.com
+  - DOMAIN,www.gstatic.com
+  - DOMAIN,connectivitycheck.gstatic.com
+  - DOMAIN,cp.cloudflare.com
+  - DOMAIN,bing.com
+  - DOMAIN,api.v2fly.org
+  - DOMAIN,id-auth.bypass.id
+  - DOMAIN,hi.bonds.id
+  - DOMAIN,www.msftconnecttest.com
+  - DOMAIN,edge.microsoft.com
+  - DOMAIN,wifi.vivo.com.cn
+  - DOMAIN,detectportal.firefox.com
+  - DOMAIN,connectivitycheck.android.com
+  - DOMAIN,noisyfox.io
+  - DOMAIN,connect.rom.miui.com
+  - DOMAIN,qualcomm.com
+  - DOMAIN,elementary.io
+  - DOMAIN,g.cn
+  - DOMAIN,conn1.oppomobile.com
+  - DOMAIN,conn2.oppomobile.com
+  - DOMAIN,quasar.yandex.net
+  - DOMAIN,captive.apple.com
+  - DOMAIN,connectivity-check.ubuntu.com
