@@ -3,10 +3,10 @@
 set -e -o pipefail
 
 
-curl -Lo geoip.db "https://github.com/rfxcll/v2ray-rules-dat/releases/latest/download/GeoIP.db"
-curl -Lo geosite.db "https://github.com/rfxcll/v2ray-rules-dat/releases/latest/download/GeoSite.db"
-curl -Lo geoip.dat "https://github.com/rfxcll/v2ray-rules-dat/releases/latest/download/GeoIP.dat"
-curl -Lo geosite.dat "https://github.com/rfxcll/v2ray-rules-dat/releases/latest/download/GeoSite.dat"
+curl -Lo geoip.db "https://github.com/Qerleng/v2ray-rules-dat/releases/latest/download/GeoIP.db"
+curl -Lo geosite.db "https://github.com/Qerleng/v2ray-rules-dat/releases/latest/download/GeoSite.db"
+curl -Lo geoip.dat "https://github.com/Qerleng/v2ray-rules-dat/releases/latest/download/GeoIP.dat"
+curl -Lo geosite.dat "https://github.com/Qerleng/v2ray-rules-dat/releases/latest/download/GeoSite.dat"
 
 for tool in tools/*; do
     filename=$(basename "$tool")
