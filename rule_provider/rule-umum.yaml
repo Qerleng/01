@@ -1,0 +1,6 @@
+payload:
+  - DOMAIN,my.zerotier.com
+  - DOMAIN-SUFFIX,zerotier.com
+  - DOMAIN-SUFFIX,tuyaus.com
+  - DOMAIN-SUFFIX,twilio.com
+  - DOMAIN-SUFFIX,twiliocdn.com

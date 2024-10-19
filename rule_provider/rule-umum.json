@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "my.zerotier.com",
+        "zerotier.com",
+        "tuyaus.com",
+        "twilio.com",
+        "twiliocdn.com"
+      ],
+      "domain_suffix": [
+        ".zerotier.com",
+        ".tuyaus.com",
+        ".twilio.com",
+        ".twiliocdn.com"
+      ]
+    }
+  ]
+}
