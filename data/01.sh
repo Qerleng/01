@@ -6,7 +6,6 @@ done
 
 for file in *.yaml; do
     filename=$(basename "$file")
-    mkdir -p ./trash
     txt_file="${filename%.*}.txt"
     json_file="${filename%.*}.json"
     yaml_file="${filename%.*}.yaml"
@@ -21,9 +20,9 @@ for file in *.yaml; do
     (mihomo convert-ruleset domain yaml $category ${category%.*}.mrs)
     echo $yaml_file && cat $file >> $yaml_file
     sed -i 's/-\(.*\)/  -\1/' $yaml_file
-    mv -if "${file%.*}.txt" trash/
-    mv -if "${file%.*}.mrs" trash/
-    mv -if "${file%.*}.abp" trash/
+    mv -if "${file%.*}.txt" rule_provider/
+    mv -if "${file%.*}.mrs" rule_provider/
+    mv -if "${file%.*}.abp" rule_provider/
 
     jq -nR '{
         version: 1,
@@ -45,8 +44,8 @@ for file in *.yaml; do
     }' < $yaml_file > $json_file 
     sing-box rule-set format $json_file -w
     sing-box rule-set compile $json_file
-    mv -if "${file%.*}.json" trash/
-    mv -if "${file%.*}.srs" trash/
-    mv -if "${file%.*}.yaml" trash/
+    mv -if "${file%.*}.json" rule_provider/
+    mv -if "${file%.*}.srs" rule_provider/
+    mv -if "${file%.*}.yaml" rule_provider/
     
 done
