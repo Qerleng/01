@@ -1,10 +1,10 @@
 echo "Downloading oisd full source list..."
-curl -sSf -o rule-sosmed.abp https://raw.githubusercontent.com/Qerleng/01/main/rule_provider/rule-sosmed.yaml
+curl -sSf -o bypass-ads.abp https://raw.githubusercontent.com/Qerleng/00/main/rule_provider/bypass-ads.yaml
 python3 - <<EOF
 import re
 import yaml
 
-with open("rule-sosmed.abp", "r") as file:
+with open("bypass-ads.abp", "r") as file:
   input_text = file.read()
 
 domains = []
@@ -30,7 +30,7 @@ yaml_output = yaml.dump(data, sort_keys=False, default_flow_style=False)
 
 formatted_yaml = re.sub(r"(\s+-) '(.+)'", r"\1 \2", yaml_output)
 
-with open("rule-sosmed.yaml", "w") as file:
+with open("bypass-ads.yaml", "w") as file:
   file.write(formatted_yaml)
 EOF
 # mv -if oisd-full.txt 
