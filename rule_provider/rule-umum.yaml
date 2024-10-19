@@ -1,11 +1,6 @@
 payload:
   - DOMAIN,my.zerotier.com
-  - DOMAIN,play-fe.googleapis.com
-  - DOMAIN,play-lh.googleusercontent.com
-  - DOMAIN,play.google.com
-  - DOMAIN,play.googleapis.com
   - DOMAIN-SUFFIX,zerotier.com
   - DOMAIN-SUFFIX,tuyaus.com
   - DOMAIN-SUFFIX,twilio.com
   - DOMAIN-SUFFIX,twiliocdn.com
-  - DOMAIN-SUFFIX,gvt1.com
