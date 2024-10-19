@@ -8,10 +8,8 @@ with open("rule-sosmed.abp", "r") as file:
   input_text = file.read()
 
 domains = []
-payload_lines2 = re.findall(r"  - DOMAIN-SUFFIX,(.+)", input_text)
-payload_lines = re.findall(r"  - DOMAIN,(.+)", input_text)
-payload_lines1 = re.findall(r"  - DOMAIN-REGEX,(.+)", input_text)
-mains = payload_lines + payload_lines1 + payload_lines2
+payload_lines2 = re.findall(r"  - (.+)", input_text)
+mains = payload_lines2
 for line in mains:
   if line:
     domain = line.split("$")[0].strip()
