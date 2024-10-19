@@ -15,7 +15,7 @@ mains = payload_lines + payload_lines1 + payload_lines2
 for line in mains:
   if line:
     domain = line.split("$")[0].strip()
-  if any(prefix in domain for prefix in ("#", "!", "@@", "tt", "video", "ttwstatic.com", "tiktok", "tik", "muscdn.com", "musical.ly", "fbcdn", "byteoversea", "wa", "whatsapp")):
+  if any(prefix in domain for prefix in ("#", "payload:", "tt", "video", "ttwstatic.com", "tiktok", "tik", "muscdn.com", "musical.ly", "fbcdn", "byteoversea", "wa", "whatsapp")):
     continue
 #  elif any(prefix in domain for prefix in ("[", "/", "*", "^")):
     domains.append("DOMAIN-REGEX," + domain)
