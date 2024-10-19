@@ -28,8 +28,8 @@ for item in "${geositeDomains[@]}"; do
     v2dat unpack geosite -o ./rule/geo -f "$item" "geosite.dat"
 done 
 
-sing-box geoip list -f db/geoip.db | awk '{print $1}' | sort > geoip_categories.list
-sing-box geosite list private -f db/geosite.db | awk '{print $1}' | sort > geosite_categories.list
+sing-box geoip list -f geoip.db | awk '{print $1}' | sort > geoip_categories.list
+sing-box geosite list private -f geosite.db | awk '{print $1}' | sort > geosite_categories.list
 
 # txt ==>> yaml
 for file in ./rule/ip/*; do
