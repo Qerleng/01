@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "pagead2.googlesyndication.com",
+      "domain_suffix": "www3.doubleclick.net"
+    }
+  ]
+}
