@@ -1,3 +1,0 @@
-payload:
-- "pagead2.googlesyndication.com"
-- "+.www3.doubleclick.net"
