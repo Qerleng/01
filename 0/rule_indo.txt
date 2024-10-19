@@ -1,16 +1,16 @@
 
 
 # > LIST Domain tLD Indo & GEOIP INDO
-id
-co.id
-ac.id
-or.id
-go.id
-my.id
-web.id
-biz.id
-net.id
-mil.id
-sch.id
-desa.id
-ponpes.id
+keyword:id
+keyword:co.id
+keyword:ac.id
+keyword:or.id
+keyword:go.id
+keyword:my.id
+keyword:web.id
+keyword:biz.id
+keyword:net.id
+keyword:mil.id
+keyword:sch.id
+keyword:desa.id
+keyword:ponpes.id
