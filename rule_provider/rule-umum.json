@@ -5,10 +5,10 @@
       "domain": [
         "my.zerotier.com",
         "www.google.com",
-        "www.google.co.id"
+        "www.google.co.id",
+        "pagead2.googlesyndication.com"
       ],
       "domain_suffix": [
-        "pagead2.googlesyndication.com",
         "www3.doubleclick.net",
         "zerotier.com",
         "tuyaus.com",
