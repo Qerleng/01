@@ -1,7 +1,5 @@
 payload:
   - DOMAIN,keep-alv.google.com
-  - DOMAIN,www.google.com
-  - DOMAIN,www.google.co.id
   - DOMAIN,www.gstatic.com
   - DOMAIN,connectivitycheck.gstatic.com
   - DOMAIN,cp.cloudflare.com
@@ -23,11 +21,3 @@ payload:
   - DOMAIN,quasar.yandex.net
   - DOMAIN,captive.apple.com
   - DOMAIN,connectivity-check.ubuntu.com
-  - DOMAIN,pagead2.googlesyndication.com
-  - DOMAIN-SUFFIX,www3.doubleclick.net
-  - DOMAIN,stun.l.google.com
-  - DOMAIN-SUFFIX,telephony.goog
-  - DOMAIN-SUFFIX,mtalk.google.com
-  - DOMAIN-REGEX,.*.mtalk.google.com
-  - DOMAIN-REGEX,(^|\\.)(alt[1-8]-mtalk|mtalk|mtalk4)\\.google\\.com
-  - DOMAIN-REGEX,stun[1-4].l.google.com
