@@ -12,10 +12,10 @@ payload_lines2 = re.findall(r"  - (.+)", input_text)
 for line in payload_lines2:
   if line:
     domain = line.split("$")[0].strip()
-  if any(prefix in domain for prefix in ("#", "payload:", "tt", "video", "ttwstatic.com", "tiktok", "tik", "muscdn.com", "musical.ly", "fbcdn", "byteoversea", "wa", "whatsapp")):
-    continue
+#  if any(prefix in domain for prefix in ("#", "payload:", "tt", "video", "ttwstatic.com", "tiktok", "tik", "muscdn.com", "musical.ly", "fbcdn", "byteoversea", "wa", "whatsapp")):
+#    continue
 #  elif any(prefix in domain for prefix in ("[", "/", "*", "^")):
-    domains.append("DOMAIN-REGEX," + domain)
+#    domains.append("DOMAIN-REGEX," + domain)
   else:
     domains.append(domain)
 
