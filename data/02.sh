@@ -9,8 +9,7 @@ with open("urltest.abp", "r") as file:
 
 domains = []
 payload_lines2 = re.findall(r"  - (.+)", input_text)
-mains = payload_lines2
-for line in mains:
+for line in payload_lines2:
   if line:
     domain = line.split("$")[0].strip()
   if any(prefix in domain for prefix in ("#", "payload:", "tt", "video", "ttwstatic.com", "tiktok", "tik", "muscdn.com", "musical.ly", "fbcdn", "byteoversea", "wa", "whatsapp")):
