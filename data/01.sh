@@ -20,9 +20,9 @@ for file in *.yaml; do
     (mihomo convert-ruleset domain yaml $category ${category%.*}.mrs)
     echo $yaml_file && cat $file >> $yaml_file
     sed -i 's/-\(.*\)/  -\1/' $yaml_file
-    mv -if "${file%.*}.txt" rule_provider/
     mv -if "${file%.*}.mrs" rule_provider/
-    mv -if "${file%.*}.abp" rule_provider/
+    rm -if "${file%.*}.abp" rule_provider/
+    rm -if "${file%.*}.txt" 
 
     jq -nR '{
         version: 1,
