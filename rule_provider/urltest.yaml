@@ -1,5 +1,6 @@
 payload:
   - DOMAIN,keep-alv.google.com
+  - DOMAIN,www.google.com
   - DOMAIN,www.gstatic.com
   - DOMAIN,connectivitycheck.gstatic.com
   - DOMAIN,cp.cloudflare.com
@@ -7,6 +8,7 @@ payload:
   - DOMAIN,api.v2fly.org
   - DOMAIN,id-auth.bypass.id
   - DOMAIN,hi.bonds.id
+  - DOMAIN,www.msftconnecttest.com
   - DOMAIN,edge.microsoft.com
   - DOMAIN,wifi.vivo.com.cn
   - DOMAIN,detectportal.firefox.com

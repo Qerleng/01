@@ -4,6 +4,7 @@
     {
       "domain": [
         "keep-alv.google.com",
+        "www.google.com",
         "www.gstatic.com",
         "connectivitycheck.gstatic.com",
         "cp.cloudflare.com",
@@ -11,6 +12,7 @@
         "api.v2fly.org",
         "id-auth.bypass.id",
         "hi.bonds.id",
+        "www.msftconnecttest.com",
         "edge.microsoft.com",
         "wifi.vivo.com.cn",
         "detectportal.firefox.com",
