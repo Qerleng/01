@@ -1,4 +1,4 @@
-for file in *.yaml; do
+for file in rule_provider/*.yaml; do
     filename=$(basename "$file")
     txt_file="${filename%.*}.txt"
     yaml_file="${filename%.*}.yaml"
