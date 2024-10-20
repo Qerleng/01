@@ -21,7 +21,7 @@ for file in *.yaml; do
     echo $yaml_file && cat $file >> $yaml_file
     sed -i 's/-\(.*\)/  -\1/' $yaml_file
     mv -if "${file%.*}.mrs" rule_provider/
-    rm -if "${file%.*}.abp" rule_provider/
+    rm -if "${file%.*}.abp"
     rm -if "${file%.*}.txt" 
 
     jq -nR '{
