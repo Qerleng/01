@@ -1,5 +1,5 @@
 echo "Downloading oisd full source list..."
-curl -sSf -o urltest.abp https://raw.githubusercontent.com/Qerleng/01/main/rule_provider/urltest.yaml
+curl -sSf -o urltest.abp https://raw.githubusercontent.com/Qerleng/01/main/rule_provider/videoconference.yaml
 python3 - <<EOF
 import re
 import yaml
