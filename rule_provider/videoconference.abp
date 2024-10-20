@@ -62,6 +62,7 @@ payload:
   - DOMAIN-SUFFIX,svc.ms
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,ciscowebex.com
+  - DOMAIN-SUFFIX,ciscosoftware.com
   - DOMAIN-SUFFIX,webex.ca
   - DOMAIN-SUFFIX,webex.com
   - DOMAIN-SUFFIX,webex.de
@@ -89,6 +90,7 @@ payload:
   - DOMAIN-SUFFIX,ccievoicelabs.com
   - DOMAIN-SUFFIX,ccna5.net
   - DOMAIN-SUFFIX,cisco-returns.com
+  - DOMAIN-SUFFIX,cisco-warrantyfinder.com
   - DOMAIN-SUFFIX,cisco.com
   - DOMAIN-SUFFIX,cisco.mobi
   - DOMAIN-SUFFIX,ciscoccservice.com
@@ -99,6 +101,7 @@ payload:
   - DOMAIN-SUFFIX,ciscoerate.com
   - DOMAIN-SUFFIX,ciscofax.com
   - DOMAIN-SUFFIX,ciscoinvestments.com
+  - DOMAIN-SUFFIX,ciscojabbervideo.net
   - DOMAIN-SUFFIX,ciscokinetic.com
   - DOMAIN-SUFFIX,ciscoknowledgenetwork.com
   - DOMAIN-SUFFIX,ciscolearningsociety.org
@@ -119,6 +122,7 @@ payload:
   - DOMAIN-SUFFIX,ciscotaccc.com
   - DOMAIN-SUFFIX,ciscotr.com
   - DOMAIN-SUFFIX,ciscoturk.net
+  - DOMAIN-SUFFIX,ciscovideo.com
   - DOMAIN-SUFFIX,ciscowebseminars.com
   - DOMAIN-SUFFIX,cloudlock.com
   - DOMAIN-SUFFIX,cloupia.com
@@ -156,8 +160,10 @@ payload:
   - DOMAIN-SUFFIX,tandberg-china.com
   - DOMAIN-SUFFIX,tandberg.com
   - DOMAIN-SUFFIX,versly.com
+  - DOMAIN-SUFFIX,videochampion.com
   - DOMAIN-SUFFIX,virtuata.com
   - DOMAIN-SUFFIX,wballiance.com
+  - DOMAIN-SUFFIX,whyiwantciscotelepresence.com
   - DOMAIN-SUFFIX,wifi-mx.com
   - DOMAIN-SUFFIX,youtubecisco.com
   - DOMAIN-SUFFIX,cciernslabs.com
