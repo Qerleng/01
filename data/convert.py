@@ -93,17 +93,19 @@ def parse_list_file(link, output_directory):
 
     result_rules = {"version": 1, "rules": []}
     domain_entries = []
+    port_entries = []
+    source_port_entries = []
 
     for pattern, addresses in df.groupby('pattern')['address'].apply(list).to_dict().items():
         if pattern == 'domain_suffix':
-            rule_entry = {pattern: ['.' + address.strip() for address in addresses]}
+            rule_entry = {pattern: [address.strip() for address in addresses]}
             result_rules["rules"].append(rule_entry)
-            domain_entries.extend([address.strip() for address in addresses])
-        elif pattern == 'domain':
-            domain_entries.extend([address.strip() for address in addresses])
+        #   domain_entries.extend([address.strip() for address in addresses])
         elif pattern == 'domain_keyword':
             rule_entry = {pattern: [address.strip() for address in addresses]}
             result_rules["rules"].append(rule_entry)
+        elif pattern == 'domain':
+            domain_entries.extend([address.strip() for address in addresses])
         elif pattern == 'port':
             port_entries.extend([int(address) for address in addresses])
         elif pattern == 'source_port':
@@ -111,9 +113,17 @@ def parse_list_file(link, output_directory):
         else:
             rule_entry = {pattern: [address.strip() for address in addresses]}
             result_rules["rules"].append(rule_entry)
+            
     domain_entries = list(set(domain_entries))
+    port_entries = list(set(port_entries))
+    source_port_entries = list(set(source_port_entries))
     if domain_entries:
         result_rules["rules"].insert(0, {'domain': domain_entries})
+    if port_entries:
+        result_rules["rules"].append({'port': port_entries})
+    if source_port_entries:
+        result_rules["rules"].append({'source_port': source_port_entries})
+    
 
     file_name = os.path.join(output_directory, f"{os.path.basename(link).split('.')[0]}.json")
     with open(file_name, 'w', encoding='utf-8') as output_file:
@@ -123,7 +133,7 @@ def parse_list_file(link, output_directory):
     os.system(f"sing-box rule-set compile --output {srs_path} {file_name}")
     return file_name
 
-with open("../source.txt", 'r') as links_file:
+with open("./data/source.txt", 'r') as links_file:
     links = links_file.read().splitlines()
 
 links = [l for l in links if l.strip() and not l.strip().startswith("#")]
