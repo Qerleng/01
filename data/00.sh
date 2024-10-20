@@ -1,5 +1,6 @@
 curl -LO https://github.com/Qerleng/00/raw/main/rule_provider/FCM.yaml
 curl -LO https://github.com/Qerleng/00/raw/main/rule_provider/NTP.yaml
+curl -LO https://github.com/Qerleng/01/raw/main/rule_provider/rule-sosmed.yaml
 curl -LO https://github.com/Qerleng/00/raw/main/rule_provider/Sosmed.yaml
 curl -LO https://github.com/Qerleng/00/raw/main/rule_provider/Stream.yaml
 curl -LO https://github.com/Qerleng/00/raw/main/rule_provider/E-Banking.yaml
