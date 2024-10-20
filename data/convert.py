@@ -82,7 +82,7 @@ def parse_list_file(link, output_directory):
                 'DOMAIN-KEYWORD':'domain_keyword', 'HOST-KEYWORD': 'domain_keyword', 'host-keyword': 'domain_keyword', 'IP-CIDR': 'ip_cidr',
                 'ip-cidr': 'ip_cidr', 'IP-CIDR6': 'ip_cidr', 
                 'IP6-CIDR': 'ip_cidr','SRC-IP-CIDR': 'source_ip_cidr', 'GEOIP': 'geoip', 'DST-PORT': 'port',
-                'SRC-PORT': 'source_port', "URL-REGEX": "domain_regex"}
+                'SRC-PORT': 'source_port', "URL-REGEX": "domain_regex", "DOMAIN-REGEX": "domain_regex", "domain-regex": "domain_regex"}
 
     df = df[df['pattern'].isin(map_dict.keys())].reset_index(drop=True)
 
@@ -98,7 +98,7 @@ def parse_list_file(link, output_directory):
 
     for pattern, addresses in df.groupby('pattern')['address'].apply(list).to_dict().items():
         if pattern == 'domain_suffix':
-            rule_entry = {pattern: [address.strip() for address in addresses]}
+            rule_entry = {pattern: ['.' + address.strip() for address in addresses]}
             result_rules["rules"].append(rule_entry)
         #   domain_entries.extend([address.strip() for address in addresses])
         elif pattern == 'domain_keyword':
