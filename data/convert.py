@@ -101,6 +101,13 @@ def parse_list_file(link, output_directory):
             domain_entries.extend([address.strip() for address in addresses])
         elif pattern == 'domain':
             domain_entries.extend([address.strip() for address in addresses])
+        elif pattern == 'domain_keyword':
+            rule_entry = {pattern: [address.strip() for address in addresses]}
+            result_rules["rules"].append(rule_entry)
+        elif pattern == 'port':
+            port_entries.extend([int(address) for address in addresses])
+        elif pattern == 'source_port':
+            source_port_entries.extend([int(address) for address in addresses])
         else:
             rule_entry = {pattern: [address.strip() for address in addresses]}
             result_rules["rules"].append(rule_entry)
