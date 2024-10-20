@@ -1,49 +1,31 @@
 {
+  "version": 1,
   "rules": [
     {
       "domain": [
-        "api.v2fly.org",
-        "bing.com",
-        "captive.apple.com",
-        "conn1.oppomobile.com",
-        "conn2.oppomobile.com",
-        "connect.rom.miui.com",
-        "connectivity-check.ubuntu.com",
-        "connectivitycheck.android.com",
+        "keep-alv.google.com",
+        "www.gstatic.com",
         "connectivitycheck.gstatic.com",
         "cp.cloudflare.com",
-        "detectportal.firefox.com",
+        "bing.com",
+        "api.v2fly.org",
+        "id-auth.bypass.id",
+        "hi.bonds.id",
         "edge.microsoft.com",
+        "wifi.vivo.com.cn",
+        "detectportal.firefox.com",
+        "connectivitycheck.android.com",
+        "noisyfox.io",
+        "connect.rom.miui.com",
+        "qualcomm.com",
         "elementary.io",
         "g.cn",
-        "hi.bonds.id",
-        "id-auth.bypass.id",
-        "keep-alv.google.com",
-        "noisyfox.io",
-        "pagead2.googlesyndication.com",
-        "qualcomm.com",
+        "conn1.oppomobile.com",
+        "conn2.oppomobile.com",
         "quasar.yandex.net",
-        "stun.l.google.com",
-        "wifi.vivo.com.cn",
-        "www.google.co.id",
-        "www.google.com",
-        "www.gstatic.com"
-      ]
-    },
-    {
-      "domain_regex": [
-        "(^|\\\\.)(alt[1-8]-mtalk|mtalk|mtalk4)\\\\.google\\\\.com",
-        ".*.mtalk.google.com",
-        "stun[1-4].l.google.com"
-      ]
-    },
-    {
-      "domain_suffix": [
-        ".mtalk.google.com",
-        ".telephony.goog",
-        ".www3.doubleclick.net"
+        "captive.apple.com",
+        "connectivity-check.ubuntu.com"
       ]
     }
-  ],
-  "version": 1
+  ]
 }
