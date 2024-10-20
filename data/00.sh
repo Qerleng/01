@@ -30,11 +30,9 @@ for file in *.yaml; do
     sed -i 's/^! /# /' $txt_file
     sed -i -e '/^#/d' -e '/^$/d' $txt_file
     sed -i -e '/^!/d' -e '/^$/d' $txt_file
-    (mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs) 
 
     mkdir -p trash
     mv "${file%.*}.txt" trash/
-    mv "${file%.*}.mrs" trash/
     mv "${file%.*}.yaml" trash/
 
 done
