@@ -31,10 +31,17 @@
       ]
     },
     {
+      "domain_regex": [
+        "(^|\\\\.)(alt[1-8]-mtalk|mtalk|mtalk4)\\\\.google\\\\.com",
+        ".*.mtalk.google.com",
+        "stun[1-4].l.google.com"
+      ]
+    },
+    {
       "domain_suffix": [
-        "mtalk.google.com",
-        "telephony.goog",
-        "www3.doubleclick.net"
+        ".mtalk.google.com",
+        ".telephony.goog",
+        ".www3.doubleclick.net"
       ]
     }
   ],
