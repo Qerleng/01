@@ -60,7 +60,7 @@ for file in *.abp; do
     mv -if "${file%.*}.json" Ads/
     mv -if "${file%.*}.srs" Ads/
     mv -if "${file%.*}.yaml" Ads/
-    mv -if "${file%.*}.mrs" Ads/
+    mv -if "$ars_file" Ads/
     mv "$file" Ads/
     
 done
