@@ -22,7 +22,7 @@ for file in *.abp; do
     yaml_file="${filename%.*}.yaml"
     mrs_file="${filename%.*}.mrs"
     srs_file="${filename%.*}.srs"
-    ars_file="Adguard_${filename%.*}.srs"
+    ars_file="${filename%.*}.ars"
     json_file="${filename%.*}.json"
 
     # abp ==>> yaml ~ Domain ==>> mrs
