@@ -14,7 +14,7 @@ jobs:
 
       - name: 💩 Build 💩
         run: |
-          bash ./data/02.sh
+          bash ./data/0.sh
           bash ./data/01.sh
 
       - uses: MyAlbum/purge-cache@v2
