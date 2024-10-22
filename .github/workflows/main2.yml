@@ -18,10 +18,9 @@ jobs:
           pip install pandas requests pyyaml
 
           for file in tools/*; do
-          filename=$(basename "$file")
-          command -v $filename &> /dev/null || { cp ./tools/$filename /usr/local/bin/ && chmod +x /usr/local/bin/$filename; }
+              filename=$(basename "$file")
+              command -v $filename &> /dev/null || { cp ./tools/$filename /usr/local/bin/ && chmod +x /usr/local/bin/$filename; }
           done
-
 
       - name: 💩 Build 💩
         run: |
