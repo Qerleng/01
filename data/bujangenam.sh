@@ -22,6 +22,7 @@ for file in *.abp; do
     yaml_file="${filename%.*}.yaml"
     mrs_file="${filename%.*}.mrs"
     srs_file="${filename%.*}.srs"
+    ars_file="Adguard_${filename%.*}.srs"
     json_file="${filename%.*}.json"
 
     # abp ==>> yaml ~ Domain ==>> mrs
@@ -47,7 +48,8 @@ for file in *.abp; do
 
     # yaml ==>> json srs
     jq -R 'select(test("^  - DOMAIN-SUFFIX")) | split(",")[1]' $yaml_file | jq -s '{ "version": 1, "rules": [{ "domain_suffix": . }] }' > $json_file
-    CrashCore rule-set convert -t adguard -o $srs_file $file
+    sing-box rule-set convert -t adguard -o $ars_file $file
+    CrashCore rule-set compile "$json_file"
 
     echo "$txt_file"
     echo "$yaml_file"
