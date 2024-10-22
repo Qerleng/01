@@ -1,20 +1,22 @@
 {
-  "version": 1,
   "rules": [
     {
       "domain": [
         "my.zerotier.com",
-        "www.google.com",
+        "pagead2.googlesyndication.com",
         "www.google.co.id",
-        "pagead2.googlesyndication.com"
-      ],
+        "www.google.com"
+      ]
+    },
+    {
       "domain_suffix": [
-        "www3.doubleclick.net",
-        "zerotier.com",
-        "tuyaus.com",
-        "twilio.com",
-        "twiliocdn.com"
+        ".tuyaus.com",
+        ".twilio.com",
+        ".twiliocdn.com",
+        ".www3.doubleclick.net",
+        ".zerotier.com"
       ]
     }
-  ]
+  ],
+  "version": 1
 }
