@@ -11,11 +11,11 @@
     },
     {
       "domain_suffix": [
-        ".tuyaus.com",
-        ".twilio.com",
-        ".twiliocdn.com",
-        ".www3.doubleclick.net",
-        ".zerotier.com"
+        "tuyaus.com",
+        "twilio.com",
+        "twiliocdn.com",
+        "www3.doubleclick.net",
+        "zerotier.com"
       ]
     }
   ],
