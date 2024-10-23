@@ -1,10 +1,10 @@
 echo "Downloading oisd full source list..."
-curl -sSf -o rule-umum.abp https://raw.githubusercontent.com/Qerleng/01/main/rule_provider/rule-umum.yaml
+curl -sSf -o mlbb_port.abp https://github.com/helmiau/clashrules/raw/main/rule_provider/Game_MobileLegends_Ports.yaml
 python3 - <<EOF
 import re
 import yaml
 
-with open("rule-umum.abp", "r") as file:
+with open("mlbb_port.abp", "r") as file:
   input_text = file.read()
 
 domains = []
@@ -29,7 +29,7 @@ yaml_output = yaml.dump(data, sort_keys=False, default_flow_style=False)
 
 formatted_yaml = re.sub(r"(\s+-) '(.+)'", r"\1 \2", yaml_output)
 
-with open("rule-umum.yaml", "w") as file:
+with open("mlbb_port.yaml", "w") as file:
   file.write(formatted_yaml)
 EOF
 # mv -if oisd-full.txt 
