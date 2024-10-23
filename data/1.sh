@@ -9,7 +9,7 @@ for file in rule_provider/rule-umum.yaml; do
     sed -i 's/  - DOMAIN-SUFFIX,\(.*\)/- "+.\1"/' $txt_file
     sed -i 's/  - DOMAIN,\(.*\)/- "\1"/' $txt_file
     sed -i 's/  - DOMAIN-KEYWORD,\(.*\)/- "\1"/' $txt_file
-    sed -i 's/  - DST-PORT,\(.*\)//' $txt_file
+    sed -i 's/  - DST-PORT,\(.*\)/- "\1"/' $txt_file
     sed -i 's/  - DOMAIN-REGEX,\(.*\)/- "\1"/' $txt_file
     sed -i 's/\(.*\)/\1/' $txt_file
     sed -i 's/^! /# /' $txt_file
