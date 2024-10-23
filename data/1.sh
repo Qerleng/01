@@ -18,8 +18,8 @@ for file in rule_provider/bypass-ads.yaml; do
     (mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs) 
 
 
-    rm "${file%.*}.txt" 
-    mv "${file%.*}.mrs" rule_provider/
+    rm "$txt_file" 
+    mv "$mrs_file" rule_provider/
 #    mv "${file%.*}.yaml" trash/
 
 done
