@@ -36,7 +36,6 @@ payload:
 - +.13mimicryjuxtapose.buzz
 - +.1471121-cb77444.tw1.ru
 - +.14morosequagmire.buzz
-- +.14stirling.dyndns.org
 - +.15melodiousineffable.buzz
 - +.162-19-214-220-10cdn.eyeohost.net
 - +.162-19-214-220-11cdn.eyeohost.net
@@ -127,7 +126,6 @@ payload:
 - +.a1040224.xsph.ru
 - +.a1042766.xsph.ru
 - +.a2-1328201101.cos.ap-guangzhou.myqcloud.com
-- +.aasse.members.openarmscv.com
 - +.aav3.dyndns.tv
 - +.abcbrasilembalagens.net
 - +.abissnet.net
@@ -231,9 +229,9 @@ payload:
 - +.astronomicspace.com
 - +.aterecierais.ru.com
 - +.atlpvt.com
-- +.atsegypt.com
 - +.atsknightsbridge.in
 - +.atualiza.shop
+- +.aulist.com
 - +.aureanet.com
 - +.autogm.net
 - +.autohaus-cn.de
@@ -257,7 +255,6 @@ payload:
 - +.b46.oss-cn-hongkong.aliyuncs.com
 - +.bades.co.tz
 - +.bafybeicnmx2fcaolinpdaiqjo7hgsourg3qzaxf57psdrbqic4qrm4pf3i.ipfs.dweb.link
-- +.bafybeicoo7kwhmnl6q7prd65aimf5byzrihrklgviebm2pkyzyepdaigf4.ipfs.dweb.link
 - +.bafybeihxqop3q2g3f6dd6ermzqn3xg7jbtz762papo5eye2nermqothtie.ipfs.nftstorage.link
 - +.bahrabeauty.com
 - +.baidu.honker.inf
@@ -440,6 +437,7 @@ payload:
 - +.cnc.ziparchive.xyz
 - +.cnom.sante.gov.ml
 - +.coach.028csc.com
+- +.coadymarine.com
 - +.cog.guide.borden-carleton.ca
 - +.col.lol
 - +.coldairperu.com.pe
@@ -561,7 +559,6 @@ payload:
 - +.djt.free.thebitmeister.com
 - +.dkno.therapy.emergencepsychservices.com
 - +.dl.1003b.56a.com
-- +.dl.aginjector.com
 - +.dl.jiposter.com
 - +.dl.natgo.cn
 - +.dl.zerotheme.ir
@@ -693,7 +690,6 @@ payload:
 - +.fedralmounmt.ru.com
 - +.fentanyl.alwaysdata.net
 - +.fereastrageco.com
-- +.fetchdesignprint.co.za
 - +.fevafil.org
 - +.fgeb.sponsor.printondemandagency.com
 - +.fgwe.myvnc.com
@@ -744,8 +740,8 @@ payload:
 - +.fish.hackbiji.cc
 - +.fisoasjkpoewesfoosnoox.cloud
 - +.flash.willowsoaks.com
-- +.fljnd.loyalty.hienphucuanhanloai.org
 - +.floisinvestimentos.shop
+- +.floodernetwork111.accesscam.org
 - +.flyjeta.com
 - +.fms.therapy.emergencepsychservices.com
 - +.followflow.zip
@@ -758,7 +754,6 @@ payload:
 - +.freitaslogistica.com
 - +.fridaylocalmanager.duckdns.org
 - +.frsdragoz.za.com
-- +.frtwv.loyalty.hienphucuanhanloai.org
 - +.fsh.living.miraclesofeucharisticjesus.org
 - +.fshjfjhxjhjh.top
 - +.ftvproclad.top
@@ -866,7 +861,6 @@ payload:
 - +.hit-check.com
 - +.hitman-pro.ru
 - +.hl.connectedcommunity.org
-- +.hmen.loyalty.hienphucuanhanloai.org
 - +.hmyb.donors.eucharisticjesus.net
 - +.hnjgdl.geps.glodon.com
 - +.homes121s.in
@@ -883,7 +877,6 @@ payload:
 - +.howtocleanseptictank.com
 - +.hpoby.therapy.emergencepsychservices.com
 - +.hr.xiongxun.vip
-- +.hr2019.vrcom7.com
 - +.hsolar.com
 - +.hss.myftp.biz
 - +.huiip.top
@@ -1040,7 +1033,6 @@ payload:
 - +.kribyrisk.com
 - +.kuralyok.com.tr
 - +.kuthbaneng.com
-- +.kuzo.loyalty.hienphucuanhanloai.org
 - +.kvlig.free.thebitmeister.com
 - +.kvxp.podcast.lisameyerson.com
 - +.kxoie.outfit.dianamercer.com
@@ -1053,6 +1045,7 @@ payload:
 - +.last-blink.com
 - +.law-moneyback.info
 - +.lawyerconsult.top
+- +.lbko.rooms.fierceatfifty.com
 - +.lcacreamery-chalfont.com
 - +.ldcdn.ldmnq.com
 - +.lds.living.miraclesofeucharisticjesus.org
@@ -1560,7 +1553,6 @@ payload:
 - +.se.kzong.club
 - +.se.maina-vira.ru
 - +.seals-mg.com
-- +.seasidebeautyco.com
 - +.seawave.online
 - +.seburage.com
 - +.secretspark.com.bd
@@ -1654,6 +1646,7 @@ payload:
 - +.souguru.com
 - +.soulivan.alwaysdata.net
 - +.soyjak.download
+- +.spaceframe.mobi.space-frame.co.za
 - +.spacetraitorsgame.netlify.app
 - +.spare-shadows-dreams-tourist.trycloudflare.com
 - +.spaziotempo.info
@@ -1697,7 +1690,6 @@ payload:
 - +.sunorox.cloud
 - +.supersmsblow.live
 - +.supervrata.com
-- +.support.clz.kr
 - +.supportservice.zapto.org
 - +.susplanet.com
 - +.sutys.policy.donnafrey.com
@@ -1897,7 +1889,6 @@ payload:
 - +.www2.dawxmlpdfs.com
 - +.www999999asgasg-1327129302.cos.ap-chengdu.myqcloud.com
 - +.www999999safagqwhg-1327129302.cos.ap-chengdu.myqcloud.com
-- +.wynecare.com
 - +.xakep.dad
 - +.xdfds.loyalty.hienphucuanhanloai.org
 - +.xemir.pw
