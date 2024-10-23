@@ -1,5 +1,8 @@
 payload:
   - DOMAIN,sg.tdatamaster.com
+  - DOMAIN,akmcdn.ml.youngjoygame.com
+  - DOMAIN-REGEX,.*.ml.youngjoygame.com
+  - DOMAIN-REGEX,.*.youngjoygame.com
   - DOMAIN,file-igamecj.akamaized.net
   - DOMAIN,tencentgames.helpshift.com
   - DOMAIN,robloxinc.s.llnwi.net
