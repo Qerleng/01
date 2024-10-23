@@ -3,10 +3,8 @@
     {
       "domain": [
         "my.zerotier.com",
-        "pagead2.googlesyndication.com",
         "www.google.co.id",
-        "www.google.com",
-        "www3.doubleclick.net"
+        "www.google.com"
       ]
     },
     {
@@ -14,7 +12,6 @@
         "tuyaus.com",
         "twilio.com",
         "twiliocdn.com",
-        "www3.doubleclick.net",
         "zerotier.com"
       ]
     }
