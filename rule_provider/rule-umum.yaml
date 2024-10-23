@@ -2,9 +2,6 @@ payload:
   - DOMAIN,my.zerotier.com
   - DOMAIN,www.google.com
   - DOMAIN,www.google.co.id
-  - DOMAIN,www3.doubleclick.net
-  - DOMAIN,pagead2.googlesyndication.com
-  - DOMAIN-SUFFIX,www3.doubleclick.net
   - DOMAIN-SUFFIX,zerotier.com
   - DOMAIN-SUFFIX,tuyaus.com
   - DOMAIN-SUFFIX,twilio.com
