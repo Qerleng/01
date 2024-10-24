@@ -19,7 +19,7 @@ v2dat unpack geoip -h
 
 if [ $? -eq 0 ];then
     echo "[NOTICE] get geoip.dat successfully!"
-    v2dat unpack geoip -o ./original -f "geoip.dat"
+    v2dat unpack geoip -o ./original "geoip.dat"
 else
     echo "get geoip.dat failed! please check your network!"
     exit 1
