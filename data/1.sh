@@ -1,4 +1,4 @@
-for file in rule_provider/rule-gaming.yaml; do
+for file in rule_provider/rule-umum.yaml; do
     filename=$(basename "$file")
     txt_file="${filename%.*}.txt"
     yaml_file="${filename%.*}.yaml"
