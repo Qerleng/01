@@ -13,7 +13,7 @@ for tool in tools/*; do
     command -v $filename &> /dev/null || { cp ./$filename /usr/local/bin/ && chmod +x /usr/local/bin/$filename; }
 done
 
-makdir -p original
+mkdir -p original
 sing-box geoip list -f "./geoip.db" | awk '{print $1}' | sort > geoip_categories.list
 while IFS= read -r category; do
     v2dat unpack geoip -o "original/geoip" -f "$category" "geoip.dat" &
