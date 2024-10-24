@@ -2,9 +2,7 @@
   "rules": [
     {
       "domain": [
-        "my.zerotier.com",
-        "www.google.co.id",
-        "www.google.com"
+        "my.zerotier.com"
       ]
     },
     {
