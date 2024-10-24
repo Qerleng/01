@@ -1,1 +1,1 @@
-https://github.com/Qerleng/01/raw/main/rule_provider/rule-gaming.yaml
+https://github.com/Qerleng/01/raw/main/rule_provider/rule-umum.yaml
