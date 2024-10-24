@@ -1,5 +1,5 @@
 
-geoipAddresses=("fastly" "firewall" "geoid" "private" "doh" "malicious" "cloudflare" "cloudfront" "id" "facebook" "google" "netflix" "telegram" "twitter")
+geoipAddresses=("firewall" "geoid" "private" "malicious" "id" "google" "netflix" "telegram" "twitter")
 
 
 for file in rule_provider/"${geoipAddresses[@]}".yaml; do
