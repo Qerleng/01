@@ -24,8 +24,8 @@ jobs:
 
       - name: 💩 Build 💩
         run: |
-          python ./data/convert.py
-          bash ./data/1.sh
+
+          bash ./data/98.sh
 
       - uses: MyAlbum/purge-cache@v2
         with:
