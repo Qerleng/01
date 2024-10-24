@@ -13,12 +13,11 @@ for tool in tools/*; do
     command -v $filename &> /dev/null || { cp ./$filename /usr/local/bin/ && chmod +x /usr/local/bin/$filename; }
 done
 
-
-# geoipAddresses=("fastly" "doh" "malicious" "cloudfront" "id" "facebook" "google" "netflix" "telegram" "twitter")
+# geoipAddresses=("fastly" "firewall" "geoid" "private" "doh" "malicious" "cloudflare" "cloudfront" "id" "facebook" "google" "netflix" "telegram" "twitter")
 # geositeDomains=("category-ads-all" "category-porn" "oisd-nsfw" "rule-doh" "rule-gaming" "rule-indo" "rule-playstore" "rule-sosmed" "rule-streaming" "rule-umum" "rule-ipcheck" "rule-speedtest" "videoconference" "rule-malicious" "urltest" "openai" "ecommerce-id" "whatsapp" "bank-id")
 
-geoipAddresses=("fastly" "doh" "malicious" "cloudfront" "id" "facebook" "google" "netflix" "telegram" "twitter")
-geositeDomains=("category-ads-all" "category-porn" "rule-doh" "rule-ipcheck" "rule-speedtest" "openai" "rule-playstore" "whatsapp" "urltest" "bank-id")
+geoipAddresses=("fastly" "firewall" "geoid" "private" "doh" "malicious" "cloudflare" "cloudfront" "id" "facebook" "google" "netflix" "telegram" "twitter")
+geositeDomains=("category-ads-all" "private" "category-porn" "rule-doh" "rule-ipcheck" "rule-speedtest" "openai" "rule-playstore" "whatsapp" "urltest" "bank-id")
 
 
 for item in "${geoipAddresses[@]}"; do
