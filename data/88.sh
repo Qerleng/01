@@ -2,7 +2,7 @@
 geoipAddresses=("firewall" "geoid" "private" "malicious" "id" "google" "netflix" "telegram" "twitter")
 
 
-for file in rule_provider/"${geoipAddresses[@]}".yaml; do
+for file in rule_provider/${geoipAddresses[@]}.yaml; do
     filename=$(basename "$file")
     txt_file="${filename%.*}.txt"
     yaml_file="${filename%.*}.yaml"
