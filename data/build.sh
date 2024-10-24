@@ -19,8 +19,8 @@ done
 geoipAddresses=("fastly" "firewall" "geoid" "private" "doh" "malicious" "cloudflare" "cloudfront" "id" "facebook" "google" "netflix" "telegram" "twitter")
 geositeDomains=("category-ads-all" "private" "category-porn" "rule-doh" "rule-ipcheck" "rule-speedtest" "openai" "rule-playstore" "whatsapp" "urltest" "bank-id")
 
-sing-box geosite list -f geosite.db | awk '{print $1}' | sort > geosite_categories
-sing-box geoip list -f geoip.db | awk '{print $1}' | sort > geoip_categories
+# sing-box geosite list -f geosite.db | awk '{print $1}' | sort > geosite_categories
+# sing-box geoip list -f geoip.db | awk '{print $1}' | sort > geoip_categories
 
 
 for item in "${geoipAddresses[@]}"; do
