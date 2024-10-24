@@ -3,10 +3,10 @@
 set -e -o pipefail
 
 
-curl -Lo geoip.db "https://github.com/rfxcll/v2ray-rules-dat/releases/latest/download/GeoIP.db"
-curl -Lo geosite.db "https://github.com/rfxcll/v2ray-rules-dat/releases/latest/download/GeoSite.db"
-curl -Lo geoip.dat "https://github.com/rfxcll/v2ray-rules-dat/releases/latest/download/GeoIP.dat"
-curl -Lo geosite.dat "https://github.com/rfxcll/v2ray-rules-dat/releases/latest/download/GeoSite.dat"
+curl -Lo geoip.db "https://github.com/malikshi/v2ray-rules-dat/releases/latest/download/GeoIP.db"
+curl -Lo geosite.db "https://github.com/malikshi/v2ray-rules-dat/releases/latest/download/GeoSite.db"
+curl -Lo geoip.dat "https://github.com/malikshi/v2ray-rules-dat/releases/latest/download/GeoIP.dat"
+curl -Lo geosite.dat "https://github.com/malikshi/v2ray-rules-dat/releases/latest/download/GeoSite.dat"
 
 for tool in tools/*; do
     filename=$(basename "$tool")
@@ -18,6 +18,9 @@ done
 
 geoipAddresses=("fastly" "firewall" "geoid" "private" "doh" "malicious" "cloudflare" "cloudfront" "id" "facebook" "google" "netflix" "telegram" "twitter")
 geositeDomains=("category-ads-all" "private" "category-porn" "rule-doh" "rule-ipcheck" "rule-speedtest" "openai" "rule-playstore" "whatsapp" "urltest" "bank-id")
+
+sing-box geosite list -f geosite.db | awk '{print $1}' | sort > geosite_categories
+sing-box geoip list -f geoip.db | awk '{print $1}' | sort > geoip_categories
 
 
 for item in "${geoipAddresses[@]}"; do
