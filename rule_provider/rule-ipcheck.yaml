@@ -1,18 +1,18 @@
 payload:
-  - DOMAIN,domains.google.com
-  - DOMAIN,ipv4.google.com
-  - DOMAIN,ipv6test.google.com
-  - DOMAIN,ds.metric.gstatic.com
-  - DOMAIN,v4.metric.gstatic.com
-  - DOMAIN-SUFFIX,whatismyip.uno
-  - DOMAIN-SUFFIX,ipgeolocation.io
+  - DOMAIN-SUFFIX,dns-leak.com
+  - DOMAIN-SUFFIX,ipconfig.in
+  - DOMAIN-SUFFIX,ttt.sh
+  - DOMAIN-SUFFIX,ipip.net
+  - DOMAIN-SUFFIX,test-ipv6.cl
+  - DOMAIN-SUFFIX,speedtest6.com
+  - DOMAIN-SUFFIX,ipify.org
   - DOMAIN-SUFFIX,ip-api.com
   - DOMAIN-SUFFIX,ipapi.com
   - DOMAIN-SUFFIX,ipapi.co
   - DOMAIN-SUFFIX,ipstack.com
   - DOMAIN-SUFFIX,ipinfo.io
   - DOMAIN-SUFFIX,db-ip.com
-  - DOMAIN-SUFFIX,speedtest6.com
+  - DOMAIN-SUFFIX,ipgeolocation.io
   - DOMAIN-SUFFIX,ipfind.com
   - DOMAIN-SUFFIX,ipv4.global
   - DOMAIN-SUFFIX,apiip.net
@@ -43,8 +43,10 @@ payload:
   - DOMAIN-SUFFIX,top10vpn.com
   - DOMAIN-SUFFIX,telize.com
   - DOMAIN-SUFFIX,getgeoapi.com
+  - DOMAIN-SUFFIX,test-ipv6.cz
   - DOMAIN-SUFFIX,pconline.com
   - DOMAIN-SUFFIX,ip.tb
+  - DOMAIN-SUFFIX,test-ipv6.hu
   - DOMAIN-SUFFIX,ipleak.net
   - DOMAIN-SUFFIX,dnsleak.com
   - DOMAIN-SUFFIX,whoer.net
@@ -52,14 +54,14 @@ payload:
   - DOMAIN-SUFFIX,dnsleaktest.com
   - DOMAIN-SUFFIX,pingtools.org
   - DOMAIN-SUFFIX,taobao.com
-  - DOMAIN-SUFFIX,ttt.sh
+  - DOMAIN-SUFFIX,test-ipv6.is
+  - DOMAIN-SUFFIX,test-ipv6.se
+  - DOMAIN-SUFFIX,sixte.st
   - DOMAIN-SUFFIX,skk.moe
   - DOMAIN-SUFFIX,ip.gs
   - DOMAIN-SUFFIX,iplocation.net
-  - DOMAIN-SUFFIX,ipip.net
-  - DOMAIN-SUFFIX,xmyip.com
   - DOMAIN-SUFFIX,showmyip.com
-  - DOMAIN-SUFFIX,ipify.org
+  - DOMAIN-SUFFIX,whatismyip.uno
   - DOMAIN-SUFFIX,router-network.com
   - DOMAIN-SUFFIX,whatsmyip.org
   - DOMAIN-SUFFIX,ipcost.com
@@ -77,43 +79,37 @@ payload:
   - DOMAIN-SUFFIX,ipburger.com
   - DOMAIN-SUFFIX,what-is-my-ip.co
   - DOMAIN-SUFFIX,ipsaya.com
-  - DOMAIN-SUFFIX,test-ipv6.cl
+  - DOMAIN-SUFFIX,xmyip.com
   - DOMAIN-SUFFIX,whatismyip.network
   - DOMAIN-SUFFIX,tracemyip.org
   - DOMAIN-SUFFIX,dnschecker.org
-  - DOMAIN-SUFFIX,ipconfig.in
-  - DOMAIN-SUFFIX,strongleakstest.com
-  - DOMAIN-SUFFIX,dns-leak.com
-  - DOMAIN-SUFFIX,dnsleaktest.org
-  - DOMAIN-SUFFIX,nordvpn.com
-  - DOMAIN-SUFFIX,test-ipv6.com
   - DOMAIN-SUFFIX,testipv6.de
-  - DOMAIN-SUFFIX,sixte.st
-  - DOMAIN-SUFFIX,test-ipv6.se
-  - DOMAIN-SUFFIX,test-ipv6.is
-  - DOMAIN-SUFFIX,test-ipv6.hu
-  - DOMAIN-SUFFIX,test-ipv6.cz
-  - DOMAIN-SUFFIX,pconline.com.cn
-  - DOMAIN-SUFFIX,test-ipv6.arauc.br
-  - DOMAIN-SUFFIX,test-ipv6.go6.si
-  - DOMAIN-SUFFIX,test-ipv6.carnet.hr
-  - DOMAIN-SUFFIX,test-ipv6.fratec.net
-  - DOMAIN-SUFFIX,test-ipv6.freerangecloud.com
-  - DOMAIN-SUFFIX,test-ipv6.alpinedc.ch
-  - DOMAIN-SUFFIX,test-ipv6.epic.network
-  - DOMAIN-SUFFIX,test-ipv6.ttk.ru
-  - DOMAIN-SUFFIX,test-ipv6.belwue.net
+  - DOMAIN-SUFFIX,strongleakstest.com
+  - DOMAIN-SUFFIX,test-ipv6.com
+  - DOMAIN-SUFFIX,dnsleaktest.org
   - DOMAIN-SUFFIX,test-ipv6.iu13.net
+  - DOMAIN-SUFFIX,test-ipv6.alpinedc.ch
+  - DOMAIN-SUFFIX,test-ipv6.ttk.ru
+  - DOMAIN-SUFFIX,ipv6test.google.com
+  - DOMAIN-SUFFIX,pconline.com.cn
+  - DOMAIN-SUFFIX,test-ipv6.freerangecloud.com
+  - DOMAIN-SUFFIX,test-ipv6.epic.network
+  - DOMAIN-SUFFIX,test-ipv6.arauc.br
   - DOMAIN-SUFFIX,test-ipv6.noroutetohost.net
   - DOMAIN-SUFFIX,test-ipv6.roedu.net
+  - DOMAIN-SUFFIX,test-ipv6.carnet.hr
+  - DOMAIN-SUFFIX,ipv4.google.com
+  - DOMAIN-SUFFIX,test-ipv6.go6.si
+  - DOMAIN-SUFFIX,test-ipv6.belwue.net
+  - DOMAIN-SUFFIX,test-ipv6.fratec.net
+  - DOMAIN-SUFFIX,domains.google.com
+  - DOMAIN-SUFFIX,ds.metric.gstatic.com
   - DOMAIN-SUFFIX,v4.metric.gstatic.com
   - DOMAIN-SUFFIX,test-ipv6.ke.liquidtelecom.net
   - DOMAIN-SUFFIX,test-ipv6.sin.vr.org
-  - DOMAIN-SUFFIX,test-ipv6.cs.umd.edu
   - DOMAIN-SUFFIX,test-ipv6.csclub.uwaterloo.ca
-  - DOMAIN-SUFFIX,ds.metric.gstatic.com
+  - DOMAIN-SUFFIX,test-ipv6.cs.umd.edu
   - DOMAIN-KEYWORD,whatismyip
-  - DOMAIN-KEYWORD,whatismyisp
   - DOMAIN-KEYWORD,iplocation
   - DOMAIN-KEYWORD,myip
   - DOMAIN-KEYWORD,ipapi

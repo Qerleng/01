@@ -91,6 +91,7 @@ android
 anime
 anon-v
 anthropic
+antiscam
 antutu
 ap
 apa
@@ -103,6 +104,7 @@ apkpure
 apple
 apple-ads
 apple-ads@ads
+apple-cn
 apple-dev
 apple-dev@cn
 apple-pki
@@ -240,7 +242,6 @@ catchplay
 category-acg
 category-ads
 category-ads-all
-category-ads-all@ads
 category-ads-ir
 category-ads@ads
 category-ai-chat-!cn
@@ -366,6 +367,7 @@ chatango
 chatwhores
 cheetahmobile
 chegg
+china-list
 chinabroadnet
 chinamobile
 chinanews
@@ -402,7 +404,6 @@ clubhouse
 cmb
 cmb@!cn
 cn
-cn@cn
 cnbc
 cnbeta
 cnblogs
@@ -519,7 +520,6 @@ eastmoney@!cn
 easylist
 ebay
 ebay@cn
-ecommerce-id
 economist
 edx
 egghead
@@ -609,10 +609,10 @@ geekpark
 geetest
 gemfury
 geolocation-!cn
-geolocation-!cn@!cn
 geolocation-cn
 geolocation-cn@cn
 gettyimages
+gfw
 gfycat
 giffgaff
 gigabyte
@@ -636,6 +636,7 @@ goodreads
 google
 google-ads
 google-ads@ads
+google-cn
 google-deepmind
 google-gemini
 google-play
@@ -1205,7 +1206,6 @@ ruanmei
 ruby
 rubychina
 rule-ads
-rule-ads@ads
 rule-doh
 rule-gaming
 rule-gaming@!cn
@@ -1535,6 +1535,9 @@ wholefoodsmarket
 wikidot
 wikihow
 wikimedia
+win-extra
+win-spy
+win-update
 windy
 wise
 wisekey

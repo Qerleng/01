@@ -61,6 +61,7 @@ payload:
 - +.212.233.109.208.host.secureserver.net
 - +.218.178.172.34.bc.googleusercontent.com
 - +.23-122-210-174.lightspeed.cicril.sbcglobal.net
+- +.230.sub-166-166-188.myvzw.com
 - +.240802190315192.shi.jtii79.top
 - +.240808160122177.shi.jtii79.top
 - +.240810152539140.shi.jtii79.top
@@ -71,7 +72,6 @@ payload:
 - +.240922164748184.tyr.zont16.com
 - +.241007133857.tyr.zont16.com
 - +.241009205925672.dmi.fyml86.com
-- +.248.215.70.34.bc.googleusercontent.com
 - +.2882.tpddns.cn
 - +.2bnkmelat.buzz
 - +.2c8b3f19-0325-4acc-a3dd-31a918e4dbf5.random.ironstarkkair.xyz
@@ -196,6 +196,7 @@ payload:
 - +.aosafrica.co.za
 - +.aperioristo.com
 - +.api-panel.holesh.ir
+- +.api.52kkg.com
 - +.api.g3ll3rt.com
 - +.api.pastecode.io
 - +.apijs.djibysoft.com
@@ -229,6 +230,7 @@ payload:
 - +.astronomicspace.com
 - +.aterecierais.ru.com
 - +.atlpvt.com
+- +.atsegypt.com
 - +.atsknightsbridge.in
 - +.atualiza.shop
 - +.aulist.com
@@ -265,7 +267,6 @@ payload:
 - +.banydox.com
 - +.baruopas.com
 - +.bazarganadero.com
-- +.bbuseruploads.s3.amazonaws.com
 - +.bclick.com.br
 - +.beif.donors.eucharisticjesus.net
 - +.beiletoys.com
@@ -318,6 +319,7 @@ payload:
 - +.bot.nianlun-vps.xyz
 - +.bot.proxies.codes
 - +.bota.lolzone.lol
+- +.botnet.app
 - +.botnet.checkgdv.click
 - +.botnet.fhlc.me
 - +.botnet.jexkia.online
@@ -342,7 +344,6 @@ payload:
 - +.bulletrdp.ru
 - +.burrkeklprinting.tech
 - +.buscascolegios.diit.cl
-- +.buyn.xyz
 - +.bxss.glue.oystergardening.net
 - +.bxz.benefits.melanatedbloodlinesrestoration.com
 - +.by.haory.cn
@@ -476,6 +477,7 @@ payload:
 - +.cribasa.cl
 - +.crome-update-gr.com
 - +.crossback.cl
+- +.crstvda.com
 - +.cryptolabstudio.com
 - +.cs.go.kg
 - +.cudomininghgko.com
@@ -559,6 +561,7 @@ payload:
 - +.djt.free.thebitmeister.com
 - +.dkno.therapy.emergencepsychservices.com
 - +.dl.1003b.56a.com
+- +.dl.aginjector.com
 - +.dl.jiposter.com
 - +.dl.natgo.cn
 - +.dl.zerotheme.ir
@@ -620,7 +623,6 @@ payload:
 - +.ebaltrahal.com
 - +.ebjmr.free.thebitmeister.com
 - +.ec2-13-36-178-185.eu-west-3.compute.amazonaws.com
-- +.ec2-18-221-24-26.us-east-2.compute.amazonaws.com
 - +.ec2-18-222-153-176.us-east-2.compute.amazonaws.com
 - +.ecfv.shades.whatisaweekend.com
 - +.echo-c2.kro.kr
@@ -718,7 +720,6 @@ payload:
 - +.financesunion.com
 - +.financetoday.top
 - +.financetodayapp.com
-- +.financetodayusa.com
 - +.financetrade.net
 - +.financial-advisors.top
 - +.financialagency.net
@@ -757,7 +758,6 @@ payload:
 - +.fsh.living.miraclesofeucharisticjesus.org
 - +.fshjfjhxjhjh.top
 - +.ftvproclad.top
-- +.fudi.ing
 - +.funcaptcha.ru
 - +.funletters.net
 - +.funrecipebooks.com
@@ -795,20 +795,20 @@ payload:
 - +.ghost.diningupdates.site
 - +.ghost.foodiecorner.rest
 - +.ghost.quickresource.world
+- +.giantowl.flywheelsites.com
 - +.gigav1.b-cdn.net
 - +.giorja.com
 - +.github-scanner.com
 - +.github-scanner.shop
 - +.gitshare.org
 - +.giwep.sponsor.printondemandagency.com
-- +.globalbankpay.com
-- +.globalfinmasters.com
 - +.globallaborsupply.com
 - +.globalvoice.mobi
 - +.gls.house.zionanakwenze.com
 - +.go6inapp.buzz
 - +.goldhunt.s3.eu-north-1.amazonaws.com
 - +.goo.willowsoaks.com
+- +.goodtime.ro
 - +.googletranslate.zapto.org
 - +.gorillabin.su
 - +.goto5app.buzz
@@ -839,6 +839,7 @@ payload:
 - +.hafr4.tk5.top
 - +.hafr5.tk5.top
 - +.haggaifashion.com
+- +.haha-git-main-grimmhubmoments-projects.vercel.app
 - +.haiguirencai.net
 - +.hailcocks.ru
 - +.hans.uniformeslaamistad.com
@@ -854,7 +855,6 @@ payload:
 - +.hfs.t1linux.com
 - +.hfug.guide.borden-carleton.ca
 - +.hgw.guide.borden-carleton.ca
-- +.hhic.top
 - +.hi.admini.website
 - +.himb.shades.whatisaweekend.com
 - +.hiroshima.accesscam.org
@@ -877,6 +877,7 @@ payload:
 - +.howtocleanseptictank.com
 - +.hpoby.therapy.emergencepsychservices.com
 - +.hr.xiongxun.vip
+- +.hr2019.vrcom7.com
 - +.hsolar.com
 - +.hss.myftp.biz
 - +.huiip.top
@@ -905,7 +906,6 @@ payload:
 - +.illuminazioneproduzione.it
 - +.iloveschweppes.shop
 - +.ima.dzgsm.com
-- +.imc1.top
 - +.imety.edu.co
 - +.immigrationlawyerspokane.com
 - +.impact.holliestea.com
@@ -937,6 +937,7 @@ payload:
 - +.inmed.hr
 - +.innerglowjourney.com
 - +.innovaxingenieros.com
+- +.innovura.in
 - +.inspirepk.org
 - +.insta.willowsoaks.com
 - +.install.twil4.id.vn
@@ -1011,7 +1012,6 @@ payload:
 - +.kambeftojerdy.pro
 - +.kambud.biz
 - +.kanavurchristianmatrimony.com
-- +.karer.by
 - +.karoonpc.com
 - +.kayomirai.kro.kr
 - +.kaysons-group.com
@@ -1044,6 +1044,7 @@ payload:
 - +.larpawards.sa.com
 - +.last-blink.com
 - +.law-moneyback.info
+- +.lawyer.webstylze.com
 - +.lawyerconsult.top
 - +.lbko.rooms.fierceatfifty.com
 - +.lcacreamery-chalfont.com
@@ -1055,11 +1056,9 @@ payload:
 - +.lesyogaphiles.com
 - +.lettinggo.fun
 - +.lexbendafrog.info
-- +.lflsoftware.com
 - +.lgbt.contest.printondemandmerchandise.com
 - +.lgservice.smithup.site
 - +.lhc.therapy.emergencepsychservices.com
-- +.library.arihantmbainstitute.ac.in
 - +.lide.omernisar.com
 - +.lifesuma.com
 - +.limacamposadv.online
@@ -1072,6 +1071,7 @@ payload:
 - +.llooadd.com
 - +.lmhyt.shades.whatisaweekend.com
 - +.ln6b9.shop
+- +.loader.oxy.st
 - +.loeghaiofiehfihf.to
 - +.login-ing-member.misecure.com
 - +.loginshare.net
@@ -1318,7 +1318,6 @@ payload:
 - +.oldwetcat.com
 - +.olivergboxz.zone
 - +.oln.free.thebitmeister.com
-- +.omnicomm-ural.ru
 - +.oneee.b-cdn.net
 - +.oneip.com.my
 - +.onemk3.teracomm.mk
@@ -1365,6 +1364,7 @@ payload:
 - +.papka0.top
 - +.parasseasonss.com
 - +.park.chuitian.cn
+- +.parquelosencinos.cl
 - +.passagetoeastafrica.com
 - +.pastebin.ai
 - +.pastecode.dev
@@ -1407,7 +1407,6 @@ payload:
 - +.plutoc2.site
 - +.pns.org.pk
 - +.poewesfoosn.ink
-- +.poka.award.vuheritagefoundation.org
 - +.polipastosmexico.com.mx
 - +.pomsn.guide.borden-carleton.ca
 - +.popipg.com
@@ -1472,7 +1471,6 @@ payload:
 - +.queimaxofc.com
 - +.quickpresentationdoc.xyz
 - +.qwdfewf.com
-- +.qxup.loyalty.hienphucuanhanloai.org
 - +.rabtbts.nl
 - +.racarteles.com.ar
 - +.rachmatmusa.com
@@ -1608,7 +1606,9 @@ payload:
 - +.silentpdf.line.pm
 - +.silinast.ro
 - +.silobsatewpes.click
+- +.simonastolerciuc.ro
 - +.simplymecosmetics.com
+- +.sirault.be
 - +.siscorp.mx
 - +.sispy.net
 - +.sistema.intensegroupgt.com
@@ -1656,6 +1656,7 @@ payload:
 - +.specialoffersnow.net
 - +.specialpromoter.net
 - +.specificsecurity.ru
+- +.spitalcfpascani.ro
 - +.src1.minibai.com
 - +.srothienhoa.com
 - +.srouocmo.net
@@ -1671,7 +1672,6 @@ payload:
 - +.static.183.213.201.138.clients.your-server.de
 - +.static.204.78.40.188.clients.your-server.de
 - +.static.3001.net
-- +.static.zongheng.com
 - +.stdown.dinju.com
 - +.stlx3.life
 - +.stockframe.site
@@ -1712,6 +1712,7 @@ payload:
 - +.tcgeo.shades.whatisaweekend.com
 - +.tcgroup.it
 - +.tcvwu.donors.eucharisticjesus.net
+- +.tcy.rooms.fierceatfifty.com
 - +.te1.tunnelin.com
 - +.technecare.technecare.com
 - +.techniguitare.com
@@ -1739,6 +1740,7 @@ payload:
 - +.thearchives.ink
 - +.thefifthsuncd.sa.com
 - +.thehyperfocus.quest
+- +.thelenogaxxxpro.site
 - +.thelinecityph.online
 - +.themufti.com
 - +.theonerealsolution.com
@@ -1790,6 +1792,10 @@ payload:
 - +.tywyp.shades.whatisaweekend.com
 - +.ua-chrome.tech
 - +.ubal.do
+- +.uc46f8bd5cd4839749be7b3c023f.dl.dropboxusercontent.com
+- +.uc94b07c5293e71ce2c4fd7a54da.dl.dropboxusercontent.com
+- +.uc9747ff3be58ea20ff6ca331399.dl.dropboxusercontent.com
+- +.ucdf7ee85fc0b26ad290895445e7.dl.dropboxusercontent.com
 - +.ufyn.loyalty.hienphucuanhanloai.org
 - +.ugq.rooms.fierceatfifty.com
 - +.unicorpbrunei.com
@@ -1850,7 +1856,6 @@ payload:
 - +.voinformatica.com.pt
 - +.vosrt.outfit.dianamercer.com
 - +.vps-5fc33f45.vps.ovh.ca
-- +.vps76729.cloudpublic.com.br
 - +.vrgj.donors.eucharisticjesus.net
 - +.vrh.contest.printondemandmerchandise.com
 - +.vryv.free.thebitmeister.com
@@ -1889,8 +1894,8 @@ payload:
 - +.www2.dawxmlpdfs.com
 - +.www999999asgasg-1327129302.cos.ap-chengdu.myqcloud.com
 - +.www999999safagqwhg-1327129302.cos.ap-chengdu.myqcloud.com
+- +.wynecare.com
 - +.xakep.dad
-- +.xdfds.loyalty.hienphucuanhanloai.org
 - +.xemir.pw
 - +.xf.mzwh6.ru.com
 - +.xhv.therapy.emergencepsychservices.com
@@ -1905,6 +1910,7 @@ payload:
 - +.xn--6dbahb0bc0ax0b.xyz
 - +.xn--en1b51xdyf.com
 - +.xn--girsdom-9ya.com
+- +.xn--on3b15m2lco2u.com
 - +.xnj.rooms.fierceatfifty.com
 - +.xscqj.house.zionanakwenze.com
 - +.xspace.bio
@@ -1931,6 +1937,7 @@ payload:
 - +.yoshmormai.dynamic-dns.net
 - +.youtransfer.net
 - +.yowui.johnmccrea.com
+- +.yp.hnggzyjy.cn
 - +.ypfr.outfit.dianamercer.com
 - +.ypqm.podcast.lisameyerson.com
 - +.yqf.free.thebitmeister.com
