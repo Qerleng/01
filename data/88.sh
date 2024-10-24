@@ -11,9 +11,9 @@ for file in rule_provider/"${geoipAddresses[@]}".yaml; do
     ars_file="${filename%.*}.ars"
     json_file="${filename%.*}.json"
 
-    rm -if $mrs_file
-    rm -if $file
-    rm -if $srs_file
-    rm -if $json_file
+    rm -rf $mrs_file
+    rm -rf $file
+    rm -rf $srs_file
+    rm -rf $json_file
 
 done
