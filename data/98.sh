@@ -15,13 +15,13 @@ done
 
 mkdir -p original
 
-sing-box geosite list private -f geosite.db | awk '{print $1}' | sort > geosite_categories.list
+CrashCore geosite list private -f geosite.db | awk '{print $1}' | sort > geosite_categories.list
 while IFS= read -r category; do
     v2dat unpack geosite -o "original/geosite" -f "$category" "db/geosite.dat" &
 done < geosite_categories.list
 wait
 
-sing-box geoip list -f geoip.db | awk '{print $1}' | sort > geoip_categories.list
+CrashCore geoip list -f geoip.db | awk '{print $1}' | sort > geoip_categories.list
 while IFS= read -r category; do
     v2dat unpack geoip -o "original/geoip" -f "$category" "db/geoip.dat" &
 done < geoip_categories.list
