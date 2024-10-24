@@ -15,6 +15,7 @@ done
 
 sing-box geoip list -f geoip.db | awk '{print $1}' | sort > geoip_categories.list
 while IFS= read -r category; do
+    makdir -p original
     v2dat unpack geoip -o "original/geoip" -f "$category" "geoip.dat" &
 done < geoip_categories.list
 
