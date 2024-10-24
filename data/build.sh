@@ -40,9 +40,9 @@ for file in ./rule/ip/*; do
     mkdir -p ./rule-set/geoip/
     mkdir -p ./rule_provider/
     category=$(echo "$filename" | sed 's/geoip_\(.*\)\.*/\1/')
-    output_file="rule_provider/${category%.*}.yaml"
+    output_file="rule_provider/${category%.*}_ip.yaml"
     echo "payload:" > $output_file
-    output_file2="rule/ip/${category%.*}.yaml"
+    output_file2="rule/ip/${category%.*}_ip.yaml"
     echo "payload:" > $output_file2
     while IFS= read -r line; do
         case $line in
@@ -105,7 +105,7 @@ done
 for file in rule/ip/*.txt; do
     filename=$(basename "$file")
     category=$(echo "$filename" | sed 's/geoip_\(.*\)\.txt/\1/')
-    output_file="rule/ip/${category}.json"
+    output_file="rule/ip/${category}_ip.json"
     jq -nR '[inputs] | { "version": 1, "rules": [ { "ip_cidr": . } ] }' < $file > $output_file && \
     sing-box rule-set format $output_file -w &
 done
