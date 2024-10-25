@@ -10,7 +10,7 @@ for file in rule_provider/mlbb_port.yaml; do
     sed -i 's/  - DOMAIN,\(.*\)/- "\1"/' $txt_file
     sed -i 's/  - DOMAIN-KEYWORD,\(.*\)/- "\1"/' $txt_file
     129.227.151.138:30190
-    sed -i 's/  - DST-PORT,\(.*\)/- ".*.*.*.*:\1"/' $txt_file
+    sed -i 's/  - DST-PORT,\(.*\)//' $txt_file
     sed -i 's/  - DOMAIN-REGEX,\(.*\)/- "\1"/' $txt_file
     sed -i 's/\(.*\)/\1/' $txt_file
     sed -i 's/^! /# /' $txt_file
@@ -19,7 +19,7 @@ for file in rule_provider/mlbb_port.yaml; do
     (mihomo convert-ruleset domain yaml $output_file ${output_file%.*}.mrs) 
 
 
-    mv "$txt_file" rule_provider/
+    rm "$txt_file" 
     mv "$mrs_file" rule_provider/
 #    mv "${file%.*}.yaml" trash/
 
