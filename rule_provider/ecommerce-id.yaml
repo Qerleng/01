@@ -2,9 +2,9 @@ payload:
   - DOMAIN,acs.m.taobao.com
   - DOMAIN,amdc.m.taobao.com
   - DOMAIN,api2.branch.io
+  - DOMAIN,dana.threatcast.guardsquare.com
   - DOMAIN,audid-api-sg.taobao.com
   - DOMAIN,auth.split.io
-  - DOMAIN,streaming.split.io
   - DOMAIN,cdn.branch.io
   - DOMAIN,cdngarenanow-a.akamaihd.net
   - DOMAIN,danaindonesia.app.link
@@ -196,6 +196,7 @@ payload:
   - DOMAIN-SUFFIX,wsyariahbukopin.co.idaladinbank.id
   - DOMAIN-KEYWORD,-ac.alipay.com
   - DOMAIN-KEYWORD,-sea.alipay.com
+  - DOMAIN-KEYWORD,-id.alipay.com
   - DOMAIN-KEYWORD,api.shopee
   - DOMAIN-KEYWORD,bhinneka
   - DOMAIN-KEYWORD,blibli
