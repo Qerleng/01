@@ -1,11 +1,11 @@
 !
 ! Title: AdGuard DNS filter
 ! Description: List composed of several filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking
-! Version: 1.0.16.84
+! Version: 1.0.16.89
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
-! Last modified: 2024-10-29T18:07:35.761Z
+! Last modified: 2024-10-30T16:49:29.990Z
 !
-! Compiled by @adguard/hostlist-compiler v1.0.26
+! Compiled by @adguard/hostlist-compiler v1.0.29
 !
 !
 ! Source name: AdGuard DNS filter
@@ -16,7 +16,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-10-29T18:01:12.800Z
+! Last modified: 2024-10-30T15:30:45.306Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.29
 !
@@ -35,6 +35,9 @@
 !
 !
 !
+||rertessesse.xyz^
+||cnxlskkkebks.xyz^
+||ieyri61b.xyz^
 ||v785.online^
 ||dareka4te.shop^
 ||rpjkwhkxh.com^
@@ -149,6 +152,7 @@
 ||cdn.ads-flipp.com^
 ||ozbnagojbop.com^
 ||d3nz96k4xfpkvu.cloudfront.net^
+||185.149.120.173^
 /^139\.45\.197\.2(4[0-9]|5[0-4]):/
 ||vg876yuj.click^
 ||lmj8i.pro^
@@ -161,6 +165,7 @@ serve.bussyhunter.com^
 ||globalwoldsinc.com^
 ||i98jio988ui.world^
 ||subag.freexxxbase.com^
+||157.90.183.248^
 ||randomadsrv.com^
 ||crmentjg.com^
 ||crmtt.livejasmin.com^
@@ -197,6 +202,8 @@ serve.bussyhunter.com^
 ||exinariuminix.info^
 ||chabadokor.com^
 ||truthfulsensor.com^
+||5.61.55.143^
+||37.1.213.100^
 ||loc.sexymilfspics.com^
 ||go2click.online^
 ||sibergy.com^
@@ -745,6 +752,11 @@ serve.bussyhunter.com^
 ||amazon-adsystem.com^
 !+ NOT_OPTIMIZED
 ||vipads.live^
+!+ NOT_OPTIMIZED
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/189721
+! Opera promo on third-party sites
+||88.208.46.222^
 !
 ! Fake KMS activators
 ||kms-full.com^
@@ -769,9 +781,36 @@ serve.bussyhunter.com^
 /^23\.109\.73\.\d{3}/
 /^188\.42\.84\.\d{1,3}/
 /^139\.45\.19[5-7]\.\d{1,3}/
+! https://github.com/AdguardTeam/AdguardFilters/issues/172400
+! PowerAds
+||193.200.64.30^
+||193.200.64.31^
+||193.200.65.61^
+||212.117.190.201^
+||212.117.190.202^
+||212.117.190.210^
+||212.117.190.211^
+||212.117.190.212^
+||212.117.190.213^
+! https://github.com/AdguardTeam/AdguardFilters/issues/170063
+! spam ads
+||91.204.226.224^
+! https://github.com/AdguardTeam/AdguardFilters/issues/155298
+! Frequently changed domains with the same IPs
+||57.128.71.215^
+! https://github.com/AdguardTeam/AdguardFilters/issues/152407
+! Frequently changed domains with the same IPs
+||185.246.188.125^
+||185.246.188.124^
+||194.63.140.103^
+||194.63.143.61^
+||194.63.143.96^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151479
 ! Frequently changed domains with the IP range
 /^142\.91\.159\.(1[5-9]\d|2[0-4]\d|250):(80|443)$/
+! Frequently changed domains with the same IP
+! For example: https://pornxp.com/videos/77778518360
+||188.72.219.36^
 188.72.219.36^
 !
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/142
@@ -1430,6 +1469,8 @@ serve.bussyhunter.com^
 .1.1.1.l80.js^
 .3.n.2.1.l50.js
 .3.n.2.2.l30.js
+!
+||109.123.233.251^
 ||gulf.moneroocean.stream^
 ||trustisimportant.fun^
 ||pool.supportxmr.com^
@@ -5490,6 +5531,7 @@ vkcdnservice.appspot.com^
 ||bisesacnodes.com^
 ||bisetcroomia.click^
 ||bisetsoliped.com^
+||bisozkfiv.com^
 ||bissailre.com^
 ||bissonprevoid.website^
 ||bit-ad.com^
@@ -7947,6 +7989,7 @@ vkcdnservice.appspot.com^
 ||coupteew.com^
 ||couptoug.net^
 ||courageousaway.com^
+||courageousdiedbow.com^
 ||courierembedded.com^
 ||couriree.xyz^
 ||coursebonfire.com^
@@ -8589,6 +8632,7 @@ vkcdnservice.appspot.com^
 ||dealtbroodconstitutional.com^
 ||dearestimmortality.com^
 ||deasandcomemunic.com^
+||deavelydragees.shop^
 ||debateconsentvisitation.com^
 ||debauchinteract.com^
 ||debaucky.com^
@@ -10164,6 +10208,7 @@ vkcdnservice.appspot.com^
 ||ehpvvxyp.com^
 ||ehpxmsqghx.xyz^
 ||ehqdzqi.com^
+||ehrmanoda.com^
 ||ehrydnmdoe.com^
 ||eicbgbnbvjf.com^
 ||eidoscruster.com^
@@ -11359,6 +11404,7 @@ vkcdnservice.appspot.com^
 ||fibmaths.com^
 ||fibrefilamentherself.com^
 ||fibrehighness.com^
+||fibrilono.top^
 ||ficinhubcap.com^
 ||fickle-brush.com^
 ||fickleclinic.com^
@@ -12485,6 +12531,7 @@ vkcdnservice.appspot.com^
 ||ggcurexznta.com^
 ||ggetsurv4youu.com^
 ||gggetsurveey.com^
+||ggjqqmwwolbmhkr.com^
 ||ggkk.xyz^
 ||gglx.me^
 ||ggpkmmafo.com^
@@ -14462,7 +14509,6 @@ vkcdnservice.appspot.com^
 ||ievjrgjid.com^
 ||ievjylvqfjry.com^
 ||ievwagscwgpjm.com^
-||ieyri61b.xyz^
 ||iezptsoc.com^
 ||iezxmddndn.com^
 ||if20jadf8aj9bu.shop^
@@ -15805,6 +15851,7 @@ vkcdnservice.appspot.com^
 ||judruwough.com^
 ||jugerfowells.com^
 ||juggleeducationfirearm.com^
+||juglarunioid.com^
 ||jugnepha.xyz^
 ||jugsmithecology.com^
 ||juhece.uno^
@@ -16319,6 +16366,7 @@ vkcdnservice.appspot.com^
 ||kq272lw4c.com^
 ||kqbjdvighp.com^
 ||kqduogttdmryguw.com^
+||kqhgjmap.com^
 ||kqhi97lf.de^
 ||kqiivrxlal.xyz^
 ||kqjpipl.com^
@@ -19611,6 +19659,7 @@ vkcdnservice.appspot.com^
 ||nv3tosjqd.com^
 ||nvane.com^
 ||nvjgmugfqmffbgk.xyz^
+||nvlcnvyqvpjppi.xyz^
 ||nvtvssczb.com^
 ||nvuwqcfdux.xyz^
 ||nvzaezebhow.com^
@@ -20169,6 +20218,7 @@ vkcdnservice.appspot.com^
 ||onmanectrictor.com^
 ||onmantineer.com^
 ||onmarshtompor.com^
+||onoamoutsaitsy.net^
 ||onpluslean.com^
 ||onpsrrejx.com^
 ||onraltstor.com^
@@ -26728,6 +26778,7 @@ vkcdnservice.appspot.com^
 ||sub.empressleak.biz^
 ||sub.xxx-porn-tube.com^
 ||sub2.avgle.com^
+||subanunpollee.shop^
 ||subdatejutties.com^
 ||subdo.torrentlocura.com^
 ||subduealec.com^
@@ -35342,6 +35393,7 @@ vkcdnservice.appspot.com^
 ||ufz.doesxyz.com^
 ||xdrig.com^
 ||usp1.baidu.com^
+||54.222.186.106^
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 ! AfreecaTV
@@ -35353,6 +35405,11 @@ vkcdnservice.appspot.com^
 ||startup.mobile.yandex.net^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||ad.deepthought.industries^
+||ad.bandlab.io^
+||ads.cocomobi.com^
+||inmense.site^
+||dollphoin.site^
 ||news-cdn.site^
 ||adx.mossru.com^
 ||jjpp.lmtjapi.com^
@@ -35767,6 +35824,7 @@ vkcdnservice.appspot.com^
 ://o0e.ru^
 ||1mp.mobi^
 ||247realmedia.com^
+||31.14.252.148^
 ||abtest.swrve.com^
 ||ad*.nexage.com^
 ||ad-brix.com^
@@ -36079,6 +36137,7 @@ vkcdnservice.appspot.com^
 !
 !
 !
+||webmaxlogger.net^
 ||prodregistryv2.org^
 ||ads.mythad.com^
 ||ga2.getresponse.com^
@@ -37150,6 +37209,7 @@ vkcdnservice.appspot.com^
 ||log.perfecttitspics.com^
 ||analytics.mbga.jp^
 ||loginside.co.kr^
+||110.93.143.144^
 ||log002.commutil.kr^
 ||analy1.dtnnetwork.be^
 ||cerdmann.com^
@@ -37591,6 +37651,7 @@ vkcdnservice.appspot.com^
 ||123-counter.de^
 ||123compteur.com^
 ||123count.com^
+||180.76.2.18^
 ||1freecounter.com^
 ||1pel.com^
 ||200stran.ru^
@@ -37614,8 +37675,12 @@ vkcdnservice.appspot.com^
 ||4stats.de^
 ||50bang.org^
 ||55labs.com^
+||66.228.52.30^
+||67.228.151.70^
 ||6sc.co^
+||74.55.82.102^
 ||77tracking.com^
+||79.125.117.123^
 ||7bpeople.com^
 ||8020solutions.net^
 ||99counters.com^
@@ -39840,13 +39905,17 @@ vkcdnservice.appspot.com^
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||stats.hitwebcloud.de^
+||amplitude.bandlab.com^
+||amplitude-experiment.bandlab.com^
+||sensorsdata.glowapp.vip^
+||relay-event.talkie-ai.com^
 ||data-ingestion.flowgpt.com^
 ||tianji.flowgpt.com^
 ||analytics-ingestion-production.tubitv.com^
 ||retail-client-events-service.internal.salsify.com^
 ||servo-report.keepstreams.*^
 ||metrics.imdb.com^
-||global.telemetry.insights.video.a2z.com^
 ||ldpsh.fashionnova.com^
 ||tag.aftvnews.com^
 ||statsjs.klevu.com^
@@ -42447,6 +42516,9 @@ inapps.appsflyersdk.com^
 !
 ! NOTE: Regular rules
 !
+||amplitude.life360.com^
+||events.swiftlycontent.net^
+||log.cleandesigner.live^
 ||mob2.healthapplines.com^
 ||client-telemetry.hingeprod.net^
 ||events-api.towneers.prod.data.krmt.io^
@@ -43817,7 +43889,6 @@ inapps.appsflyersdk.com^
 ||wds.weqs.me^
 ||web-tracker.smsbump.com^
 ||web1.51.la^
-||webcare.byside.com^
 ||webservices.websitepros.com^
 ||webstats.thaindian.com^
 ||webtracker.apicasystem.com^
@@ -44803,6 +44874,8 @@ inapps.appsflyersdk.com^
 ||sworatio.co^
 ||crazyhell.com^
 ||waycash.net^
+||184.106.248.76^
+||200.72.40.46^
 ||actualtrade.eu^
 ||ad-pub.terra.com.br^
 ||ad.batanga.com^
@@ -45668,19 +45741,29 @@ inapps.appsflyersdk.com^
 ||24new.ru^
 ||2under.ru^
 ||34bogatirya.ru^
+||37.220.26.135^
+||37.220.26.136^
+||37.220.26.137^
 ||3file.info^
 ||3lucosy.com^
 ||3mtr.ru^
 ||468.vologdainfo.ru^
 ||69m.info^
 ||6likosy.com^
+||77.247.178.41^
 ||777-888.ru^
+||78.140.134.198^
+||78.140.149.216^
 ||7dvd.ru^
 ||7offers.ru^
 ||7out.ru^
 ||7porn.ru^
 ||7rtv.com^
+||88.85.75.147^
+||88.85.77.92^
 ||8coins.net^
+||91.207.192.31^
+||95.211.125.226^
 ||9fine.ru^
 ||a.fobos.tv^
 ||a.jurnalu.ru^
@@ -46901,6 +46984,10 @@ inapps.appsflyersdk.com^
 !
 ! AD Factor
 /193.200.64.24:/
+||193.200.64.24^
+!
+! under.site
+||206.54.181.250^
 !
 ||popvalk.com^
 193.200.65.61^
@@ -47659,6 +47746,14 @@ inapps.appsflyersdk.com^
 !
 !+ NOT_OPTIMIZED
 ||bance.jp^
+!
+! for Safari ('||' covers one sub-domain only)
+!
+! For Safari
+!
+! JP-specific scam
+||94.130.167.163^
+||185.161.248.253^
 
 !
 ! Source name: AdGuard Japanese filter ad servers first-party
@@ -47701,6 +47796,7 @@ inapps.appsflyersdk.com^
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||web-ads.10sq.net^
 ||mitself.net^
 ||comparison.financeads.net^
 ||lehrer-finden.de^
@@ -47920,6 +48016,8 @@ inapps.appsflyersdk.com^
 ||d.6xw.com^
 ||mgzjin.cn^
 ||chinagcdxyjng.cn^
+||192.151.218.66^
+||23.224.89.2^
 ||ofd.meng-an.cn^
 ||qienews.cn^
 ||pv.dakawm.cc^
@@ -47931,6 +48029,7 @@ inapps.appsflyersdk.com^
 ||m.qhxcdmfj.cn^
 ||szjyfund.com^
 ||y.21haodianmt.com^
+||156.233.32.123^
 ||i3535.com^
 ||1990tu.com^
 ||web-ad.xyz^
@@ -48297,6 +48396,7 @@ inapps.appsflyersdk.com^
 ||166460e61382a8ab15094a0fb111cc1b.com^
 ||1f50dd61ec6bc6a1b98ae412ea4d812f.com^
 ||1kdailyprofit.co^
+||213.8.137.51^
 ||21635bfdc5175ce523de634889b83c39.com^
 ||22e83777b5823d5a95d63948737fb965.com^
 ||29aac8974ae5d04e1df65c27f4405615.com^
@@ -55018,6 +55118,12 @@ inapps.appsflyersdk.com^
 ||51tongji.trafficmanager.net^
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
+||ioublio.top^
+||whrwlxg.icu^
+||bdawrsi.icu^
+||houbliu.top^
+||6ft8a.icu^
+||aikkits.com^
 ||mzpecui.icu^
 ||chmueyv.icu^
 ||kemmars.com^

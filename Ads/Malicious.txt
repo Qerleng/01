@@ -53,7 +53,6 @@ payload:
 - +.45-14-226-3.cprapid.com
 - +.45-148-123-62.cprapid.com
 - +.45-79-169-153.ip.linodeusercontent.com
-- +.45-79-66-51.ip.linodeusercontent.com
 - +.45.89.52.80.sslip.io
 - +.4567979.site
 - +.4b16.trctrc.click
@@ -69,6 +68,9 @@ payload:
 - +.6bankmelta.buzz
 - +.78-20-115-5.access.telenet.be
 - +.7bnkmelat.buzz
+- +.7zip10-2024.life
+- +.7zip10-2024.live
+- +.7zip10-2024.top
 - +.83-87-76-41.cable.dynamic.v4.ziggo.nl
 - +.83dw2.definnsecret.top
 - +.876z.b-cdn.net
@@ -93,6 +95,7 @@ payload:
 - +.abissnet.net
 - +.academistrasbourg.duckdns.org
 - +.access-htaccess.com
+- +.acesso.run
 - +.acknowledgementforproject.com
 - +.acreditaciones.fcf.com.co
 - +.activewin.online
@@ -253,6 +256,7 @@ payload:
 - +.bitwelly.design
 - +.bjnd.guide.borden-carleton.ca
 - +.bla4u.su
+- +.blackhattoolz.com
 - +.blaconmachine.com
 - +.blathertom.info
 - +.blog.eeho.cn
@@ -265,6 +269,7 @@ payload:
 - +.bluetreewater.com
 - +.blv23728.ddns.net
 - +.bmbm.gz.bcebos.com
+- +.bmzbaumaschinen.com
 - +.bnizi.guide.borden-carleton.ca
 - +.boatnet.vphim.top
 - +.boc-member-login-cy.hamrahemanmi.com
@@ -290,8 +295,10 @@ payload:
 - +.boydjackson.org
 - +.boylegmfg.com
 - +.bpklub.com
+- +.bradescu.com
 - +.bradford-concept-quit-pen.trycloudflare.com
 - +.bradreddekopp.com
+- +.bralo-asia.com
 - +.brasmundi.com.br
 - +.brasstech.in
 - +.brfn1g.bn.files.1drv.com
@@ -301,6 +308,8 @@ payload:
 - +.bruta.pl
 - +.brva.fans.smalladventureguide.com
 - +.bsa.bsafesafety.com
+- +.btnmz.range.cccinvolve.org
+- +.budgetkd2823j231278.b-cdn.net
 - +.bulletenergyllc.homes
 - +.bulletrdp.ru
 - +.burrkeklprinting.tech
@@ -318,6 +327,7 @@ payload:
 - +.cache.ussc.org
 - +.cacw.therapy.emergencepsychservices.com
 - +.cajgtus.com
+- +.campingplatz-goldbergersee.de
 - +.camposacessoria.online
 - +.campuspersever.es
 - +.caprolactam.co.in
@@ -335,7 +345,6 @@ payload:
 - +.cdf11kiuxxegjblvgsc0xnvius4st58t41em3neyskcxcfjcicts8vfkq9.suburbrew.com
 - +.cdn-gravitiumgame.xyz
 - +.cdn-nacasuw3jz5x.vultrcdn.com
-- +.cdn-staging.livechat-files.com
 - +.cdn.getwave.gg
 - +.cdn.ly.9377.com
 - +.cdn.peevey.lol
@@ -354,6 +363,7 @@ payload:
 - +.cheats-pack.github.io
 - +.checkthetraffic.com
 - +.chefspavilion.com
+- +.chemsky.tn
 - +.chicpop.com.br
 - +.christosxen.site
 - +.chrome.webredirect.org
@@ -370,6 +380,7 @@ payload:
 - +.clikapps.icu
 - +.cliptc.me
 - +.cloud.hxhd.cc
+- +.cloudf-update.com
 - +.cloudslimit.com
 - +.clp.businesshub.pics
 - +.clp.cuisineupdates.online
@@ -448,8 +459,8 @@ payload:
 - +.dailywebstats.com
 - +.daretodream.cloud
 - +.darkviolet-alpaca-923878.hostingersite.com
-- +.darpexllc.top
 - +.data-portabily.s3.amazonaws.com
+- +.data.discuz.mobi
 - +.data.yhydl.com
 - +.datarey.com.br
 - +.davincibellasartes.es
@@ -560,6 +571,7 @@ payload:
 - +.ec2-18-222-153-176.us-east-2.compute.amazonaws.com
 - +.ecfv.shades.whatisaweekend.com
 - +.echo-c2.kro.kr
+- +.eck.range.cccinvolve.org
 - +.ecocluster.cl
 - +.ecos.guide.borden-carleton.ca
 - +.editoraramos.online
@@ -586,6 +598,7 @@ payload:
 - +.epb.shades.whatisaweekend.com
 - +.epei77.direct.quickconnect.to
 - +.epicradio.com.ar
+- +.epsemaq.com.pe
 - +.epsys.ro
 - +.epv.therapy.emergencepsychservices.com
 - +.equip4.shop
@@ -636,6 +649,7 @@ payload:
 - +.files.bloodqwe.shop
 - +.files.clings.in
 - +.files.nuryana.com
+- +.files.sflp.shop
 - +.files.veritas.org.ng
 - +.files5.uludagbilisim.com
 - +.fileworld.shop
@@ -682,7 +696,6 @@ payload:
 - +.foundehd.org
 - +.foxthreatnigger.botnetrealsexo.com
 - +.francaorganizacoes.online
-- +.franckomerc.rs
 - +.fredy.ee
 - +.fridaylocalmanager.duckdns.org
 - +.frsdragoz.za.com
@@ -702,7 +715,6 @@ payload:
 - +.g3i.de
 - +.gamecheap.vn
 - +.gamehost.gotdns.ch
-- +.gamejaana.com
 - +.games.njanzen.de
 - +.garanticonstruct.ro
 - +.garcia.za.com
@@ -783,10 +795,10 @@ payload:
 - +.hfug.guide.borden-carleton.ca
 - +.hgw.guide.borden-carleton.ca
 - +.hi.admini.website
+- +.himalayastrek.com
 - +.himb.shades.whatisaweekend.com
 - +.hiroshima.accesscam.org
 - +.hit-check.com
-- +.hitman-pro.ru
 - +.hitstation.nl
 - +.hl.connectedcommunity.org
 - +.hmyb.donors.eucharisticjesus.net
@@ -908,6 +920,7 @@ payload:
 - +.jgzn.contest.printondemandmerchandise.com
 - +.jhbaghjbasdg.shop
 - +.jifendownload.2345.cn
+- +.jingling01.b-cdn.net
 - +.jiourl.com
 - +.jkfinancialpartners.com
 - +.jm.nwd13.za.com
@@ -918,7 +931,6 @@ payload:
 - +.jornaldossportsusa.com
 - +.jp.eeho.cn
 - +.jrexpressfreight.com
-- +.js1.search-st1.com
 - +.jtpdev.co.uk
 - +.jumboplastsrl.com.ar
 - +.justpaste.it.com
@@ -927,6 +939,7 @@ payload:
 - +.jxj.shades.whatisaweekend.com
 - +.k1gkl25as.top
 - +.k2ygoods.top
+- +.k2ygoods.ydns.eu
 - +.kale.amwebsolution.com
 - +.kambeftojerdy.pro
 - +.kambud.biz
@@ -948,6 +961,8 @@ payload:
 - +.kimo.camdvr.org
 - +.kineticrockburgers.com
 - +.klikercentar.rs
+- +.klingdow.com
+- +.kmsaksesuar.com
 - +.korea.addnt.ru
 - +.kreuzfahrt-radar.de
 - +.kribyrisk.com
@@ -979,7 +994,6 @@ payload:
 - +.lgbt.contest.printondemandmerchandise.com
 - +.lgservice.smithup.site
 - +.lhc.therapy.emergencepsychservices.com
-- +.library.arihantmbainstitute.ac.in
 - +.lide.omernisar.com
 - +.lifesuma.com
 - +.limacamposadv.online
@@ -992,6 +1006,7 @@ payload:
 - +.llooadd.com
 - +.lmhyt.shades.whatisaweekend.com
 - +.ln6b9.shop
+- +.loadapi1.com
 - +.loader.oxy.st
 - +.loeghaiofiehfihf.to
 - +.login-ing-member.misecure.com
@@ -1001,6 +1016,7 @@ payload:
 - +.lollllllllllllllllll.kro.kr
 - +.loopback.axelvasquez.com
 - +.loriga.cfd
+- +.louise-monitors-mo-rating.trycloudflare.com
 - +.lpgv.free.thebitmeister.com
 - +.lsk.contest.printondemandmerchandise.com
 - +.ltc-electrum.org
@@ -1055,7 +1071,6 @@ payload:
 - +.meme.vacstresser.org
 - +.menuuo.com
 - +.menyos.com
-- +.meowware.ddns.net
 - +.merc.dancingwithbaker.com
 - +.mercado25anos.space
 - +.mercadolivre-25anos.store
@@ -1066,6 +1081,7 @@ payload:
 - +.mexicoupsusa.sbs
 - +.mexs.xyz
 - +.mfpusadev.wpengine.com
+- +.mg-plant.com
 - +.mhtb.outfit.dianamercer.com
 - +.mhy.contest.printondemandmerchandise.com
 - +.michael-scanned-motherboard-reforms.trycloudflare.com
@@ -1079,10 +1095,10 @@ payload:
 - +.mjrw.house.zionanakwenze.com
 - +.mkas.rizwanmano.com
 - +.mkwk.therapy.emergencepsychservices.com
-- +.mkzo.photo.beyoudcor.com
 - +.mlm-cdn.com
 - +.mlnb.donors.eucharisticjesus.net
 - +.mohawatradingco.com
+- +.moitt-gov-pk.dytt88.co
 - +.moixerintendent.b-cdn.net
 - +.molly.pinefootsteps.com
 - +.monastery.mlnk.net
@@ -1135,7 +1151,7 @@ payload:
 - +.network.irc6.xyz
 - +.newcms-fuv.toponseek.com
 - +.newunioncredit.org
-- +.newupdatenew.com
+- +.newvideo.link
 - +.nexipay-app.icu
 - +.next-level-verify-01.b-cdn.net
 - +.nght.outfit.dianamercer.com
@@ -1146,8 +1162,8 @@ payload:
 - +.nimr.or.tz
 - +.nnside.us.to
 - +.nobreengenharia.online
-- +.noithaticon.vn
 - +.nonsolosat.net
+- +.noogamotorsports.com
 - +.nopaste.net
 - +.nori.holliestea.com
 - +.north-residence.com
@@ -1189,6 +1205,7 @@ payload:
 - +.online-boc-cy-memeber.my03.com
 - +.online3.demolistesi.com
 - +.onlineshoppingmantra.com
+- +.ooop.b-cdn.net
 - +.oootorgline.ru
 - +.op.shiped.de
 - +.op.tq5.best
@@ -1212,6 +1229,7 @@ payload:
 - +.p1p1.eu
 - +.p3.zbjimg.com
 - +.p6.zbjimg.com
+- +.p7.tr1.n0.cdn.zight.com
 - +.packtechperu.com
 - +.pagamentoresgate.shop
 - +.pagodasaktiraya.com
@@ -1339,6 +1357,7 @@ payload:
 - +.quickpresentationdoc.xyz
 - +.quiz.bloomingkids.com
 - +.qwdfewf.com
+- +.r8p.teknixstuff.com
 - +.rabtbts.nl
 - +.racarteles.com.ar
 - +.rahgolipezdolimezdomirez.xyz
@@ -1393,6 +1412,8 @@ payload:
 - +.rvjze.rooms.fierceatfifty.com
 - +.rvlkj.shades.whatisaweekend.com
 - +.rvn.living.miraclesofeucharisticjesus.org
+- +.rwvfe.range.cccinvolve.org
+- +.s1.k2isoks.top
 - +.s468051de.fastvps-server.com
 - +.saf-oil.ru
 - +.sairamylove.com
@@ -1404,7 +1425,6 @@ payload:
 - +.saveourmalta.com
 - +.sbbsur.com
 - +.sbelegi.com.br
-- +.sc.jishousc.shop
 - +.scaleyou.com.br
 - +.schibsteapp.com
 - +.science4u.co.in
@@ -1415,10 +1435,22 @@ payload:
 - +.se.def2.ru.com
 - +.se.maina-vira.ru
 - +.seals-mg.com
+- +.search-blp.net
+- +.search-dl1.com
+- +.search-dl2.com
+- +.search-dl3.com
+- +.search-dur.com
+- +.search-fst.com
 - +.search-gld.com
+- +.search-grd.com
+- +.search-hoj.com
+- +.search-hrd.com
 - +.search-jrd.com
+- +.search-mnt.com
 - +.search-slv.com
 - +.search-spd.com
+- +.search-sug.com
+- +.search-syt.com
 - +.seawave.online
 - +.seburage.com
 - +.sec.dashabi.in
@@ -1448,7 +1480,6 @@ payload:
 - +.servicesllc.top
 - +.serviceupdate32.com
 - +.servidorwindows.ddns.com.br
-- +.servidorwindows.duckdns.org
 - +.servr-jkt.com
 - +.setup.bloxd.site
 - +.sfa.com.ar
@@ -1469,7 +1500,6 @@ payload:
 - +.shopfiy.org
 - +.shopping-nice.com
 - +.showmest.site
-- +.showpiecekennelmating.com
 - +.shuvi.io
 - +.sigmasigmaareyouthere4343.pages.dev
 - +.sikkacrownofnoida.com
@@ -1500,9 +1530,11 @@ payload:
 - +.softiq.ro
 - +.softonic-pc.ru
 - +.softwaredistributiononline.com
+- +.softwarefile.cc
 - +.softwarequalityaudit.com
 - +.sogoserver.ddns.net
 - +.sohacz.info
+- +.sojtarek.za.com
 - +.solanacloud.pro
 - +.solaradev.net
 - +.solarcity.ro
@@ -1514,6 +1546,7 @@ payload:
 - +.soyjak.download
 - +.spaceframe.mobi.space-frame.co.za
 - +.spacetraitorsgame.netlify.app
+- +.spainparkvillas.com
 - +.spare-shadows-dreams-tourist.trycloudflare.com
 - +.spaziotempo.info
 - +.specialbids.com
@@ -1537,11 +1570,9 @@ payload:
 - +.starforgemirai.duckdns.org
 - +.static-100-1-226-154.nwrknj.fios.verizon.net
 - +.static-91-225-132-57.devs.futuro.pl
-- +.static.183.213.201.138.clients.your-server.de
 - +.static.204.78.40.188.clients.your-server.de
+- +.static.3001.net
 - +.static.zongheng.com
-- +.stats.search-st1.com
-- +.stdown.dinju.com
 - +.stlx3.life
 - +.stockframe.site
 - +.stolc-download.tech
@@ -1613,6 +1644,7 @@ payload:
 - +.thepayvip.com
 - +.therichscents.com
 - +.theuncoach.com
+- +.thtw.range.cccinvolve.org
 - +.thursdayyyyyyfileeee.duckdns.org
 - +.thvip-bm.tokenv1.cloud
 - +.ti.4it.top
@@ -1654,8 +1686,10 @@ payload:
 - +.turcu-remixerr-api-test.yuno.dev
 - +.tuxwe.donors.eucharisticjesus.net
 - +.tvezx20vt.top
+- +.tx11.b-cdn.net
 - +.ty45dskohal1erz.com
 - +.tywyp.shades.whatisaweekend.com
+- +.tz111.b-cdn.net
 - +.ubal.do
 - +.udp.ovhkulu.cc
 - +.uebki.one
@@ -1697,6 +1731,7 @@ payload:
 - +.veb.donors.eucharisticjesus.net
 - +.veldom.mk
 - +.velellablue.com
+- +.venomfistv1.b-cdn.net
 - +.veraflorindo.adv.br
 - +.verideposu.net
 - +.verifyfull8434.b-cdn.net
@@ -1715,6 +1750,7 @@ payload:
 - +.virtana-tech.com
 - +.vjkillianco.com
 - +.vkd.therapy.emergencepsychservices.com
+- +.vl1-du-fr-si2.b-cdn.net
 - +.vmad.house.zionanakwenze.com
 - +.vmi1547155.contaboserver.net
 - +.vmi1676184.contaboserver.net
@@ -1722,6 +1758,7 @@ payload:
 - +.voinformatica.com.pt
 - +.vold.pcspeedcat.com
 - +.vosrt.outfit.dianamercer.com
+- +.vpn911645173.softether.net
 - +.vps-5fc33f45.vps.ovh.ca
 - +.vrgj.donors.eucharisticjesus.net
 - +.vrh.contest.printondemandmerchandise.com
@@ -1765,12 +1802,14 @@ payload:
 - +.xemhang.vn
 - +.xemir.pw
 - +.xf.mzwh6.ru.com
+- +.xhs56a90-vxe.b-cdn.net
 - +.xhv.therapy.emergencepsychservices.com
 - +.xiangshunjy.com
 - +.xilx222.b-cdn.net
 - +.xin.shades.whatisaweekend.com
 - +.xinhgai.tv
 - +.xjyul.guide.borden-carleton.ca
+- +.xkobeimparatu.net
 - +.xm3.team
 - +.xmb.pythonanywhere.com
 - +.xmr-electrum.org
@@ -1814,6 +1853,7 @@ payload:
 - +.zadaravstvai.shop
 - +.zakariya-ayt-amran.github.io
 - +.zaraee.com
+- +.zaraz.vercel.app
 - +.zazipoa.co.ke
 - +.zcjf.rooms.fierceatfifty.com
 - +.zead.donors.eucharisticjesus.net
@@ -1821,6 +1861,7 @@ payload:
 - +.zemzam01.b-cdn.net
 - +.zeov.therapy.emergencepsychservices.com
 - +.zffsg.oss-ap-northeast-2.aliyuncs.com
+- +.zhcn.down-cdn.com
 - +.zhengxinpeixun.oss-cn-qingdao.aliyuncs.com
 - +.zlfutcc.documentosmegadigital.org
 - +.zmail.broadmediacloud.com
@@ -1832,6 +1873,7 @@ payload:
 - +.zrs.contest.printondemandmerchandise.com
 - +.zsa.sponsor.printondemandagency.com
 - +.zuiolressodermic.b-cdn.net
+- +.zunigarquitectura.com
 - +.zvd.living.miraclesofeucharisticjesus.org
 - +.zvl.sponsor.printondemandagency.com
 - +.zxcv.cat
