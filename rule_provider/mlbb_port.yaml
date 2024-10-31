@@ -1,6 +1,8 @@
 payload:
 
        #TCP
+  - DST-PORT,5006
+  - DST-PORT,5007
   - DST-PORT,5051
   - DST-PORT,7591
   - DST-PORT,30105
