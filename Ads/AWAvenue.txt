@@ -8,6 +8,9 @@ payload:
 - +.abtest-ch.snssdk.com
 - +.ad-cache.dopool.com
 - +.ad-cdn.qingting.fm
+- +.ad-cmp.hismarttv.com
+- +.ad-download.hismarttv.com
+- +.ad-imp.hismarttv.com
 - +.ad-scope.com
 - +.ad-scope.com.cn
 - +.ad-sdk.huxiu.com
@@ -32,6 +35,7 @@ payload:
 - +.adapi.yynetwk.com
 - +.adashbc.ut.taobao.com
 - +.adcdn.tencentmusic.com
+- +.adclick.g.doubleclick.net
 - +.adclick.tencentmusic.com
 - +.adcolony.com
 - +.adexpo.tencentmusic.com
@@ -229,7 +233,6 @@ payload:
 - +.dm.toutiao.com
 - +.domain.aishengji.com
 - +.doubleclick-cn.net
-- +.doubleclick.net
 - +.download.changhong.upgrade2.huan.tv
 - +.downloadxml.changhong.upgrade2.huan.tv
 - +.drcn-weather.cloud.huawei.com
@@ -273,7 +276,6 @@ payload:
 - +.hanlanad.com
 - +.henzanapp.com
 - +.hexagon-analytics.com
-- +.hiboard-drcn.ai.dbankcloud.cn
 - +.hm.baidu.com
 - +.hmma.baidu.com
 - +.houyi.kkmh.com
@@ -474,6 +476,7 @@ payload:
 - +.search5-search-hl.ixigua.com
 - +.search5-search.ixigua.com
 - +.securemetrics.apple.com
+- +.securepubads.g.doubleclick.net
 - +.sensors-log.dongqiudi.com
 - +.service.changhong.upgrade2.huan.tv
 - +.service.vmos.cn

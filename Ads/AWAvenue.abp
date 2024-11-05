@@ -1,9 +1,9 @@
 !
 ! Title: AWAvenue Ads Rule
 ! Description: Use Adblock syntax to fight against various advertising SDKs in Android applications from the network level , prevent them from loading.
-! Version: 1.0.14.61
+! Version: 1.0.14.65
 ! Homepage: https://awavenue.top/
-! Last modified: 2024-10-30T15:27:27.861Z
+! Last modified: 2024-11-05T06:08:10.046Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.29
 !
@@ -13,7 +13,7 @@
 !
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 688
+!Total lines: 690
 !Version: 1.5.3-release
 
 !Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
@@ -29,6 +29,9 @@
 ||abtest-ch.snssdk.com^
 ||ad-cache.dopool.com^
 ||ad-cdn.qingting.fm^
+||ad-cmp.hismarttv.com^
+||ad-download.hismarttv.com^
+||ad-imp.hismarttv.com^
 ||ad-scope.com^
 ||ad-scope.com.cn^
 ||ad-sdk.huxiu.com^
@@ -53,6 +56,7 @@
 ||adapi.yynetwk.com^
 ||adashbc.ut.taobao.com^
 ||adcdn.tencentmusic.com^
+||adclick.g.doubleclick.net^
 ||adclick.tencentmusic.com^
 ||adcolony.com^
 ||adexpo.tencentmusic.com^
@@ -250,7 +254,6 @@
 ||dm.toutiao.com^
 ||domain.aishengji.com^
 ||doubleclick-cn.net^
-||doubleclick.net^
 ||download.changhong.upgrade2.huan.tv^
 ||downloadxml.changhong.upgrade2.huan.tv^
 ||drcn-weather.cloud.huawei.com^
@@ -294,7 +297,6 @@
 ||hanlanad.com^
 ||henzanapp.com^
 ||hexagon-analytics.com^
-||hiboard-drcn.ai.dbankcloud.cn^
 ||hm.baidu.com^
 ||hmma.baidu.com^
 ||houyi.kkmh.com^
@@ -495,6 +497,7 @@
 ||search5-search-hl.ixigua.com^
 ||search5-search.ixigua.com^
 ||securemetrics.apple.com^
+||securepubads.g.doubleclick.net^
 ||sensors-log.dongqiudi.com^
 ||service.changhong.upgrade2.huan.tv^
 ||service.vmos.cn^
