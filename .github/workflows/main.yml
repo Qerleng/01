@@ -50,6 +50,7 @@ jobs:
 
           chmod +x ./upx
           ./upx --best tools/mihomo
+          ./upx --best tools/sing-box
           rm upx
           cd tools
           tar -czvf CrashCore.tar.gz CrashCore
