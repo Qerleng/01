@@ -13,6 +13,7 @@ payload:
 - +.ad-imp.hismarttv.com
 - +.ad-scope.com
 - +.ad-scope.com.cn
+- +.ad-sdk-config.youdao.com
 - +.ad-sdk.huxiu.com
 - +.ad.12306.cn
 - +.ad.51wnl.com
@@ -205,6 +206,7 @@ payload:
 - +.cctv.adsunion.com
 - +.cdn-ad.wtzw.com
 - +.cdn-ads.oss-cn-shanghai.aliyuncs.com
+- +.cdn-plugin-sync-upgrade-juui.hismarttv.com
 - +.cdn.ynuf.aliapp.org
 - +.cfg.imtt.qq.com
 - +.chat1.jd.com
@@ -274,7 +276,6 @@ payload:
 - +.grs.platform.dbankcloud.ru
 - +.h-adashx.ut.taobao.com
 - +.hanlanad.com
-- +.henzanapp.com
 - +.hexagon-analytics.com
 - +.hm.baidu.com
 - +.hmma.baidu.com
@@ -559,11 +560,13 @@ payload:
 - +.union.baidu.com
 - +.update.avlyun.sec.miui.com
 - +.update.lejiao.tv
+- +.upgrade-update.hismarttv.com
 - +.us.l.qq.com
 - +.v.adintl.cn
 - +.v.adx.hubcloud.com.cn
 - +.v1-ad.video.yximgs.com
 - +.v2-ad.video.yximgs.com
+- +.v2-api-channel-launcher.hismarttv.com
 - +.v2.gdt.qq.com
 - +.v2mi.gdt.qq.com
 - +.v3-ad.video.yximgs.com

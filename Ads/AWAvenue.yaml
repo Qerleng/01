@@ -13,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,ad-imp.hismarttv.com
   - DOMAIN-SUFFIX,ad-scope.com
   - DOMAIN-SUFFIX,ad-scope.com.cn
+  - DOMAIN-SUFFIX,ad-sdk-config.youdao.com
   - DOMAIN-SUFFIX,ad-sdk.huxiu.com
   - DOMAIN-SUFFIX,ad.12306.cn
   - DOMAIN-SUFFIX,ad.51wnl.com
@@ -205,6 +206,7 @@ payload:
   - DOMAIN-SUFFIX,cctv.adsunion.com
   - DOMAIN-SUFFIX,cdn-ad.wtzw.com
   - DOMAIN-SUFFIX,cdn-ads.oss-cn-shanghai.aliyuncs.com
+  - DOMAIN-SUFFIX,cdn-plugin-sync-upgrade-juui.hismarttv.com
   - DOMAIN-SUFFIX,cdn.ynuf.aliapp.org
   - DOMAIN-SUFFIX,cfg.imtt.qq.com
   - DOMAIN-SUFFIX,chat1.jd.com
@@ -274,7 +276,6 @@ payload:
   - DOMAIN-SUFFIX,grs.platform.dbankcloud.ru
   - DOMAIN-SUFFIX,h-adashx.ut.taobao.com
   - DOMAIN-SUFFIX,hanlanad.com
-  - DOMAIN-SUFFIX,henzanapp.com
   - DOMAIN-SUFFIX,hexagon-analytics.com
   - DOMAIN-SUFFIX,hm.baidu.com
   - DOMAIN-SUFFIX,hmma.baidu.com
@@ -559,11 +560,13 @@ payload:
   - DOMAIN-SUFFIX,union.baidu.com
   - DOMAIN-SUFFIX,update.avlyun.sec.miui.com
   - DOMAIN-SUFFIX,update.lejiao.tv
+  - DOMAIN-SUFFIX,upgrade-update.hismarttv.com
   - DOMAIN-SUFFIX,us.l.qq.com
   - DOMAIN-SUFFIX,v.adintl.cn
   - DOMAIN-SUFFIX,v.adx.hubcloud.com.cn
   - DOMAIN-SUFFIX,v1-ad.video.yximgs.com
   - DOMAIN-SUFFIX,v2-ad.video.yximgs.com
+  - DOMAIN-SUFFIX,v2-api-channel-launcher.hismarttv.com
   - DOMAIN-SUFFIX,v2.gdt.qq.com
   - DOMAIN-SUFFIX,v2mi.gdt.qq.com
   - DOMAIN-SUFFIX,v3-ad.video.yximgs.com
