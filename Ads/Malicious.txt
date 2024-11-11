@@ -9,6 +9,7 @@ payload:
 - +.1312services.ru
 - +.13194.funian.life
 - +.139520.aioc.qbgxl.com
+- +.14stirling.dyndns.org
 - +.162-19-214-220-10cdn.eyeohost.net
 - +.162-19-214-220-11cdn.eyeohost.net
 - +.162-19-214-220-12cdn.eyeohost.net
@@ -28,7 +29,6 @@ payload:
 - +.23-122-210-174.lightspeed.cicril.sbcglobal.net
 - +.230.sub-166-166-188.myvzw.com
 - +.240802190315192.shi.jtii79.top
-- +.240810152539140.shi.jtii79.top
 - +.240812161425945.tyr.zont16.com
 - +.240824122005093.sst.robt41.buzz
 - +.240902175059845.std.kqve01.top
@@ -55,6 +55,7 @@ payload:
 - +.4b16.trctrc.click
 - +.4bankmell.buzz
 - +.4v.wtf
+- +.5-157-110-232.dyn.eolo.it
 - +.51-159-29-96.cprapid.com
 - +.51-159-29-96.rev.poneytelecom.eu
 - +.53456464343.pages.dev
@@ -68,12 +69,10 @@ payload:
 - +.7zip10-2024.life
 - +.7zip10-2024.live
 - +.7zip10-2024.top
-- +.83-87-76-41.cable.dynamic.v4.ziggo.nl
 - +.85-95-173-28.saransk.ru
 - +.876z.b-cdn.net
 - +.8bankmlet.buzz
 - +.912648.aioc.qbgxl.com
-- +.94-156-68-112.plesk.page
 - +.9560.xyz
 - +.973e8afd1e77d09e599406ec.keenetic.io
 - +.9800540.ru
@@ -159,6 +158,7 @@ payload:
 - +.alinstantecolombia.com
 - +.all-access-media.com
 - +.all-filehub.oss-ap-southeast-1.aliyuncs.com
+- +.allestimentilopera.com
 - +.alsadekllc.com
 - +.alternativehack.tech
 - +.amatriciamo.it
@@ -203,6 +203,7 @@ payload:
 - +.aquadream.rs
 - +.arcsystem.rodopibg.net
 - +.arctus.ca
+- +.armanayegh.com
 - +.artemka.spb.ru
 - +.artieri.ro
 - +.arza.us
@@ -260,7 +261,6 @@ payload:
 - +.baruopas.com
 - +.bazarganadero.com
 - +.bbos.eye-network.ru
-- +.bbuseruploads.s3.amazonaws.com
 - +.bch-electrum.org
 - +.bclick.com.br
 - +.bcommo.in
@@ -307,6 +307,7 @@ payload:
 - +.bot.mypowers.top
 - +.bot.nianlun-vps.xyz
 - +.bot.proxies.codes
+- +.bot.proy.lol
 - +.bota.lolzone.lol
 - +.botnet.abcyxz.lol
 - +.botnet.app
@@ -377,7 +378,6 @@ payload:
 - +.cdn-gravitiumgame.xyz
 - +.cdn-nacasuw3jz5x.vultrcdn.com
 - +.cdn.abz.lol
-- +.cdn.getwave.gg
 - +.cdn.ly.9377.com
 - +.cdn.peevey.lol
 - +.cdn.spoof.su
@@ -397,6 +397,7 @@ payload:
 - +.chanmiraiserver1.duckdns.org
 - +.charlote.is-a-geek.org
 - +.chat2cams.com
+- +.cheatkeys.com
 - +.chefspavilion.com
 - +.chemsky.tn
 - +.chicpop.com.br
@@ -415,6 +416,7 @@ payload:
 - +.clavity.me
 - +.clickette.net
 - +.clicktogo.click
+- +.clients.kaitenc2.de
 - +.clikapps.icu
 - +.cloud.hxhd.cc
 - +.cloudf-update.com
@@ -447,7 +449,6 @@ payload:
 - +.configmgrenroll.mehmanmarket.ir
 - +.conn.masjesu.zip
 - +.constateducacao.com.br
-- +.contadcom.pro
 - +.continuetodown.com
 - +.contrato-prime.com
 - +.controlemag.com
@@ -487,6 +488,7 @@ payload:
 - +.d.qqzx.cc
 - +.d.sogouad.vip
 - +.d26wyypk7oodc5.cloudfront.net
+- +.d3m0n.live
 - +.d3q7xfmmsiw3.cloudfront.net
 - +.d9e1c3dd-1fee-48c1-9089-09a70580408e.usrfiles.com
 - +.dailyfragrancedeals.com
@@ -532,7 +534,6 @@ payload:
 - +.dev-seharhbjhk.pantheonsite.io
 - +.dev-shafin321.pantheonsite.io
 - +.dev-skbfc.pantheonsite.io
-- +.dev.odse.it
 - +.dev.uim.org.in
 - +.dewatabalirental.com
 - +.dfdfdfvd.is-a-geek.org
@@ -634,7 +635,6 @@ payload:
 - +.eguaheoghouughahsu.cc
 - +.eightgroup.com
 - +.elanc.ru
-- +.elb.guide.borden-carleton.ca
 - +.elbitsystems.co
 - +.electrum-eth.com
 - +.electrum-sol.org
@@ -823,6 +823,7 @@ payload:
 - +.gigav1.b-cdn.net
 - +.giorja.com
 - +.girlsgifs.com
+- +.gitae.strategies.mvpstrat.com
 - +.github-scanner.com
 - +.github-scanner.shop
 - +.gitshare.org
@@ -830,6 +831,7 @@ payload:
 - +.globallaborsupply.com
 - +.globalvoice.mobi
 - +.gls.house.zionanakwenze.com
+- +.gochop.b-cdn.net
 - +.goldhunt.s3.eu-north-1.amazonaws.com
 - +.goninvoicceme.shop
 - +.goo.willowsoaks.com
@@ -872,7 +874,6 @@ payload:
 - +.healthinsuranceinasia.com
 - +.healthtipsart.com
 - +.heks.egrowbrands.com
-- +.helleaa.com
 - +.hercvlesconcrete.com
 - +.hfug.guide.borden-carleton.ca
 - +.hgw.guide.borden-carleton.ca
@@ -882,6 +883,7 @@ payload:
 - +.hiroshima.accesscam.org
 - +.hit-check.com
 - +.hitman-pro.ru
+- +.hitstation.nl
 - +.hjmhjm.is-a-landscaper.com
 - +.hl.connectedcommunity.org
 - +.hlduplooyplant.co.za
@@ -889,6 +891,7 @@ payload:
 - +.hnjgdl.geps.glodon.com
 - +.homes121s.in
 - +.hook.ftp21.cc
+- +.hopitaldesbois.ddns.net
 - +.horizonvoicetalk.com
 - +.host-195-103-203-106.business.telecomitalia.it
 - +.host-95-255-114-11.business.telecomitalia.it
@@ -939,7 +942,6 @@ payload:
 - +.impdf.com
 - +.impressionblog.co.uk
 - +.ims.25pockets.com
-- +.imtoken8.cc
 - +.in-houselegal.ro
 - +.indexconnectchorus.duckdns.org
 - +.indexconnectwe.duckdns.org
@@ -970,7 +972,6 @@ payload:
 - +.invasion-prisoners-inns-aging.trycloudflare.com
 - +.invictaindia.com
 - +.invoiceposs.shop
-- +.ip193.ip-146-59-161.eu
 - +.ip207.ip-91-121-59.eu
 - +.ipoil.contest.printondemandmerchandise.com
 - +.ipos.mycpanel.rs
@@ -1020,14 +1021,12 @@ payload:
 - +.jumboplastsrl.com.ar
 - +.justpaste.it.com
 - +.jvliq.rooms.fierceatfifty.com
-- +.jvzog.guide.borden-carleton.ca
 - +.jxj.shades.whatisaweekend.com
 - +.k2ygoods.top
 - +.k2ygoods.ydns.eu
 - +.kailabeachhotel.com
 - +.kale.amwebsolution.com
 - +.kaleidoscopic-seahorse-ca2964.netlify.app
-- +.kambeftojerdy.pro
 - +.kambud.biz
 - +.kanavurchristianmatrimony.com
 - +.karer.by
@@ -1058,6 +1057,7 @@ payload:
 - +.kvlig.free.thebitmeister.com
 - +.kvxp.podcast.lisameyerson.com
 - +.kxoie.outfit.dianamercer.com
+- +.kykgenot.com
 - +.lab.free.thebitmeister.com
 - +.lakadmakatdg.shop
 - +.laposte-fr.network
@@ -1075,7 +1075,6 @@ payload:
 - +.leopardi.nl
 - +.lequipier-maroc.com
 - +.lesyogaphiles.com
-- +.lexbendafrog.info
 - +.lgbt.contest.printondemandmerchandise.com
 - +.lgservice.smithup.site
 - +.lhc.therapy.emergencepsychservices.com
@@ -1125,7 +1124,6 @@ payload:
 - +.mainsdorevents.njhr6927.odns.fr
 - +.makemygreatgain.b-cdn.net
 - +.males.mugutu.com
-- +.mallyoberdac.top
 - +.malw.esalesin.com
 - +.managementcorp.net
 - +.managementsolution.top
@@ -1146,7 +1144,6 @@ payload:
 - +.medcolemantang.nl
 - +.medises.co.kr
 - +.medsourceglobal.com
-- +.meeweb.com
 - +.megaarmshop.com
 - +.megamart.mywire.org
 - +.megazdownloaddatas.com
@@ -1264,6 +1261,7 @@ payload:
 - +.nori.holliestea.com
 - +.north-residence.com
 - +.notariusnaydenova.eu
+- +.notmalicious.services
 - +.novelhc.com
 - +.novo.doxbin.top
 - +.nqs.rooms.fierceatfifty.com
@@ -1307,8 +1305,8 @@ payload:
 - +.op.shiped.de
 - +.op.tq5.best
 - +.opolis.io
-- +.oporevittosa.us
 - +.orange-loris-425181.hostingersite.com
+- +.ordai.quest
 - +.ordenata.org
 - +.orderhangthai.com
 - +.orgin.ajieapi.top
@@ -1352,6 +1350,7 @@ payload:
 - +.passagetoeastafrica.com
 - +.pastebin.ai
 - +.pastecodeapp.vercel.app
+- +.pastesnip.org
 - +.paswo.org
 - +.payconiqs.co
 - +.payhostmsa.shop
@@ -1359,8 +1358,6 @@ payload:
 - +.pb.agnt.ru
 - +.pdfdocu.standard.us-east-1.oortech.com
 - +.pelentions.com
-- +.pemefloderstan.info
-- +.pemefloderstan.pro
 - +.pen.gorillafirewall.su
 - +.pepka228.online
 - +.peraarae.nl
@@ -1396,10 +1393,10 @@ payload:
 - +.poewesfoosn.ink
 - +.pointpangalengan.com
 - +.polipastosmexico.com.mx
-- +.pomsn.guide.borden-carleton.ca
 - +.popipg.com
 - +.popunder.b-cdn.net
 - +.pouya.blob.core.windows.net
+- +.powercx1.wetolink.com
 - +.prime-yulgang.com
 - +.primo-investment.com
 - +.privatefinancetoday.net
@@ -1503,12 +1500,12 @@ payload:
 - +.rqjt.contest.printondemandmerchandise.com
 - +.rrnkw.range.cccinvolve.org
 - +.ru3w2.com
+- +.rulj.strategies.mvpstrat.com
 - +.russia.infinyx.us
 - +.rustmacro.ru
 - +.ruterk.com
 - +.rvjze.rooms.fierceatfifty.com
 - +.rvlkj.shades.whatisaweekend.com
-- +.rvn.living.miraclesofeucharisticjesus.org
 - +.rwvfe.range.cccinvolve.org
 - +.s1.k2isoks.top
 - +.saf-oil.ru
@@ -1613,7 +1610,6 @@ payload:
 - +.shippingalerts.online
 - +.shka.therapy.emergencepsychservices.com
 - +.shop.fixed.zone
-- +.shopfiy.org
 - +.shopping-nice.com
 - +.showmest.site
 - +.shqdown.ggzuhao.com
@@ -1668,7 +1664,6 @@ payload:
 - +.soulivan.alwaysdata.net
 - +.soyjak.cafe
 - +.soyjak.download
-- +.spaceframe.mobi.space-frame.co.za
 - +.spacetraitorsgame.netlify.app
 - +.spam-protect-v1.b-cdn.net
 - +.spare-shadows-dreams-tourist.trycloudflare.com
@@ -1708,8 +1703,8 @@ payload:
 - +.suanfe.is-a-landscaper.com
 - +.suanfe.kicks-ass.net
 - +.subsystem.servehttp.com
+- +.sufusioticarchi.b-cdn.net
 - +.sumerda.com
-- +.sumiyuki.co.jp
 - +.sumonare.com
 - +.sunny-lai.com
 - +.supervrata.com
@@ -1828,7 +1823,6 @@ payload:
 - +.ttykok.320.io
 - +.ttz111.b-cdn.net
 - +.turcu-remixerr-api-test.yuno.dev
-- +.tuxwe.donors.eucharisticjesus.net
 - +.tvezx20vt.top
 - +.twomicro.b-cdn.net
 - +.tx11.b-cdn.net
@@ -1855,7 +1849,6 @@ payload:
 - +.ujujuju.is-uberleet.com
 - +.ujujuju.merseine.org
 - +.ujujuju.selfip.biz
-- +.unicorpbrunei.com
 - +.unioncredits.shop
 - +.uniondebit.com
 - +.uniquetouniquetechnicalservices.com
@@ -1868,7 +1861,6 @@ payload:
 - +.updater.do.am
 - +.upload.30x.ru
 - +.upload.vina-host.com
-- +.uptodownload.shop
 - +.urlize.cc
 - +.urnammu.org
 - +.usatimenetwork.com
@@ -1904,8 +1896,6 @@ payload:
 - +.vgbbm.rooms.fierceatfifty.com
 - +.vgsfree.b-cdn.net
 - +.vgtgq.house.zionanakwenze.com
-- +.viewifydocs.com
-- +.vigtas.info
 - +.vilink.co.ke
 - +.villasara974.com
 - +.vinsaca.com
@@ -1925,7 +1915,6 @@ payload:
 - +.vpn911645173.softether.net
 - +.vps-5fc33f45.vps.ovh.ca
 - +.vptriathloninc.com
-- +.vrgj.donors.eucharisticjesus.net
 - +.vrh.contest.printondemandmerchandise.com
 - +.vryv.free.thebitmeister.com
 - +.w1shmarket.top
@@ -1957,6 +1946,7 @@ payload:
 - +.winyardbuilding.nz
 - +.wishtochoose.top
 - +.woollywoolly.tech
+- +.wpj.offer.rpacxtaxappeal.com
 - +.wrath.me
 - +.wrwwewfe.dyndns.tv
 - +.wrwwewfe.from-la.net
@@ -1985,6 +1975,7 @@ payload:
 - +.xinhgai.tv
 - +.xjyul.guide.borden-carleton.ca
 - +.xkobeimparatu.net
+- +.xlayerlabs.com
 - +.xls.energymaxgrp.eu
 - +.xmb.pythonanywhere.com
 - +.xmr-electrum.org
@@ -2001,6 +1992,7 @@ payload:
 - +.yaipool.com
 - +.yalubluseks.eu
 - +.yaseraljazeera.com
+- +.yazanr.net
 - +.ydl-v2.mhdy.site
 - +.yelc.living.miraclesofeucharisticjesus.org
 - +.yeniakillitelefonlar.xyz
@@ -2023,6 +2015,7 @@ payload:
 - +.ywxww.net
 - +.yyhyhy.simple-url.com
 - +.yzkzixun.com
+- +.z.shavsl.com
 - +.z194668-ex70k.ps02.zwhhosting.com
 - +.zadaravstvai.shop
 - +.zakariya-ayt-amran.github.io
@@ -2055,4 +2048,5 @@ payload:
 - +.zvl.sponsor.printondemandagency.com
 - +.zxcv.cat
 - +.zxload1.com
+- +.zyf.strategies.mvpstrat.com
 - +.zza5topk1or1.skin
