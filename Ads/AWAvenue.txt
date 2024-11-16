@@ -244,6 +244,7 @@ payload:
 - +.dutils.com
 - +.dxp.baidu.com
 - +.eclick.baidu.com
+- +.edge.ads.twitch.tv
 - +.ef-dongfeng.tanx.com
 - +.entry.baidu.com
 - +.errlog.umeng.com
@@ -447,6 +448,7 @@ payload:
 - +.roi.soulapp.cn
 - +.rpt.gdt.qq.com
 - +.rtb.voiceads.cn
+- +.s.amazon-adsystem.com
 - +.s1.qq.com
 - +.s2.qq.com
 - +.s3.qq.com

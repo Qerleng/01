@@ -244,6 +244,7 @@ payload:
   - DOMAIN-SUFFIX,dutils.com
   - DOMAIN-SUFFIX,dxp.baidu.com
   - DOMAIN-SUFFIX,eclick.baidu.com
+  - DOMAIN-SUFFIX,edge.ads.twitch.tv
   - DOMAIN-SUFFIX,ef-dongfeng.tanx.com
   - DOMAIN-SUFFIX,entry.baidu.com
   - DOMAIN-SUFFIX,errlog.umeng.com
@@ -447,6 +448,7 @@ payload:
   - DOMAIN-SUFFIX,roi.soulapp.cn
   - DOMAIN-SUFFIX,rpt.gdt.qq.com
   - DOMAIN-SUFFIX,rtb.voiceads.cn
+  - DOMAIN-SUFFIX,s.amazon-adsystem.com
   - DOMAIN-SUFFIX,s1.qq.com
   - DOMAIN-SUFFIX,s2.qq.com
   - DOMAIN-SUFFIX,s3.qq.com
