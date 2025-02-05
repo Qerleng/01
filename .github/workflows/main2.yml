@@ -24,9 +24,11 @@ jobs:
 
       - name: 💩 Build 💩
         run: |
-
-          python ./data/convert.py
-          bash ./data/1.sh
+          for item in rule_provider/*.json; do
+          CrashCore rule-set compile "$item"
+          mv "${item%.json}.srs" rule_provider/
+          mv "$item" rule_provider/
+          done
 
       - uses: MyAlbum/purge-cache@v2
         with:
