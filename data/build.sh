@@ -115,7 +115,7 @@ for item in "${geositeDomains[@]}"; do
 done
 
 for item in rule/ip/*.json; do
-    sing-box rule-set compile "$item"
+    CrashCore rule-set compile "$item"
     mv "${item%.json}.srs" rule_provider/
     mv "$item" rule_provider/
 done
@@ -125,7 +125,7 @@ for item in *.json; do
     category=$(echo "$filename" | sed 's/geosite-\(.*\)\.*/\1/')
     output_file="rule_provider/${category%.*}.json"
     output_file2="rule_provider/${category%.*}.srs"
-    sing-box rule-set compile "$item"
+    CrashCore rule-set compile "$item"
     mv "${item%.json}.srs" $output_file2
     mv "$item" $output_file
 done
