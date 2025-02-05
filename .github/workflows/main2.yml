@@ -26,8 +26,7 @@ jobs:
         run: |
           for item in rule_provider/*.json; do
           CrashCore rule-set compile "$item"
-          mv -if "${item%.json}.srs" rule_provider/
-          mv -if "$item" rule_provider/
+          mv -f "${item%.json}.srs" rule_provider/
           done
 
       - uses: MyAlbum/purge-cache@v2
