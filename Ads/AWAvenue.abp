@@ -1,28 +1,16 @@
 !
 ! Title: AWAvenue Ads Rule
 ! Description: Use Adblock syntax to fight against various advertising SDKs in Android applications from the network level , prevent them from loading.
-! Version: 1.0.14.69
+! Version: 1.0.14.96
 ! Homepage: https://awavenue.top/
-! Last modified: 2024-11-15T02:31:21.127Z
+! Last modified: 2025-01-21T20:06:37.859Z
 !
-! Compiled by @adguard/hostlist-compiler v1.0.29
+! Compiled by @adguard/hostlist-compiler v1.0.34
 !
-!
-! Source name: AWAvenue Ads Rule
-! Source: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
-!
-!Title: AWAvenue Ads Rule
-!--------------------------------------
-!Total lines: 696
-!Version: 1.5.4-release
 
-!Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
-!License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
 
 
 ||1010pic.com^
-||16dd-advertise-1252317822.file.myqcloud.com^
-||16dd-advertise-1252317822.image.myqcloud.com^
 ||8le8le.com^
 ||a0.app.xiaomi.com^
 ||aaid.umeng.com^
@@ -41,6 +29,7 @@
 ||ad.bwton.com^
 ||ad.cctv.com^
 ||ad.cyapi.cn^
+||ad.doubleclick.net^
 ||ad.partner.gifshow.com^
 ||ad.qingting.fm^
 ||ad.qq.com^
@@ -60,6 +49,7 @@
 ||adclick.g.doubleclick.net^
 ||adclick.tencentmusic.com^
 ||adcolony.com^
+||addata.jd.com^
 ||adexpo.tencentmusic.com^
 ||adfilter.imtt.qq.com^
 ||adfstat.yandex.ru^
@@ -74,6 +64,7 @@
 ||ads-api.twitter.com^
 ||ads-img-qc.xhscdn.com^
 ||ads-jp.tiktok.com^
+||ads-marketing-vivofs.vivo.com.cn^
 ||ads-sg.tiktok.com^
 ||ads-us.tiktok.com^
 ||ads-video-al.xhscdn.com^
@@ -101,16 +92,22 @@
 ||ads5-normal-lf.zijieapi.com^
 ||ads5-normal-lq.zijieapi.com^
 ||ads5-normal.zijieapi.com^
+||adse.test.ximalaya.com^
+||adse.wsa.ximalaya.com^
+||adse.ximalaya.com^
+||adsebs.ximalaya.com^
 ||adsense.google.cn^
 ||adserver.unityads.unity3d.com^
 ||adservice.google.cn^
 ||adservice.google.com^
 ||adserviceretry.kugou.com^
 ||adsfile.bssdlbig.kugou.com^
+||adsfile.qq.com^
 ||adsfilebssdlbig.ali.kugou.com^
 ||adsfileretry.service.kugou.com^
 ||adsfs-sdkconfig.heytapimage.com^
 ||adsfs.oppomobile.com^
+||adslvfile.qq.com^
 ||adsmart.konka.com^
 ||adsmind.gdtimg.com^
 ||adsmind.ugdtimg.com^
@@ -147,13 +144,14 @@
 ||aiseet.aa.atianqi.com^
 ||ali-ad.a.yximgs.com^
 ||alog.umeng.com^
+||alogus.umeng.com^
 ||als.baidu.com^
 ||amdcopen.m.taobao.com^
+||amdcopen.m.umeng.com^
 ||an.facebook.com^
 ||analysis.yozocloud.cn^
 ||analytics-api.samsunghealthcn.com^
 ||analytics.126.net^
-||analytics.95516.com^
 ||analytics.google.com^
 ||analytics.pinterest.com^
 ||analytics.pointdrive.linkedin.com^
@@ -177,6 +175,7 @@
 ||api-access.pangolin-sdk-toutiao5.com^
 ||api-ad-product.huxiu.com^
 ||api-adservices.apple.com^
+||api-gd.hiaiabc.com^
 ||api.e.kuaishou.com^
 ||api.htp.hubcloud.com.cn^
 ||api.hzsanjiaomao.com^
@@ -184,19 +183,24 @@
 ||api.jietuhb.com^
 ||api.kingdata.ksyun.com^
 ||api.statsig.com^
+||api.touch-moblie.com^
 ||api5-normal-quic-lf.ixigua.com^
 ||apiyd.my91app.com^
 ||apks.webxiaobai.top^
 ||app-measurement.com^
+||appcfg.v.qq.com^
 ||appcloud2.in.zhihu.com^
 ||applog.lc.quark.cn^
 ||applog.uc.cn^
 ||applog.zijieapi.com^
+||aspect-upush.umeng.com^
 ||ata-sdk-uuid-report.dreport.meituan.net^
 ||auction.unityads.unity3d.com^
 ||audid-api.taobao.com^
 ||audid.umeng.com^
 ||azr.footprintdns.com^
+||baichuan-sdk.alicdn.com^
+||baichuan-sdk.taobao.com^
 ||bdad.123pan.cn^
 ||bdapi-ads.realmemobile.com^
 ||bdapi-in-ads.realmemobile.com^
@@ -211,6 +215,7 @@
 ||bingads.microsoft.com^
 ||bj.ad.track.66mobi.com^
 ||books-analytics-events.apple.com^
+||browsercfg-drcn.cloud.dbankcloud.cn^
 ||bsrv.qq.com^
 ||bugly.qq.com^
 ||business-api.tiktok.com^
@@ -223,11 +228,13 @@
 ||canvas-cdn.gdt.qq.com^
 ||catalog.fjwhcbsh.com^
 ||cbjs.baidu.com^
+||ccc-x.jd.com^
 ||ccs.umeng.com^
 ||cctv.adsunion.com^
 ||cdn-ad.wtzw.com^
 ||cdn-ads.oss-cn-shanghai.aliyuncs.com^
 ||cdn-plugin-sync-upgrade-juui.hismarttv.com^
+||cdn.aiclk.com^
 ||cdn.ynuf.aliapp.org^
 ||cfg.imtt.qq.com^
 ||chat1.jd.com^
@@ -236,11 +243,14 @@
 ||click.googleanalytics.com^
 ||click.oneplus.cn^
 ||clog.miguvideo.com^
+||cnlogs.umeng.com^
+||cnlogs.umengcloud.com^
 ||cnzz.com^
 ||collect.kugou.com^
 ||commdata.v.qq.com^
 ||config.chsmarttv.com^
 ||config.unityads.unity3d.com^
+||cpc-service-square.aiclk.com^
 ||cpro.baidustatic.com^
 ||crashlytics.com^
 ||crashlyticsreports-pa.googleapis.com^
@@ -274,19 +284,28 @@
 ||events-drcn.op.dbankcloud.cn^
 ||events.reddit.com^
 ||events.redditmedia.com^
+||fclog.baidu.com^
+||feed-image.baidu.com^
+||file.daihuo.qq.com^
 ||firebaselogging-pa.googleapis.com^
 ||flurry.com^
+||frontend-perf-service.e.kuaishou.com^
+||fxgate.baidu.com^
+||g-adnet.hiaiabc.com^
 ||g-staic.ganjingworld.com^
 ||g2.ganjing.world^
 ||game.loveota.com^
 ||gdfp.gifshow.com^
 ||gemini.yahoo.com^
 ||geo.yahoo.com^
+||getui.cn^
 ||getui.com^
+||getui.net^
 ||ggx.cmvideo.cn^
 ||ggx01.miguvideo.com^
 ||ggx03.miguvideo.com^
 ||google-analytics.com^
+||googleads.g.doubleclick.net^
 ||googleadservices-cn.com^
 ||googleadservices.com^
 ||googletagservices-cn.com^
@@ -311,15 +330,16 @@
 ||hw.zuimeitianqi.com^
 ||hwpub-s01-drcn.cloud.dbankcloud.cn^
 ||hya.comp.360os.com^
+||hybrid.miniapp.taobao.com^
 ||hye.comp.360os.com^
 ||hyt.comp.360os.com^
-||i.snssdk.com^
 ||iad.apple.com^
 ||iadctest.qwapi.com^
 ||iadsdk.apple.com^
 ||iadworkbench.apple.com^
 ||ifacelog.iqiyi.com^
 ||ifs.tanx.com^
+||igexin.com^
 ||ii.gdt.qq.com^
 ||imag8.pubmatic.com^
 ||imag86.pubmatic.com^
@@ -328,6 +348,7 @@
 ||images.outbrainimg.com^
 ||images.pinduoduo.com^
 ||img-c.heytapimage.com^
+||img-x.jd.com^
 ||img.adnyg.com^
 ||img.adnyg.com.w.kunlungr.com^
 ||imtmp.net^
@@ -344,9 +365,12 @@
 ||jpush.html5.qq.com^
 ||jpush.io^
 ||jswebcollects.kugou.com^
+||kde.qq.com^
 ||kepler.jd.com^
 ||kl.67it.com^
+||klink.volceapplog.com^
 ||knicks.jd.com^
+||ks.ferlytc.com^
 ||ks.pull.yximgs.com^
 ||litchiads.com^
 ||liveats-vod.video.ptqy.gitv.tv^
@@ -360,8 +384,10 @@
 ||log-api.pangolin-sdk-toutiao.com^
 ||log-report.com^
 ||log-sdk.gifshow.com^
+||log-sdk.ksapisrv.com^
 ||log-upload-os.hoyoverse.com^
 ||log-upload.mihoyo.com^
+||log-verify.hiaiabc.com^
 ||log.aispeech.com^
 ||log.amemv.com^
 ||log.appstore3.huan.tv^
@@ -380,11 +406,14 @@
 ||log.zijieapi.com^
 ||log1.cmpassport.com^
 ||logbak.hicloud.com^
+||logrcv.aiclk.com^
 ||logs.amap.com^
 ||logservice.hicloud.com^
 ||logservice1.hicloud.com^
 ||logtj.kugou.com^
 ||logupdate.avlyun.sec.miui.com^
+||luimg.baidu.com^
+||m-adnet.hiaiabc.com^
 ||m.ad.zhangyue.com^
 ||m.atm.youku.com^
 ||m.kubiqq.com^
@@ -404,6 +433,7 @@
 ||mime.baidu.com^
 ||mine.baidu.com^
 ||miui-fxcse.avlyun.com^
+||mmgame.qpic.cn^
 ||mnqlog.ldmnq.com^
 ||mobads-logs.baidu.com^
 ||mobads-pre-config.cdn.bcebos.com^
@@ -420,6 +450,7 @@
 ||mssdk.volces.com^
 ||mssdk.zijieapi.com^
 ||mtj.baidu.com^
+||nadvideo2.baidu.com^
 ||nmetrics.samsung.com^
 ||notes-analytics-events.apple.com^
 ||nsclick.baidu.com^
@@ -430,8 +461,8 @@
 ||open.e.kuaishou.cn^
 ||open.e.kuaishou.com^
 ||open.kuaishouzt.com^
-||open.kwaishouzt.com^
 ||open.kwaizt.com^
+||open.snssdk.com^
 ||optimus-ads.amap.com^
 ||orbit.jd.com^
 ||oth.eve.mdt.qq.com^
@@ -440,6 +471,7 @@
 ||outlookads.live.com^
 ||p.l.qq.com^
 ||p.s.360.cn^
+||p2p.huya.com^
 ||p3-tt.byteimg.com^
 ||pagead2.googlesyndication.com^
 ||pangolin-sdk-toutiao-b.com^
@@ -448,6 +480,7 @@
 ||pglstatp-toutiao.com^
 ||pig.pupuapi.com^
 ||pixon.ads-pixiv.net^
+||pkoplink.com^
 ||plbslog.umeng.com^
 ||pms.mb.qq.com^
 ||policy.video.ptqy.gitv.tv^
@@ -464,6 +497,8 @@
 ||res1.hubcloud.com.cn^
 ||res2.hubcloud.com.cn^
 ||res3.hubcloud.com.cn^
+||resolve.umeng.com^
+||rev.aiclk.com^
 ||review.gdtimg.com^
 ||rms-drcn.platform.dbankcloud.cn^
 ||roi.soulapp.cn^
@@ -477,7 +512,6 @@
 ||samsung-com.112.2o7.net^
 ||samsungads.com^
 ||sanme2.taisantech.com^
-||saveu5-normal-lq.zijieapi.com^
 ||scdown.qq.com^
 ||scs.openspeech.cn^
 ||sdk-ab-config.qquanquan.com^
@@ -525,6 +559,7 @@
 ||statsigapi.net^
 ||success.ctobsnssdk.com^
 ||syh-imp.cdnjtzy.com^
+||szbdyd.com^
 ||t-dsp.pinduoduo.com^
 ||t.l.qq.com^
 ||t002.ottcn.com^
@@ -556,6 +591,7 @@
 ||tnc3-bjlgy.zijieapi.com^
 ||toblog.ctobsnssdk.com^
 ||trace.qq.com^
+||tracelog-debug.aiclk.com^
 ||tracelog-debug.qquanquan.com^
 ||track.lc.quark.cn^
 ||track.uc.cn^
@@ -583,8 +619,11 @@
 ||union.baidu.com^
 ||update.avlyun.sec.miui.com^
 ||update.lejiao.tv^
+||update0.aiclk.com^
 ||upgrade-update.hismarttv.com^
+||uranus.jd.com^
 ||us.l.qq.com^
+||usr-api.aiclk.com^
 ||v.adintl.cn^
 ||v.adx.hubcloud.com.cn^
 ||v1-ad.video.yximgs.com^
@@ -629,6 +668,7 @@
 ||w1.zskwai.com^
 ||watson.microsoft.com^
 ||watson.telemetry.microsoft.com^
+||wcp.taobao.com^
 ||weather-analytics-events.apple.com^
 ||weather-community-drcn.weather.dbankcloud.cn^
 ||webstat.qiumibao.com^
@@ -640,14 +680,15 @@
 ||ws.sj.qq.com^
 ||www42.zskwai.com^
 ||wxa.wxs.qq.com^
+||wxaintpcos.wxqcloud.qq.com.cn^
 ||wximg.wxs.qq.com^
 ||wxsmw.wxs.qq.com^
 ||wxsnsad.tc.qq.com^
+||wxsnsdy.tc.qq.com^
 ||wxsnsdy.wxs.qq.com^
 ||wxsnsdythumb.wxs.qq.com^
 ||xc.gdt.qq.com^
 ||xiaomi-dtv.m.cn.miaozhen.com^
-||xiaoshuo.wtzw.com^
 ||xlivrdr.com^
 ||xlmzc.cnjp-exp.com^
 ||xlog.jd.com^
@@ -658,8 +699,8 @@
 ||ykad-gateway.youku.com^
 ||youku-acs.m.taobao.com^
 ||youxi.kugou.com^
+||zhihu-web-analytics.zhihu.com^
 /.*\.*\.shouji\.sogou\.com/
-/.*\.[a-zA-Z0-9.-]skwai\.com/
 /.*\.a\.market\.xiaomi\.com/
 /.*\.data\.hicloud\.com/
 /.*\.log\.aliyuncs\.com/
@@ -668,7 +709,6 @@
 /[a-zA-Z0-9.-]*-ad\.video\.yximgs\.com/
 /[a-zA-Z0-9.-]*-ad\.wtzw\.com/
 /[a-zA-Z0-9.-]*-be-pack-sign\.pglstatp-toutiao\.com/
-/[a-zA-Z0-9.-]*-lm\.adkwai\.com/
 /[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*\.zijieapi\.com/
 /[a-zA-Z0-9.-]*-normal\.zijieapi\.com/
 /cloudinject[a-zA-Z0-9.-]*-dev\.*\.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*\.amazonaws\.com/

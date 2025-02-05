@@ -26,7 +26,13 @@
         "conn2.oppomobile.com",
         "quasar.yandex.net",
         "captive.apple.com",
-        "connectivity-check.ubuntu.com"
+        "connectivity-check.ubuntu.com",
+        "connectivitycheck.unisoc.com",
+        "play.googleapis.com"
+      ],
+      "domain_keyword": [
+        "connectivitycheck",
+        "connectivity-check"
       ]
     }
   ]
