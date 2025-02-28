@@ -1,16 +1,17 @@
 !
 ! Title: AWAvenue Ads Rule
 ! Description: Use Adblock syntax to fight against various advertising SDKs in Android applications from the network level , prevent them from loading.
-! Version: 1.0.14.96
+! Version: 1.0.15.1
 ! Homepage: https://awavenue.top/
-! Last modified: 2025-01-21T20:06:37.859Z
+! Last modified: 2025-02-25T13:16:02.501Z
 !
-! Compiled by @adguard/hostlist-compiler v1.0.34
+! Compiled by @adguard/hostlist-compiler v1.0.35
 !
 
 
 
 ||1010pic.com^
+||1500020991.vodplayer.wxamedia.com^
 ||8le8le.com^
 ||a0.app.xiaomi.com^
 ||aaid.umeng.com^
@@ -42,6 +43,7 @@
 ||ad.xiaomi.com^
 ||ad.ximalaya.com^
 ||ad.zijieapi.com^
+||ad2.ettoday.net^
 ||adapi.izuiyou.com^
 ||adapi.yynetwk.com^
 ||adashbc.ut.taobao.com^
@@ -79,6 +81,7 @@
 ||ads.music.126.net^
 ||ads.oppomobile.com^
 ||ads.pinterest.com^
+||ads.pubmatic.com^
 ||ads.servebom.com^
 ||ads.service.kugou.com^
 ||ads.tiktok.com^
@@ -115,6 +118,8 @@
 ||adstats.tencentmusic.com^
 ||adstore-1252524079.file.myqcloud.com^
 ||adstore-index-1252524079.file.myqcloud.com^
+||adstudio-assets.scdn.co^
+||adstudio.spotify.com^
 ||adtago.s3.amazonaws.com^
 ||adtech.yahooinc.com^
 ||adtrack.quark.cn^
@@ -260,6 +265,7 @@
 ||data.mistat.india.xiaomi.com^
 ||data.mistat.rus.xiaomi.com^
 ||data.mistat.xiaomi.com^
+||de.tynt.com^
 ||dig.bdurl.net^
 ||dl.zuimeitianqi.com^
 ||dlogs.bwton.com^
@@ -315,8 +321,11 @@
 ||grs.dbankcloud.com^
 ||grs.hicloud.com^
 ||grs.platform.dbankcloud.ru^
+||gvideo.qpic.cn^
 ||h-adashx.ut.taobao.com^
 ||hanlanad.com^
+||heads-ak.spotify.com.edgesuite.net^
+||heads-fa.spotify.com^
 ||hexagon-analytics.com^
 ||hm.baidu.com^
 ||hmma.baidu.com^
@@ -327,7 +336,6 @@
 ||hugelog.fcbox.com^
 ||huichuan.sm.cn^
 ||hw-ot-ad.a.yximgs.com^
-||hw.zuimeitianqi.com^
 ||hwpub-s01-drcn.cloud.dbankcloud.cn^
 ||hya.comp.360os.com^
 ||hybrid.miniapp.taobao.com^
@@ -352,6 +360,7 @@
 ||img.adnyg.com^
 ||img.adnyg.com.w.kunlungr.com^
 ||imtmp.net^
+||in.treasuredata.com^
 ||iot-eu-logser.realme.com^
 ||iot-logser.realme.com^
 ||ipv4.kkmh.com^
@@ -397,6 +406,7 @@
 ||log.fc.yahoo.com^
 ||log.kuwo.cn^
 ||log.pinterest.com^
+||log.popin.cc^
 ||log.snssdk.com^
 ||log.stat.kugou.com^
 ||log.tagtic.cn^
@@ -435,6 +445,7 @@
 ||miui-fxcse.avlyun.com^
 ||mmgame.qpic.cn^
 ||mnqlog.ldmnq.com^
+||moatads.com^
 ||mobads-logs.baidu.com^
 ||mobads-pre-config.cdn.bcebos.com^
 ||mobads.baidu.com^
@@ -471,11 +482,12 @@
 ||outlookads.live.com^
 ||p.l.qq.com^
 ||p.s.360.cn^
-||p2p.huya.com^
 ||p3-tt.byteimg.com^
 ||pagead2.googlesyndication.com^
 ||pangolin-sdk-toutiao-b.com^
 ||pay.sboot.cn^
+||pcm-img.zhls.qq.com^
+||pgdt.gtimg.cn^
 ||pgdt.ugdtimg.com^
 ||pglstatp-toutiao.com^
 ||pig.pupuapi.com^
@@ -500,6 +512,7 @@
 ||resolve.umeng.com^
 ||rev.aiclk.com^
 ||review.gdtimg.com^
+||rlog.popin.cc^
 ||rms-drcn.platform.dbankcloud.cn^
 ||roi.soulapp.cn^
 ||rpt.gdt.qq.com^
@@ -508,6 +521,7 @@
 ||s1.qq.com^
 ||s2.qq.com^
 ||s3.qq.com^
+||s8t.teads.tv^
 ||saad.ms.zhangyue.net^
 ||samsung-com.112.2o7.net^
 ||samsungads.com^
@@ -553,6 +567,7 @@
 ||stat.dongqiudi.com^
 ||stat.y.qq.com^
 ||static.ads-twitter.com^
+||static.wxqcloud.qq.com.cn^
 ||statics.woozooo.com^
 ||stats.qiumibao.com^
 ||stats.wp.com^
@@ -562,8 +577,10 @@
 ||szbdyd.com^
 ||t-dsp.pinduoduo.com^
 ||t.l.qq.com^
+||t.teads.tv^
 ||t002.ottcn.com^
 ||t1.a.market.xiaomi.com^
+||t1.teads.tv^
 ||t2.a.market.xiaomi.com^
 ||t3.a.market.xiaomi.com^
 ||tangram.e.qq.com^
@@ -603,6 +620,7 @@
 ||tvuser-ch.cedock.com^
 ||tx-ad.a.yximgs.com^
 ||tx-kmpaudio.pull.yximgs.com^
+||tytx.m.cn.miaozhen.com^
 ||tz.sec.xiaomi.com^
 ||udc.yahoo.com^
 ||udcm.yahoo.com^
@@ -641,31 +659,8 @@
 ||vungle.com^
 ||w.l.qq.com^
 ||w1.askwai.com^
-||w1.bskwai.com^
-||w1.cskwai.com^
-||w1.dskwai.com^
-||w1.eskwai.com^
-||w1.fskwai.com^
 ||w1.gskwai.com^
-||w1.hskwai.com^
-||w1.iskwai.com^
-||w1.jskwai.com^
 ||w1.kskwai.com^
-||w1.lskwai.com^
-||w1.mskwai.com^
-||w1.nskwai.com^
-||w1.oskwai.com^
-||w1.pskwai.com^
-||w1.qskwai.com^
-||w1.rskwai.com^
-||w1.sskwai.com^
-||w1.tskwai.com^
-||w1.uskwai.com^
-||w1.vskwai.com^
-||w1.wskwai.com^
-||w1.xskwai.com^
-||w1.yskwai.com^
-||w1.zskwai.com^
 ||watson.microsoft.com^
 ||watson.telemetry.microsoft.com^
 ||wcp.taobao.com^
@@ -675,6 +670,7 @@
 ||webview.unityads.unity3d.com^
 ||widgets.outbrain.com^
 ||widgets.pinterest.com^
+||wildcard.moatads.com.edgekey.net^
 ||win.gdt.qq.com^
 ||wn.x.jd.com^
 ||ws.sj.qq.com^
