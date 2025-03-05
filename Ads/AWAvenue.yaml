@@ -237,6 +237,7 @@ payload:
   - DOMAIN-SUFFIX,click.googleanalytics.com
   - DOMAIN-SUFFIX,click.oneplus.cn
   - DOMAIN-SUFFIX,clog.miguvideo.com
+  - DOMAIN-SUFFIX,cn-api.anythinktech.com
   - DOMAIN-SUFFIX,cnlogs.umeng.com
   - DOMAIN-SUFFIX,cnlogs.umengcloud.com
   - DOMAIN-SUFFIX,cnzz.com
@@ -254,6 +255,7 @@ payload:
   - DOMAIN-SUFFIX,data.mistat.india.xiaomi.com
   - DOMAIN-SUFFIX,data.mistat.rus.xiaomi.com
   - DOMAIN-SUFFIX,data.mistat.xiaomi.com
+  - DOMAIN-SUFFIX,datk.anythinktech.com
   - DOMAIN-SUFFIX,de.tynt.com
   - DOMAIN-SUFFIX,dig.bdurl.net
   - DOMAIN-SUFFIX,dl.zuimeitianqi.com
@@ -663,6 +665,7 @@ payload:
   - DOMAIN-SUFFIX,win.gdt.qq.com
   - DOMAIN-SUFFIX,wn.x.jd.com
   - DOMAIN-SUFFIX,ws.sj.qq.com
+  - DOMAIN-SUFFIX,wwads.cn
   - DOMAIN-SUFFIX,www42.zskwai.com
   - DOMAIN-SUFFIX,wxa.wxs.qq.com
   - DOMAIN-SUFFIX,wxaintpcos.wxqcloud.qq.com.cn

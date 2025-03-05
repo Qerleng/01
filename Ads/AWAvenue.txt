@@ -237,6 +237,7 @@ payload:
 - +.click.googleanalytics.com
 - +.click.oneplus.cn
 - +.clog.miguvideo.com
+- +.cn-api.anythinktech.com
 - +.cnlogs.umeng.com
 - +.cnlogs.umengcloud.com
 - +.cnzz.com
@@ -254,6 +255,7 @@ payload:
 - +.data.mistat.india.xiaomi.com
 - +.data.mistat.rus.xiaomi.com
 - +.data.mistat.xiaomi.com
+- +.datk.anythinktech.com
 - +.de.tynt.com
 - +.dig.bdurl.net
 - +.dl.zuimeitianqi.com
@@ -663,6 +665,7 @@ payload:
 - +.win.gdt.qq.com
 - +.wn.x.jd.com
 - +.ws.sj.qq.com
+- +.wwads.cn
 - +.www42.zskwai.com
 - +.wxa.wxs.qq.com
 - +.wxaintpcos.wxqcloud.qq.com.cn
