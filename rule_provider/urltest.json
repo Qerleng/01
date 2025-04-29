@@ -28,7 +28,9 @@
         "captive.apple.com",
         "connectivity-check.ubuntu.com",
         "connectivitycheck.unisoc.com",
-        "play.googleapis.com"
+        "play.googleapis.com",
+        "204.ecloud.global",
+        "e.foundation"
       ],
       "domain_keyword": [
         "connectivitycheck",

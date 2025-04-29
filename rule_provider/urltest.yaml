@@ -25,5 +25,7 @@ payload:
   - DOMAIN,connectivity-check.ubuntu.com
   - DOMAIN,connectivitycheck.unisoc.com
   - DOMAIN,play.googleapis.com
+  - DOMAIN,204.ecloud.global
+  - DOMAIN,e.foundation
   - DOMAIN-KEYWORD,connectivitycheck
   - DOMAIN-KEYWORD,connectivity-check
