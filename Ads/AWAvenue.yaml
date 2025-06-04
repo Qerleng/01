@@ -3,6 +3,7 @@ payload:
   - DOMAIN-SUFFIX,1500022744.vodplayer.wxamedia.com
   - DOMAIN-SUFFIX,1500026601.vodplayer.wxamedia.com
   - DOMAIN-SUFFIX,8le8le.com
+  - DOMAIN-SUFFIX,8rn1y79f02-1.algolianet.com
   - DOMAIN-SUFFIX,a0.app.xiaomi.com
   - DOMAIN-SUFFIX,aaid.umeng.com
   - DOMAIN-SUFFIX,abtest-ch.snssdk.com
@@ -11,6 +12,8 @@ payload:
   - DOMAIN-SUFFIX,ad-scope.com.cn
   - DOMAIN-SUFFIX,ad-sdk-config.youdao.com
   - DOMAIN-SUFFIX,ad-sdk.huxiu.com
+  - DOMAIN-SUFFIX,ad-splash-tracking.hktvmall.com
+  - DOMAIN-SUFFIX,ad-splash.hktvmall.com
   - DOMAIN-SUFFIX,ad.12306.cn
   - DOMAIN-SUFFIX,ad.51wnl.com
   - DOMAIN-SUFFIX,ad.api.3g.youku.com
@@ -50,6 +53,7 @@ payload:
   - DOMAIN-SUFFIX,adguanggao.eee114.com
   - DOMAIN-SUFFIX,adjust.cn
   - DOMAIN-SUFFIX,adjust.com
+  - DOMAIN-SUFFIX,adks.hpplay.cn
   - DOMAIN-SUFFIX,adlink-api.huan.tv
   - DOMAIN-SUFFIX,adm.funshion.com
   - DOMAIN-SUFFIX,ads-api-o.api.leiniao.com
@@ -57,6 +61,7 @@ payload:
   - DOMAIN-SUFFIX,ads-api.twitter.com
   - DOMAIN-SUFFIX,ads-img-al.xhscdn.com
   - DOMAIN-SUFFIX,ads-img-qc.xhscdn.com
+  - DOMAIN-SUFFIX,ads-jp.tiktok.com
   - DOMAIN-SUFFIX,ads-marketing-vivofs.vivo.com.cn
   - DOMAIN-SUFFIX,ads-sdk-api.ranfenghd.com
   - DOMAIN-SUFFIX,ads-sg.tiktok.com
@@ -94,8 +99,8 @@ payload:
   - DOMAIN-SUFFIX,adsebs.ximalaya.com
   - DOMAIN-SUFFIX,adsense.google.cn
   - DOMAIN-SUFFIX,adserver.unityads.unity3d.com
+  - DOMAIN-SUFFIX,adservice.google.cn
   - DOMAIN-SUFFIX,adservice.google.com
-  - DOMAIN-SUFFIX,adservice.sigmob.cn
   - DOMAIN-SUFFIX,adserviceretry.kugou.com
   - DOMAIN-SUFFIX,adsfile.bssdlbig.kugou.com
   - DOMAIN-SUFFIX,adsfile.qq.com
@@ -127,7 +132,6 @@ payload:
   - DOMAIN-SUFFIX,advertising.yandex.ru
   - DOMAIN-SUFFIX,advice-ads.s3.amazonaws.com
   - DOMAIN-SUFFIX,adview.cn
-  - DOMAIN-SUFFIX,adx-ad.smart-tv.cn
   - DOMAIN-SUFFIX,adx-bj.anythinktech.com
   - DOMAIN-SUFFIX,adx-cn.anythinktech.com
   - DOMAIN-SUFFIX,adx-drcn.op.dbankcloud.cn
@@ -174,18 +178,17 @@ payload:
   - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao2.com
   - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao3.com
   - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao4.com
+  - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao5.com
   - DOMAIN-SUFFIX,api-ad-product.huxiu.com
   - DOMAIN-SUFFIX,api-adservices.apple.com
   - DOMAIN-SUFFIX,api-gd.hiaiabc.com
   - DOMAIN-SUFFIX,api.ad.xiaomi.com
   - DOMAIN-SUFFIX,api.e.kuaishou.com
-  - DOMAIN-SUFFIX,api.fu.xcultur.com
   - DOMAIN-SUFFIX,api.htp.hubcloud.com.cn
   - DOMAIN-SUFFIX,api.hzsanjiaomao.com
   - DOMAIN-SUFFIX,api.installer.xiaomi.com
   - DOMAIN-SUFFIX,api.jietuhb.com
   - DOMAIN-SUFFIX,api.kingdata.ksyun.com
-  - DOMAIN-SUFFIX,api.ssp.xcultur.com
   - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,api.touch-moblie.com
   - DOMAIN-SUFFIX,api.yfanads.com
@@ -197,6 +200,8 @@ payload:
   - DOMAIN-SUFFIX,applog.uc.cn
   - DOMAIN-SUFFIX,applog.zijieapi.com
   - DOMAIN-SUFFIX,applovin.com
+  - DOMAIN-SUFFIX,applvn.com
+  - DOMAIN-SUFFIX,appversion.115.com
   - DOMAIN-SUFFIX,aspect-upush.umeng.com
   - DOMAIN-SUFFIX,auction.unityads.unity3d.com
   - DOMAIN-SUFFIX,audid-api.taobao.com
@@ -240,6 +245,7 @@ payload:
   - DOMAIN-SUFFIX,cdn-ads.oss-cn-shanghai.aliyuncs.com
   - DOMAIN-SUFFIX,cdn-f.adsmoloco.com
   - DOMAIN-SUFFIX,cdn-plugin-sync-upgrade-juui.hismarttv.com
+  - DOMAIN-SUFFIX,cdn.ad.xiaomi.com
   - DOMAIN-SUFFIX,cdn.aiclk.com
   - DOMAIN-SUFFIX,cdn.chinaliftoff-creatives.io
   - DOMAIN-SUFFIX,cdn.hpplay.com.cn
@@ -272,14 +278,12 @@ payload:
   - DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
   - DOMAIN-SUFFIX,csjplatform.com
   - DOMAIN-SUFFIX,cws-cctv.conviva.com
-  - DOMAIN-SUFFIX,d.applvn.com
   - DOMAIN-SUFFIX,data.ads.oppomobile.com
   - DOMAIN-SUFFIX,data.chsmarttv.com
   - DOMAIN-SUFFIX,data.mistat.india.xiaomi.com
   - DOMAIN-SUFFIX,data.mistat.rus.xiaomi.com
   - DOMAIN-SUFFIX,data.mistat.xiaomi.com
   - DOMAIN-SUFFIX,datk.anythinktech.com
-  - DOMAIN-SUFFIX,dc.sigmob.cn
   - DOMAIN-SUFFIX,de.tynt.com
   - DOMAIN-SUFFIX,diagnosis.ad.xiaomi.com
   - DOMAIN-SUFFIX,dig.bdurl.net
@@ -317,6 +321,8 @@ payload:
   - DOMAIN-SUFFIX,frontend-perf-service.e.kuaishou.com
   - DOMAIN-SUFFIX,fundingchoicesmessages.google.com
   - DOMAIN-SUFFIX,fxgate.baidu.com
+  - DOMAIN-SUFFIX,g-adnet.hiaiabc.com
+  - DOMAIN-SUFFIX,g-staic.ganjingworld.com
   - DOMAIN-SUFFIX,g.dtv.cn.miaozhen.com
   - DOMAIN-SUFFIX,g2.ganjing.world
   - DOMAIN-SUFFIX,game.loveota.com
@@ -328,13 +334,14 @@ payload:
   - DOMAIN-SUFFIX,ggx.cmvideo.cn
   - DOMAIN-SUFFIX,ggx01.miguvideo.com
   - DOMAIN-SUFFIX,ggx03.miguvideo.com
+  - DOMAIN-SUFFIX,globalapi.ad.xiaomi.com
   - DOMAIN-SUFFIX,google-analytics.com
+  - DOMAIN-SUFFIX,googleads.g.doubleclick.com
   - DOMAIN-SUFFIX,googleads.g.doubleclick.net
   - DOMAIN-SUFFIX,googleadservices-cn.com
   - DOMAIN-SUFFIX,googleadservices.com
   - DOMAIN-SUFFIX,googletagservices-cn.com
   - DOMAIN-SUFFIX,gorgon.youdao.com
-  - DOMAIN-SUFFIX,graph.facebook.com
   - DOMAIN-SUFFIX,gromore.pangolin-sdk-toutiao.com
   - DOMAIN-SUFFIX,grs.dbankcloud.com
   - DOMAIN-SUFFIX,grs.hicloud.com
@@ -372,13 +379,17 @@ payload:
   - DOMAIN-SUFFIX,ifacelog.iqiyi.com
   - DOMAIN-SUFFIX,ifs.tanx.com
   - DOMAIN-SUFFIX,ii.gdt.qq.com
+  - DOMAIN-SUFFIX,imag8.pubmatic.com
+  - DOMAIN-SUFFIX,imag86.pubmatic.com
   - DOMAIN-SUFFIX,image-ad.sm.cn
   - DOMAIN-SUFFIX,image.hpplay.cn
+  - DOMAIN-SUFFIX,imageplus.baidu.com
   - DOMAIN-SUFFIX,images.outbrainimg.com
   - DOMAIN-SUFFIX,images.pinduoduo.com
   - DOMAIN-SUFFIX,imdns.hpplay.cn
   - DOMAIN-SUFFIX,img-c.heytapimage.com
   - DOMAIN-SUFFIX,img-x.jd.com
+  - DOMAIN-SUFFIX,img.adnyg.com
   - DOMAIN-SUFFIX,img.adnyg.com.w.kunlungr.com
   - DOMAIN-SUFFIX,impression-asia.chinaliftoff.io
   - DOMAIN-SUFFIX,impression-asia.liftoff.io
@@ -388,6 +399,7 @@ payload:
   - DOMAIN-SUFFIX,iot-logser.realme.com
   - DOMAIN-SUFFIX,ipv4.kkmh.com
   - DOMAIN-SUFFIX,irc.qubiankeji.com
+  - DOMAIN-SUFFIX,itv2-up.openspeech.cn
   - DOMAIN-SUFFIX,ixav-cse.avlyun.com
   - DOMAIN-SUFFIX,iyfbodn.com
   - DOMAIN-SUFFIX,janapi.jd.com
@@ -405,12 +417,9 @@ payload:
   - DOMAIN-SUFFIX,ks-p2p.pull.yximgs.com
   - DOMAIN-SUFFIX,ks.ferlytc.com
   - DOMAIN-SUFFIX,ks.pull.yximgs.com
-  - DOMAIN-SUFFIX,launcher.smart-tv.cn
-  - DOMAIN-SUFFIX,launcherimg.smart-tv.cn
-  - DOMAIN-SUFFIX,lf3-ad-union-sdk.pglstatp-toutiao.com
-  - DOMAIN-SUFFIX,lf6-ad-union-sdk.pglstatp-toutiao.com
   - DOMAIN-SUFFIX,lh3.googleadsserving.cn
   - DOMAIN-SUFFIX,litchiads.com
+  - DOMAIN-SUFFIX,live-api.hktvmall.com
   - DOMAIN-SUFFIX,liveats-vod.video.ptqy.gitv.tv
   - DOMAIN-SUFFIX,livemonitor.huan.tv
   - DOMAIN-SUFFIX,livep.l.aiseet.atianqi.com
@@ -420,7 +429,6 @@ payload:
   - DOMAIN-SUFFIX,lm10111.jtrincc.cn
   - DOMAIN-SUFFIX,log-api-mn.huxiu.com
   - DOMAIN-SUFFIX,log-api.huxiu.com
-  - DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao-b.com
   - DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com
   - DOMAIN-SUFFIX,log-report.com
   - DOMAIN-SUFFIX,log-sdk.gifshow.com
@@ -434,6 +442,7 @@ payload:
   - DOMAIN-SUFFIX,log.amemv.com
   - DOMAIN-SUFFIX,log.appstore3.huan.tv
   - DOMAIN-SUFFIX,log.avlyun.com
+  - DOMAIN-SUFFIX,log.avlyun.sec.intl.miui.com
   - DOMAIN-SUFFIX,log.byteoversea.com
   - DOMAIN-SUFFIX,log.fc.yahoo.com
   - DOMAIN-SUFFIX,log.kuwo.cn
@@ -455,8 +464,10 @@ payload:
   - DOMAIN-SUFFIX,logtj.kugou.com
   - DOMAIN-SUFFIX,logupdate.avlyun.sec.miui.com
   - DOMAIN-SUFFIX,luimg.baidu.com
+  - DOMAIN-SUFFIX,m-adnet.hiaiabc.com
   - DOMAIN-SUFFIX,m.ad.zhangyue.com
   - DOMAIN-SUFFIX,m.atm.youku.com
+  - DOMAIN-SUFFIX,m.kubiqq.com
   - DOMAIN-SUFFIX,m1.ad.10010.com
   - DOMAIN-SUFFIX,mapi.m.jd.com
   - DOMAIN-SUFFIX,masdkv6.3g.qq.com
@@ -471,8 +482,8 @@ payload:
   - DOMAIN-SUFFIX,miav-cse.avlyun.com
   - DOMAIN-SUFFIX,micro-xdb.com
   - DOMAIN-SUFFIX,mime.baidu.com
+  - DOMAIN-SUFFIX,mine.baidu.com
   - DOMAIN-SUFFIX,mini-prog-drm.vodplayvideo.net
-  - DOMAIN-SUFFIX,mission-pub.smart-tv.cn
   - DOMAIN-SUFFIX,miui-fxcse.avlyun.com
   - DOMAIN-SUFFIX,mmgame.qpic.cn
   - DOMAIN-SUFFIX,mnqlog.ldmnq.com
@@ -489,16 +500,14 @@ payload:
   - DOMAIN-SUFFIX,monitor.music.qq.com
   - DOMAIN-SUFFIX,monitor.uu.qq.com
   - DOMAIN-SUFFIX,monsetting.toutiao.com
-  - DOMAIN-SUFFIX,ms.applvn.com
-  - DOMAIN-SUFFIX,ms4.applvn.com
   - DOMAIN-SUFFIX,msdk.voiceads.cn
   - DOMAIN-SUFFIX,mssdk.volces.com
   - DOMAIN-SUFFIX,mssdk.zijieapi.com
   - DOMAIN-SUFFIX,mtj.baidu.com
   - DOMAIN-SUFFIX,nadvideo2.baidu.com
-  - DOMAIN-SUFFIX,newvoice.chiq5.smart-tv.cn
   - DOMAIN-SUFFIX,nmetrics.samsung.com
   - DOMAIN-SUFFIX,notes-analytics-events.apple.com
+  - DOMAIN-SUFFIX,notify.sec.miui.com
   - DOMAIN-SUFFIX,nsclick.baidu.com
   - DOMAIN-SUFFIX,o-sdk.mediation.unity3d.com
   - DOMAIN-SUFFIX,o2o.api.xiaomi.com
@@ -524,16 +533,17 @@ payload:
   - DOMAIN-SUFFIX,p2plive-ali.douyucdn.cn
   - DOMAIN-SUFFIX,p2pupdate.gamedl.qq.com
   - DOMAIN-SUFFIX,p2pupgrade.gamedl.qq.com
-  - DOMAIN-SUFFIX,p3-be-pack-sign.pglstatp-toutiao.com
   - DOMAIN-SUFFIX,p3-lm.adkwai.com
   - DOMAIN-SUFFIX,p3-tt.byteimg.com
-  - DOMAIN-SUFFIX,p6-be-pack-sign.pglstatp-toutiao.com
   - DOMAIN-SUFFIX,pagead2.googlesyndication.com
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
   - DOMAIN-SUFFIX,pay.sboot.cn
   - DOMAIN-SUFFIX,pcdn.xmcdn.com
+  - DOMAIN-SUFFIX,pcdn.yximgs.com
   - DOMAIN-SUFFIX,pcm-img.zhls.qq.com
   - DOMAIN-SUFFIX,pgdt.gtimg.cn
   - DOMAIN-SUFFIX,pgdt.ugdtimg.com
+  - DOMAIN-SUFFIX,pglstatp-toutiao.com
   - DOMAIN-SUFFIX,pig.pupuapi.com
   - DOMAIN-SUFFIX,pin.hpplay.cn
   - DOMAIN-SUFFIX,pixon.ads-pixiv.net
@@ -551,8 +561,12 @@ payload:
   - DOMAIN-SUFFIX,qzs.gdtimg.com
   - DOMAIN-SUFFIX,recommend-drcn.hms.dbankcloud.cn
   - DOMAIN-SUFFIX,report.tv.kohesport.qq.com
+  - DOMAIN-SUFFIX,res.hubcloud.com.cn
   - DOMAIN-SUFFIX,res1.hubcloud.com.cn
+  - DOMAIN-SUFFIX,res2.hubcloud.com.cn
+  - DOMAIN-SUFFIX,res3.hubcloud.com.cn
   - DOMAIN-SUFFIX,resolve.umeng.com
+  - DOMAIN-SUFFIX,rev.aiclk.com
   - DOMAIN-SUFFIX,review.gdtimg.com
   - DOMAIN-SUFFIX,rlog.popin.cc
   - DOMAIN-SUFFIX,rms-drcn.platform.dbankcloud.cn
@@ -560,7 +574,6 @@ payload:
   - DOMAIN-SUFFIX,rp.hpplay.cn
   - DOMAIN-SUFFIX,rps.hpplay.cn
   - DOMAIN-SUFFIX,rpt.gdt.qq.com
-  - DOMAIN-SUFFIX,rt.applvn.com
   - DOMAIN-SUFFIX,rtb.voiceads.cn
   - DOMAIN-SUFFIX,s.amazon-adsystem.com
   - DOMAIN-SUFFIX,s8t.teads.tv
@@ -570,12 +583,12 @@ payload:
   - DOMAIN-SUFFIX,samsungads.com
   - DOMAIN-SUFFIX,sanme2.taisantech.com
   - DOMAIN-SUFFIX,saxysec.com
-  - DOMAIN-SUFFIX,scdown.qq.com
   - DOMAIN-SUFFIX,scs.openspeech.cn
   - DOMAIN-SUFFIX,sdk-ab-config.qquanquan.com
   - DOMAIN-SUFFIX,sdk-cache.video.ptqy.gitv.tv
   - DOMAIN-SUFFIX,sdk.1rtb.net
   - DOMAIN-SUFFIX,sdk.ad.smaato.net
+  - DOMAIN-SUFFIX,sdk.cferw.com
   - DOMAIN-SUFFIX,sdk.e.qq.com
   - DOMAIN-SUFFIX,sdk.hzsanjiaomao.com
   - DOMAIN-SUFFIX,sdk.markmedia.com.cn
@@ -588,6 +601,7 @@ payload:
   - DOMAIN-SUFFIX,sdkconfig.video.qq.com
   - DOMAIN-SUFFIX,sdkoptedge.chinanetcenter.com
   - DOMAIN-SUFFIX,sdktmp.hubcloud.com.cn
+  - DOMAIN-SUFFIX,sdownload.stargame.com
   - DOMAIN-SUFFIX,search.ixigua.com
   - DOMAIN-SUFFIX,search3-search.ixigua.com
   - DOMAIN-SUFFIX,search5-search-hl.ixigua.com
@@ -598,18 +612,20 @@ payload:
   - DOMAIN-SUFFIX,service.changhong.upgrade2.huan.tv
   - DOMAIN-SUFFIX,service.vmos.cn
   - DOMAIN-SUFFIX,sf16-static.i18n-pglstatp.com
-  - DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com
   - DOMAIN-SUFFIX,shouji.sogou.com
+  - DOMAIN-SUFFIX,sigmob.cn
   - DOMAIN-SUFFIX,sigmob.com
   - DOMAIN-SUFFIX,skdisplay.jd.com
   - DOMAIN-SUFFIX,sl.hpplay.cn
   - DOMAIN-SUFFIX,slb-p2p.vcloud.ks-live.com
   - DOMAIN-SUFFIX,smad.ms.zhangyue.net
+  - DOMAIN-SUFFIX,smart-tv.cn
   - DOMAIN-SUFFIX,smartad.10010.com
   - DOMAIN-SUFFIX,smetrics.samsung.com
   - DOMAIN-SUFFIX,sms.ads.oppomobile.com
   - DOMAIN-SUFFIX,sngmta.qq.com
   - DOMAIN-SUFFIX,snowflake.qq.com
+  - DOMAIN-SUFFIX,staging-notify.sec.miui.com
   - DOMAIN-SUFFIX,stat.dongqiudi.com
   - DOMAIN-SUFFIX,stat.y.qq.com
   - DOMAIN-SUFFIX,static.ads-twitter.com
@@ -624,8 +640,10 @@ payload:
   - DOMAIN-SUFFIX,syh-imp.cdnjtzy.com
   - DOMAIN-SUFFIX,szbdyd.com
   - DOMAIN-SUFFIX,t-dsp.pinduoduo.com
+  - DOMAIN-SUFFIX,t.l.qq.com
   - DOMAIN-SUFFIX,t.teads.tv
   - DOMAIN-SUFFIX,t.track.ad.xiaomi.com
+  - DOMAIN-SUFFIX,t002.ottcn.com
   - DOMAIN-SUFFIX,t1.a.market.xiaomi.com
   - DOMAIN-SUFFIX,t1.teads.tv
   - DOMAIN-SUFFIX,t2.a.market.xiaomi.com
@@ -648,10 +666,12 @@ payload:
   - DOMAIN-SUFFIX,tmfmazu.m.qq.com
   - DOMAIN-SUFFIX,tmfsdk.m.qq.com
   - DOMAIN-SUFFIX,tmfsdktcpv4.m.qq.com
+  - DOMAIN-SUFFIX,tnc3-aliec1.toutiaoapi.com
   - DOMAIN-SUFFIX,tnc3-aliec2.bytedance.com
   - DOMAIN-SUFFIX,tnc3-aliec2.toutiaoapi.com
   - DOMAIN-SUFFIX,tnc3-alisc1.bytedance.com
   - DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com
+  - DOMAIN-SUFFIX,tnc3-alisc2.zijieapi.com
   - DOMAIN-SUFFIX,tnc3-bjlgy.bytedance.com
   - DOMAIN-SUFFIX,tnc3-bjlgy.toutiaoapi.com
   - DOMAIN-SUFFIX,tnc3-bjlgy.zijieapi.com
@@ -739,6 +759,7 @@ payload:
   - DOMAIN-SUFFIX,ws.sj.qq.com
   - DOMAIN-SUFFIX,wv.inner-active.mobi
   - DOMAIN-SUFFIX,wwads.cn
+  - DOMAIN-SUFFIX,www42.zskwai.com
   - DOMAIN-SUFFIX,wxa.wxs.qq.com
   - DOMAIN-SUFFIX,wxaintpcos.wxqcloud.qq.com.cn
   - DOMAIN-SUFFIX,wximg.wxs.qq.com
@@ -748,6 +769,7 @@ payload:
   - DOMAIN-SUFFIX,wxsnsdy.wxs.qq.com
   - DOMAIN-SUFFIX,wxsnsdythumb.wxs.qq.com
   - DOMAIN-SUFFIX,xc.gdt.qq.com
+  - DOMAIN-SUFFIX,xcultur.com
   - DOMAIN-SUFFIX,xiaomi-dtv.m.cn.miaozhen.com
   - DOMAIN-SUFFIX,xlog.jd.com
   - DOMAIN-SUFFIX,xlviiirdr.com
@@ -760,23 +782,23 @@ payload:
   - DOMAIN-SUFFIX,ytx-file.110route.cn
   - DOMAIN-SUFFIX,zeus.ad.xiaomi.com
   - DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com
-/.*\.*\.shouji\.sogou\.com/
-/.*\.1rtb\.com/
-/.*\.a\.market\.xiaomi\.com/
-/.*\.ad\.gameley\.com/
-/.*\.adintl\.cn/
-/.*\.adx\.adwangmai\.com/
-/.*\.data\.hicloud\.com/
-/.*\.log\.aliyuncs\.com/
-/.*\.ubixioe\.com/
-/.*\.vlion\.cn/
-/.*\.yfanads\.com/
-/.*\.zhangyuyidong\.cn/
-/[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*\.byteimg\.com/
-/[a-zA-Z0-9.-]*-ad\.sm\.cn/
-/[a-zA-Z0-9.-]*-ad\.video\.yximgs\.com/
-/[a-zA-Z0-9.-]*-ad\.wtzw\.com/
-/[a-zA-Z0-9.-]*-be-pack-sign\.pglstatp-toutiao\.com/
-/[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*\.zijieapi\.com/
-/[a-zA-Z0-9.-]*-normal\.zijieapi\.com/
-/cloudinject[a-zA-Z0-9.-]*-dev\.*\.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*\.amazonaws\.com/
+/.*.*.shouji.sogou.com/
+/.*.1rtb.com/
+/.*.a.market.xiaomi.com/
+/.*.ad.gameley.com/
+/.*.adintl.cn/
+/.*.adx.adwangmai.com/
+/.*.data.hicloud.com/
+/.*.log.aliyuncs.com/
+/.*.ubixioe.com/
+/.*.vlion.cn/
+/.*.yfanads.com/
+/.*.zhangyuyidong.cn/
+/[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*.byteimg.com/
+/[a-zA-Z0-9.-]*-ad.sm.cn/
+/[a-zA-Z0-9.-]*-ad.video.yximgs.com/
+/[a-zA-Z0-9.-]*-ad.wtzw.com/
+/[a-zA-Z0-9.-]*-be-pack-sign.pglstatp-toutiao.com/
+/[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*.zijieapi.com/
+/[a-zA-Z0-9.-]*-normal.zijieapi.com/
+/cloudinject[a-zA-Z0-9.-]*-dev.*.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*.amazonaws.com/
