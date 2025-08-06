@@ -3,6 +3,8 @@ for file in tools/*; do
     command -v $filename &> /dev/null || { cp ./tools/$filename /usr/local/bin/ && chmod +x /usr/local/bin/$filename; }
 done
 
+curl -sS -L https://github.com/MilimNavaDemonLord/open_clash/raw/main/rule_provider/rule_game.yaml
+curl -sS -L https://github.com/Qerleng/00/raw/main/rule_provider/rule_indo.yaml 
 
 for file in *.yaml; do
     filename=$(basename "$file")
@@ -20,9 +22,10 @@ for file in *.yaml; do
     (mihomo convert-ruleset domain yaml $category ${category%.*}.mrs)
     echo $yaml_file && cat $file >> $yaml_file
     sed -i 's/-\(.*\)/  -\1/' $yaml_file
-    mv -if "${file%.*}.mrs" Ads/
-    mv -if "${file%.*}.abp" Ads/
-    mv -if "${file%.*}.txt" Ads/
+    mkdir -p ./trash
+    mv -if "${file%.*}.mrs" trash/
+    mv -if "${file%.*}.abp" trash/
+    mv -if "${file%.*}.txt" trash/
 
     jq -nR '{
         version: 1,
@@ -32,6 +35,8 @@ for file in *.yaml; do
                     .domain_suffix += [$item[1]]
                 elif $item[0] == "DOMAIN-KEYWORD" then
                     .domain_keyword += [$item[1]]
+                elif $item[0] == "DST-PORT" then
+                    .port += [$item[1]]
                 elif $item[0] == "DOMAIN-REGEX" then
                     .domain_regex += [$item[1]]
                 elif $item[0] == "DOMAIN" then
@@ -43,9 +48,9 @@ for file in *.yaml; do
         ]
     }' < $yaml_file > $json_file && \
     sing-box rule-set format $json_file -w
-    sing-box rule-set compile $json_file
-    mv -if "${file%.*}.json" Ads/
-    mv -if "${file%.*}.srs" Ads/
-    mv -if "${file%.*}.yaml" Ads/
+    CrashCore rule-set compile $json_file
+    mv -if "${file%.*}.json" trash/
+    mv -if "${file%.*}.srs" trash/
+    mv -if "${file%.*}.yaml" trash/
     
 done
