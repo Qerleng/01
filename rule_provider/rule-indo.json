@@ -2,7 +2,21 @@
   "version": 1,
   "rules": [
     {
-      "domain_suffix": ".id"
+      "domain_keyword": [
+        ".id",
+        "co.id",
+        "ac.id",
+        "or.id",
+        "go.id",
+        "my.id",
+        "web.id",
+        "biz.id",
+        "net.id",
+        "mil.id",
+        "sch.id",
+        "desa.id",
+        "ponpes.id"
+      ]
     }
   ]
 }
