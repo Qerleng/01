@@ -24,7 +24,12 @@ jobs:
 
       - name: 💩 Build 💩
         run: |
-          for item in rule_provider/*.json; do
+          chmod +x data/01.sh && bash data/01.sh 
+          
+
+      - name: 💩 Buisld 💩
+        run: |
+          for item in trash/*.json; do
           CrashCore rule-set compile "$item"
           done
 
