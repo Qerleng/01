@@ -25,7 +25,7 @@ for file in *.yaml; do
     mkdir -p ./trash
     mv -if "${file%.*}.mrs" trash/
     mv -if "${file%.*}.abp" trash/
-#    mv -if "${file%.*}.txt" trash/
+    rm -if "${file%.*}.txt" 
 
     jq -nR '{
         version: 1,
@@ -36,7 +36,7 @@ for file in *.yaml; do
                 elif $item[0] == "DOMAIN-KEYWORD" then
                     .domain_keyword += [$item[1]]
                 elif $item[0] == "DST-PORT" then
-                    .port += [$item[1]]
+                    .port += [$item[1]|tonumber]
                 elif $item[0] == "DOMAIN-REGEX" then
                     .domain_regex += [$item[1]]
                 elif $item[0] == "DOMAIN" then
