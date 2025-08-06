@@ -4,7 +4,7 @@ for file in tools/*; do
 done
 
 curl -sS -L https://github.com/MilimNavaDemonLord/open_clash/raw/main/rule_provider/rule_game.yaml
-curl -sS -L https://github.com/Qerleng/00/raw/main/rule_provider/rule_indo.yaml 
+curl -sS -L https://github.com/Qerleng/00/raw/main/rule_provider/rule_indo.yaml  -o rule-indo.yaml
 
 for file in *.yaml; do
     filename=$(basename "$file")
