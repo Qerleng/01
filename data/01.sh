@@ -3,8 +3,8 @@ for file in tools/*; do
     command -v $filename &> /dev/null || { cp ./tools/$filename /usr/local/bin/ && chmod +x /usr/local/bin/$filename; }
 done
 
-curl -sS -L https://github.com/MilimNavaDemonLord/open_clash/raw/main/rule_provider/rule_game.yaml
-curl -sS -L https://github.com/Qerleng/00/raw/main/rule_provider/rule_indo.yaml  -o rule-indo.yaml
+curl -sS -L https://github.com/MilimNavaDemonLord/open_clash/raw/main/rule_provider/rule_game.yaml -o rule-game.yaml
+curl -sS -L https://github.com/Qerleng/00/raw/main/rule_provider/rule_indo.yaml -o rule-indo.yaml
 
 for file in *.yaml; do
     filename=$(basename "$file")
@@ -25,7 +25,7 @@ for file in *.yaml; do
     mkdir -p ./trash
     mv -if "${file%.*}.mrs" trash/
     mv -if "${file%.*}.abp" trash/
-    mv -if "${file%.*}.txt" trash/
+#    mv -if "${file%.*}.txt" trash/
 
     jq -nR '{
         version: 1,
