@@ -22,9 +22,8 @@ for file in *.yaml; do
     (mihomo convert-ruleset domain yaml $category ${category%.*}.mrs)
     echo $yaml_file && cat $file >> $yaml_file
     sed -i 's/-\(.*\)/  -\1/' $yaml_file
-    mkdir -p ./trash
-    mv -if "${file%.*}.mrs" trash/
-    mv -if "${file%.*}.abp" trash/
+    mkdir -p ./rule_provider
+    mv -if "${file%.*}.mrs" rule_provider/
     rm -if "${file%.*}.txt" 
 
     jq -nR '{
@@ -49,8 +48,8 @@ for file in *.yaml; do
     }' < $yaml_file > $json_file && \
     sing-box rule-set format $json_file -w
     CrashCore rule-set compile $json_file
-    mv -if "${file%.*}.json" trash/
-    mv -if "${file%.*}.srs" trash/
-    mv -if "${file%.*}.yaml" trash/
+    mv -if "${file%.*}.json" rule_provider/
+    mv -if "${file%.*}.srs" rule_provider/
+    mv -if "${file%.*}.yaml" rule_provider/
     
 done
