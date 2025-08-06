@@ -27,11 +27,6 @@ jobs:
           chmod +x data/01.sh && bash data/01.sh 
           
 
-      - name: 💩 Buisld 💩
-        run: |
-          for item in trash/*.json; do
-          CrashCore rule-set compile "$item"
-          done
 
       - uses: MyAlbum/purge-cache@v2
         with:
