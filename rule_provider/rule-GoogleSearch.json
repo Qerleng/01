@@ -8,10 +8,11 @@
         "www.google.cn",
         "www.google.co.id",
         "www.google.org",
-        "client1.google.com"
+        "clients1.google.com"
       ],
       "domain_suffix": "www.google.com",
-      "domain_keyword": "www.google."
+      "domain_keyword": "www.google.",
+      "domain_regex": "www.google."
     }
   ]
 }
