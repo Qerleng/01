@@ -3,7 +3,7 @@ for file in tools/*; do
     command -v $filename &> /dev/null || { cp ./tools/$filename /usr/local/bin/ && chmod +x /usr/local/bin/$filename; }
 done
 
-curl -sS -L https://github.com/MilimNavaDemonLord/open_clash/raw/main/rule_provider/rule_game.yaml -o rule-game.yaml
+curl -sS -L https://github.com/Qerleng/01/raw/main/rule_provider/Whatsapp_Call.yaml -o rule-call.yaml
 curl -sS -L https://github.com/Qerleng/00/raw/main/rule_provider/rule_indo.yaml -o rule-indo.yaml
 
 for file in *.yaml; do
