@@ -36,6 +36,12 @@ jobs:
           rm -rf sing-box.tar.gz
           rm -rf ./sing-box-$SINGBOX_VER-linux-amd64/
 
+          curl -Lo sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v1.9.3/sing-box-1.9.3-linux-amd64.tar.gz"
+          tar -zxvf sing-box.tar.gz
+          cp -f ./sing-box-1.9.3-linux-amd64/sing-box tools/CrashCore
+          rm sing-box.tar.gz
+          rm -rf ./sing-box-1.9.3-linux-amd64/*
+
           MIHOMO_VER=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases |
               grep '"prerelease": false,' -B 10 -m 1 |
               grep tag_name |
@@ -51,6 +57,7 @@ jobs:
           chmod +x ./upx
           ./upx --best tools/mihomo
           ./upx --best tools/sing-box
+          ./upx --best tools/CrashCore
           rm upx
           cd tools
           tar -czvf CrashCore.tar.gz CrashCore
