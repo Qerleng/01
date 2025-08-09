@@ -62,8 +62,8 @@ jobs:
           cd tools
           tar -czvf CrashCore.tar.gz CrashCore
           rm CrashCore.tar.gz
-          echo -n $" SINGBOX ~ $SINGBOX_VER \n"
-          echo -n $" MIHOMO  ~ $MIHOMO_VER \n" 
+          echo " SINGBOX ~ $SINGBOX_VER"
+          echo " MIHOMO  ~ $MIHOMO_VER" 
 
 
 
