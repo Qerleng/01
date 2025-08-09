@@ -62,7 +62,9 @@ jobs:
           cd tools
           tar -czvf CrashCore.tar.gz CrashCore
           rm CrashCore.tar.gz
-          echo $'SINGBOX   ~ $SINGBOX_VER\nMIHOMO    ~ $MIHOMO_VER\nCrashCore ~ 1.9.3!' >> README.md
+          echo '```' > README.md
+          echo -n $'SINGBOX   ~ $SINGBOX_VER\nMIHOMO    ~ $MIHOMO_VER\nCrashCore ~ 1.9.3!' >> README.md
+          echo '```' >> README.md
 
 
 
