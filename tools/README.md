@@ -2,3 +2,6 @@
 SINGBOX   ~ $SINGBOX_VER
 MIHOMO    ~ $MIHOMO_VER
 CrashCore ~ 1.9.3!```
+SINGBOX   ~ $SINGBOX_VER
+MIHOMO    ~ $MIHOMO_VER
+CrashCore ~ 1.9.3! SINGBOX ~ 1.12.0-rc.4  MIHOMO  ~ v1.19.12 
